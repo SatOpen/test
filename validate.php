@@ -50,8 +50,10 @@
 require "state.php";
 require "checkSecurity.php";
 require "packageInfo.php";
-require "generateEmail.php";
+require "generateEmailValidate.php";
 require "errorMessage.php";
+require "saveIdCode.php";
+
 if (isset($_POST["submit"])) {
     require_once('recaptchalib.php');
     $privatekey = "6LdhjA4TAAAAADgNOLtvrd-k6mMOYvc52lmN_37B";
@@ -66,6 +68,7 @@ if (isset($_POST["submit"])) {
         header( "refresh:8;url=http://opensat.ddns.net/pay.php" );
     } else {
         /* Set Var */
+        $emailSatOpen = "satopen1@gmail.com";
         $email = $_POST['email'];
         $status = $_POST['status'];
         $usernameCs = $_POST['usernameCs'];
@@ -75,6 +78,8 @@ if (isset($_POST["submit"])) {
         $paySystem = $_POST['paySystem'];
         $codeId = $_POST['codeId'];
         $typeAccount = $_POST['typeAccount'];
+        $note = $_POST['note'];
+
         $ip_addr = $_SERVER['REMOTE_ADDR'];
 
         if (!empty($_POST['packCs']) && $typeAccount ==="cs") $pack = $_POST['packCs'];
@@ -86,17 +91,17 @@ if (isset($_POST["submit"])) {
 
         $country = findState($ip_addr);
         $errSecurity = checkSecurity($ip_addr, $email);
-        list ($errPack, $errEmail, $errCline) = errorMessage($status, $email,$pack,$cline);
+        list ($errPack, $errEmail, $errCline, $errIdCode) = errorMessageValidate($status, $email,$pack,$typeAccount,$usernameIptv,$passwordIptv,$usernameCs,$passwordCs,$codeId);
         list($price, $coinsPrice, $linkCreditCard, $paysafecardEn, $paysafecardIt) = packageInfo($pack);
 
-        if (!$errPack && !$errEmail && !$errCline && $errSecurity!="error") {
-            list($emailBody, $headers) = generateEmail($country, $pack, $linkCreditCard, $price, $coinsPrice, $paysafecardEn, $paysafecardIt);
-            mail($email, "SatOpen.cc Info for Payment", $emailBody, $headers);
-            $lastMessage = '<div class="alert alert-success">Info for payment or renewal has been sent to your email.<br>
-                      If dont see email, check in SPAM FOLDER </div><br>                   
-                      <br>REMEMBER - AFTER YOUR PAYMENT VALIDATE IT  <a href=' . $validateLink . '>HERE</a></div>';
+        if (!$errPack && !$errEmail && !$errCline && !$errIdCode && $errSecurity!=="error") {
+            list($emailBody,$emailObject,$headers,$successMessage) = generateEmailValidate($email,$status,$country, $pack, $paySystem, $price, $coinsPrice,$paysafecardEn, $paysafecardIt, $codeId,$usernameIptv,$passwordIptv,$usernameCs,$passwordCs,$note,$ip_addr);
+            mail($email,$emailObject, $emailBody, $headers);
+            mail($emailSatOpen,$emailObject, $emailBody, $headers);
+            saveIdCode($codeId,$email);
+            $lastMessage = "<div class='alert alert-success'>$successMessage<br></div>";
         } else {
-             if ($errSecurity=="error")
+             if ($errSecurity==="error")
                 $lastMessage = '<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later.</div>';
         }
         ?>
@@ -117,6 +122,7 @@ if (isset($_POST["submit"])) {
                         <?php echo "<p class='text-warning'>$errEmail</p>";?>
                         <?php echo "<p class='text-warning'>$errPack</p>";?>
                         <?php echo "<p class='text-warning'>$errCline</p>";?>
+                        <?php echo "<p class='text-warning'>$errIdCode</p>";?>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
