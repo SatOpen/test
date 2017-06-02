@@ -57,7 +57,7 @@ function errorMessageValidate($status, $email,$pack,$typeAccount,$usernameIptv,$
         $errIdCode = '<div class="alert alert-warning">Failed! Insert idCode!</div>';
     }
 
-    $fileIdCode = fopen("/urs/local/etc/codici.txt", "r");
+    $fileIdCode = fopen("/usr/local/etc/codici.txt", "r");
     $line_number = false;
     $count = 0;
     /* Find IdCode Already Used*/

@@ -9,7 +9,8 @@
 
 function packageInfo($pack)
 {
-    $tasso_bitcoins = '0.0006';
+    $tasso_bitcoins = '0,0005';
+    $tasso_bitcoins = file_get_contents('https://blockchain.info/tobtc?currency=EUR&value=1');
 
     if ($pack == "Promo_CS_1_Year") {
         $price = "20.00E";
@@ -310,6 +311,6 @@ function packageInfo($pack)
         $pay_safe_card_price_en = "60E (50E+20%tax): Buy PIN 60E (50+10) -> You'll have 365 Days of service";
         $pay_safe_card_price_it = "60E (50E+20%tasse): Acquista il PIN da 60E (50+10) -> Avrai 365 Giorni di servizio";
     }
-    return array($price, $coins_conv,$pay_safe_card_price_en,$pay_safe_card_price_it);
+    return array($price, $coins_conv,$link_credit_card,$pay_safe_card_price_en,$pay_safe_card_price_it);
 }
 ?>

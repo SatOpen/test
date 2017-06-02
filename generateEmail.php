@@ -32,7 +32,7 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
     $bitcoinsAddress = '19U4cajjocy65FgATZHqpoPMG8ktRPdGXL';
 
 
-    if ($country === "IT") {
+    if ($country == "IT") {
         $bodyEmail = "
             <b> INFORMAZIONI PER IL PAGAMENTO</b><br>Package: <b>$pack</b><br>Prezzo: <b>$price</b> / <b>$coinsPrice <font color='red'>(50% Di Sconto se Paghi con Bitcoins!)</font></b> Euro/Bitcoin<br>
             
