@@ -1,0 +1,919 @@
+# oscam.server generated automatically by Streamboard OSCAM 1.20-unstable_svn SVN r10961
+# Read more: http://www.streamboard.tv/svn/oscam/trunk/Distribution/doc/txt/oscam.server.txt
+
+[reader]
+label                         = CACHE-EX-213.136.82.140
+description                   = speaksat 5.189.190.99 18000
+protocol                      = cs378x
+device                        = 127.0.0.1,18000
+user                          = speaksat_interno
+password                      = sfefeveb
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+
+
+
+
+[reader]
+label                         = CACHE-EX-sharbox.zapto.org
+description                   = sharbox.zapto.org 17456
+protocol                      = cs378x
+device                        = sharbox.zapto.org,17456
+user                          = gruppocacheex
+password                      = sanacore@1963
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-matrice.noip.us
+description                   = mariorossix83 matrice.noip.us 1804
+protocol                      = cs378x
+device                        = matrice.noip.us,1804
+user                          = cachegruppo
+password                      = scambiocs378x2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648,0B01
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-cievo2.ath.cx
+description                   = cievo cievo2.ath.cx 33000 25/10 OUT NON RIESCO AD AVVISARE
+protocol                      = cs378x
+device                        = cievo2.ath.cx,33000
+user                          = cico2004
+password                      = cache_ex
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sebi.zapto.org
+description                   = cellnico sebi.zapto.org 15055
+protocol                      = cs378x
+device                        = sebi.zapto.org,15055
+user                          = gruppows
+password                      = wsgroup
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sanrob.dlinkddns.com
+description                   = sanrob sanrob.dlinkddns.com 20000 25/10 OUT avvisato
+protocol                      = cs378x
+device                        = sanrob.dlinkddns.com,20000
+user                          = gruppo_cache
+password                      = gruppo_cache
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-donia.myftp.org
+description                   = silvio.vaira@hotmail.it donia.homelinux.com 2425 (AVVISATO)
+protocol                      = cs378x
+device                        = donia.myftp.org,2425
+user                          = opensat
+password                      = $opensat$
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-nos1.no-ip.info
+description                   = tuviroc18@hotmail.com nos1.no-ip.info 5557
+protocol                      = cs378x
+device                        = nos1.no-ip.info,5557
+user                          = metropolis_x005
+password                      = beverly500
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-5.196.99.103
+description                   = mister30@libero.it 5.196.99.103 12002
+protocol                      = cs378x
+device                        = 5.196.99.103,12002
+user                          = Cachex-SpeaktheSat
+password                      = ahdsjks8546yuoiyh34798
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-conserver.dyndns.org
+description                   = di-molfetta@hotmail.de conserver.dyndns.org 7009  25/10 OUT NON RIESCO AD AVVISARE
+protocol                      = cs378x
+device                        = conserver.dyndns.org,7009
+user                          = gruppocardws
+password                      = cardwsgruppo
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648,0B01
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-cacheex.ggrapes.uk 
+description                   = sirk98mail@gmail.com cacheex.ggrapes.uk  4000
+protocol                      = cs378x
+device                        = cacheex.ggrapes.uk,4000
+user                          = GRPCX2CRDSRNGWS
+password                      = GN2MTW8XT629ZPP
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sharesatcache.ddns.me
+description                   = pratafulvio89@yahoo.com sharesatcache.ddns.me 10000
+protocol                      = cs378x
+device                        = sharesatcache.ddns.me,10000
+user                          = cswscacheex2_publicgroupspeakthesat
+password                      = CACHEEX2_publicgroupspeakthesat
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sharesatcache2.ddns.me
+description                   = pratafulvio89@yahoo.com sharesatcache2.ddns.me 20000
+protocol                      = cs378x
+device                        = sharesatcache2.ddns.me,20000
+user                          = cswscacheex2_publicgroupspeakthesat_2
+password                      = CACHEEX2_publicgroupspeakthesat_2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-dreamteam.dyndns.info
+description                   = kiza1975@hotmail.com dreamteam.dyndns.info 6006
+protocol                      = cs378x
+device                        = dreamteam.dyndns.info,6006
+user                          = group-speaktesat
+password                      = satsupremecs2
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-maxspeed.from-id.com
+description                   = miguel_burguera maxspeed.from-id.com 7642
+protocol                      = cs378x
+device                        = maxspeed.from-id.com,7642
+user                          = GrupoCacheex
+password                      = Cacheex_mode2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-s-type.us.to
+description                   = stipe.matijevic s-type.us.to 12326
+protocol                      = cs378x
+device                        = s-type.us.to,12326
+user                          = speakthesat_group
+password                      = dsfjhwefew
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-whitecyano.mine.nu
+description                   = silvietta77bv whitecyano.mine.nu
+protocol                      = cs378x
+device                        = whitecyano.mine.nu,34010
+user                          = silvietta1977
+password                      = FaicomeCredi88483
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-vipra.dyndns.org
+description                   = gianni7302 vipra.dyndns.org 13700
+protocol                      = cs378x
+device                        = vipra.dyndns.org,13700
+user                          = Vipra
+password                      = vipracacheex2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-lupoalberto.dyndns.info
+description                   = suunto.69 lupoalberto.dyndns.info 30000 (AVVISATO)
+protocol                      = cs378x
+device                        = lupoalberto.dyndns.info,30000
+user                          = suunto69
+password                      = bbabbuino
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-benji79.no-ip.biz
+description                   = benji79@cheapnet.it benji79.no-ip.biz 45678
+protocol                      = cs378x
+device                        = benji79.no-ip.biz,45678
+user                          = masterchef
+password                      = pwdc2excsws
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-server540014.ddns.me
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1119 25/11 OUT NON RIESCO AD AVVISARE
+protocol                      = cs378x
+device                        = server540014.ddns.me,1119
+user                          = mblaauw
+password                      = wietje
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-lammics.no-ip.net
+description                   = live:lammitta lammics.no-ip.net 11378
+protocol                      = cs378x
+device                        = lammics.no-ip.net,11378
+user                          = group-cache2
+password                      = cardshrgroup
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0500,1805,183D
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 0919,093B,09CD,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-hardtunnel.dynalias.net
+description                   = cr1stof hardtunnel.dynalias.net 12005
+protocol                      = cs378x
+device                        = hardtunnel.dynalias.net,12005
+user                          = cristofEx
+password                      = cristofer
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-altar82.dyndns.org
+description                   = iguana82 altar82.dyndns.org 34654
+protocol                      = cs378x
+device                        = altar82.dyndns.org,34654
+user                          = gruppocs_cacheex2
+password                      = gruppocscacheex
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-37.187.239.41
+description                   = pelcione pelcione 37.187.239.41 9890
+protocol                      = cs378x
+device                        = 37.187.239.41,9890
+user                          = pelcione
+password                      = pelcione73!
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-prince011980.servebeer.com
+description                   = Clonesat prince011980.servebeer.com 58398
+protocol                      = cs378x
+device                        = prince011980.servebeer.com,58398
+user                          = clonesat
+password                      = satClone
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-chiochiaro.ddns.net
+description                   = chiochiaro81 chiochiaro.ddns.net 3786
+protocol                      = cs378x
+device                        = chiochiaro.ddns.net,3786
+user                          = chiochiarogruppo
+password                      = chiogruppocache
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sexynursesexy.dyndns.tv
+description                   = bdiego sexy nurse sexynursesexy.dyndns.tv 7001
+protocol                      = cs378x
+device                        = sexynursesexy.dyndns.tv,7001
+user                          = sexynurse
+password                      = sexynurse
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-nicola1985.dyndns.org
+description                   = vivito16@hotmail.com nicola1985.dyndns.org 12001 (AVVISATO)
+protocol                      = cs378x
+device                        = nicola1985.dyndns.org,12001
+user                          = alpitour
+password                      = ferrari
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-dandypiena.ddns.me
+description                   = il_dandy dandypiena.ddns.me 15000
+protocol                      = cs378x
+device                        = dandypiena.ddns.me,15000
+user                          = gruppospeak
+password                      = gruppocache2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-teofr.no-ip.org
+description                   = teo.kaka@tiscali.it teofr.no-ip.org 11700
+protocol                      = cs378x
+device                        = teofr.no-ip.org,11700
+user                          = user002
+password                      = cacheex2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-overdnet.dynns.com
+description                   = belzebu97 overdnet.dynns.com 32000
+protocol                      = cs378x
+device                        = overdnet.dynns.com,32000
+user                          = CACHE-EX-OverdNet
+password                      = OverdNet
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-arc-c.dyndns.info
+description                   = sbarboff007 arc-c.dyndns.info 7667
+protocol                      = cs378x
+device                        = arc-c.dyndns.info,7667
+user                          = sbarbi
+password                      = E34rDfjgt65Tzudf
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 4
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-remote-share.dyndns.info
+description                   = linux4sat remote-share.dyndns.info 45040
+protocol                      = cs378x
+device                        = remote-share.dyndns.info,45040
+user                          = opensat_ex
+password                      = opensat_ex
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-tv2ro.zapto.org
+description                   = sweping@live.it tv2ro.zapto.org 19700 25/10 OUT NON RIESCO AD AVVISARE
+protocol                      = cs378x
+device                        = tv2ro.zapto.org,19700
+user                          = flotus
+password                      = maxima
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-masterline.dyndns.org
+description                   = cem.yilmaz@gmx.de masterline.dyndns.org 55555
+protocol                      = cs378x
+device                        = masterline.dyndns.org,55555
+user                          = cem.yilmaz
+password                      = mchammer
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-mgita.homepc.it
+description                   = mgitagiuseppe mgita.homepc.it 1804
+protocol                      = cs378x
+device                        = mgita.homepc.it,1804
+user                          = mgita-cs378x
+password                      = scambio-cs378x
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+
+[reader]
+label                         = CACHE-EX-number-one.ns0.it
+description                   = fedele_vito number-one.ns0.it 10020
+protocol                      = cs378x
+device                        = number-one.ns0.it,10020
+user                          = falcon-cacheex
+password                      = oscamevolution
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-5.9.247.125
+description                   = oggibannato@gmail.com 5.9.247.125 13000
+protocol                      = cs378x
+device                        = 5.9.247.125,13000
+user                          = oggibannato
+password                      = skype
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-ipersharenet.dyndns.org
+description                   = remida67 ipersharenet.dyndns.org 12120
+protocol                      = cs378x
+device                        = ipersharenet.dyndns.org,12120
+user                          = remida
+password                      = recachex.group
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-5149.istmein.de
+description                   = CACHEEX: 5149.istmein.de 20000 test test morllino123@virgilio.it enzo SKY
+protocol                      = cs378x
+device                        = 5149.istmein.de,20000
+user                          = test
+password                      = test
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-cacheclub.dyndns.org
+description                   = milan.fan1 cacheclub.dyndns.org 55500
+protocol                      = cs378x
+device                        = cacheclub.dyndns.org,55500
+user                          = gruppo-cache
+password                      = 5s4d545s45s45d4s5d4
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-kimcool.dynu.com
+description                   = dorasse2008@hotmail.fr kimcool.dynu.com,2015 cs378x
+protocol                      = cs378x
+device                        = kimcool.dynu.com,2015
+user                          = speaksat
+password                      = groupe-cacheex
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+
+[reader]
+label                         = CACHE-EX-giano.mine.nu
+description                   = piero77itcz giano.mine.nu 22222
+protocol                      = cs378x
+device                        = giano.mine.nu,22222
+user                          = piero77it
+password                      = piero77it_pwd
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-cache3.ddns.net
+description                   = menesto@hotmail.it cache3.ddns.net 1192
+protocol                      = cs378x
+device                        = cache3.ddns.net,1192
+user                          = menesto
+password                      = menesto_1
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-cachepeeretk.dyndns.org
+description                   = etkstim.manu cachepeeretk.dyndns.org 12666
+protocol                      = cs378x
+device                        = cachepeeretk.dyndns.org,12666
+user                          = cacheopensat
+password                      = opensatcache
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+
+
+
+[reader]
+label                         = CACHE-EX-whitecyano.mine.nu
+description                   = silvietta77bv whitecyano.mine.nu 34010
+protocol                      = cs378x
+device                        = whitecyano.mine.nu,34010
+user                          = SPeaKSatCachEEx
+password                      = SpeakSaTCaCHex8830942
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+
+
+[reader]
+label                         = CACHE-EX-satsharezone.ddns.net
+description                   = speaksat satsharezone.ddns.net 1100
+protocol                      = cs378x
+device                        = satsharezone.ddns.net,1100
+user                          = CE-ubajm9h
+password                      = 2ncrqml
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+cacheex_drop_csp              = 1
+cacheex_block_fakecws         = 1
+caid                          = 09CD,0963,0100,1805,1810,1803,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4aee,0629,1838,098E,0648
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1

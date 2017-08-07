@@ -1,0 +1,2092 @@
+# oscam.server generated automatically by Streamboard OSCAM 1.20-unstable_svn SVN r9827
+# Read more: http://www.streamboard.tv/svn/oscam/trunk/Distribution/doc/txt/oscam.server.txt
+
+[reader]
+label                         = mediaset
+description                   = mia scheda M7
+enable                        = 0
+protocol                      = smartreader
+device                        = 001:008
+autospeed                     = 0
+caid                          = 1805
+rsakey                        = A92DA72FEEACF2947B003ED652153B189E4043B0138C368BDF6B9ED77DDAD6C0761A2198AEB3FC97A19C9D01CA769B3FFFE4F6E70FA4E0696A8980E18D8C58E11D817121346E3E66457FDD84CFA72589B25B538EFC304361B54845F39E9EFA52D805E5FD86B595B366C35716ABC91FA3DC159C9F4D8164B5
+detect                        = cd
+mhz                           = 534
+cardmhz                       = 600
+group                         = 4
+emmcache                      = 1,2,0
+
+[reader]
+label                         = myskyhd
+description                   = mia scheda SKY
+enable                        = 0
+protocol                      = smartreader
+device                        = 001:008
+cacheex_maxhop                = 10
+caid                          = 09CD
+boxid                         = AA9A4263
+ins7e11                       = 13
+fix9993                       = 1
+ecmwhitelist                  = 09CD:B7
+ecmheaderwhitelist            = 8070B4000001,8170B4000001
+detect                        = cd
+mhz                           = 534
+cardmhz                       = 320
+group                         = 1
+emmcache                      = 1,3,2
+blockemm-unknown              = 1
+blockemm-u                    = 1
+blockemm-s                    = 1
+blockemm-g                    = 1
+blockemm-bylen                = 183,81
+blocknano                     = all
+audisabled                    = 1
+
+[reader]
+label                         = myskyhd2
+description                   = mia scheda SKY
+enable                        = 0
+protocol                      = smartreader
+device                        = 001:008
+smargopatch                   = 1
+cacheex_maxhop                = 10
+caid                          = 0919
+boxid                         = 01100100
+ins7e11                       = 15
+fix9993                       = 1
+ecmwhitelist                  = FFFF:51;FFFF:B7
+ecmheaderwhitelist            = FFFF:8070B4000001;FFFF:8170B4000001
+detect                        = cd
+mhz                           = 800
+cardmhz                       = 800
+group                         = 3
+emmcache                      = 1,3,2
+blockemm-unknown              = 1
+blockemm-u                    = 1
+blockemm-s                    = 1
+blockemm-g                    = 1
+saveemm-unknown               = 1
+saveemm-u                     = 1
+saveemm-s                     = 1
+saveemm-g                     = 1
+blockemm-bylen                = 183,81
+blocknano                     = all
+audisabled                    = 1
+
+[reader]
+label                         = myskyhd3
+description                   = mia scheda SKY
+enable                        = 0
+protocol                      = smartreader
+device                        = 001:009
+cacheex_maxhop                = 10
+caid                          = 0919
+boxid                         = 11223344
+ins7e11                       = 15
+detect                        = cd
+mhz                           = -1
+cardmhz                       = -1
+ident                         = 0919:000000
+group                         = 13
+emmcache                      = 1,3,2
+blockemm-unknown              = 1
+blockemm-u                    = 1
+blockemm-s                    = 1
+blockemm-g                    = 1
+blocknano                     = all
+
+[reader]
+label                         = mediaset-premium
+description                   = dal server 4
+protocol                      = cccam
+device                        = opensat.dyndns.org,10000
+user                          = mediaset
+password                      = premium
+inactivitytimeout             = 30
+caid                          = 183D,1805
+group                         = 4,18
+cccversion                    = 2.2.1
+ccckeepalive                  = 1
+cccreshare                    = 2
+cccreconnect                  = 800
+
+[reader]
+label                         = tivusat_reader
+enable                        = 0
+protocol                      = newcamd
+device                        = opensat.dyndns.org,10000
+key                           = 0102030405060708091011121314
+user                          = user-tivusat
+password                      = localcard
+caid                          = 183D
+group                         = 18
+
+[reader]
+label                         = mediaset_reader
+enable                        = 0
+protocol                      = newcamd
+device                        = opensat.dyndns.org,10001
+key                           = 0102030405060708091011121314
+user                          = user-premium
+password                      = localcard2
+inactivitytimeout             = 5000
+caid                          = 1805
+group                         = 4
+dropbadcws                    = 1
+
+[reader]
+label                         = tivusat_card
+description                   = mia card tivusat
+enable                        = 0
+protocol                      = smartreader
+device                        = 001:009
+caid                          = 183D
+rsakey                        = A92DA72FEEACF2947B003ED652153B189E4043B0138C368BDF6B9ED77DDAD6C0761A2198AEB3FC97A19C9D01CA769B3FFFE4F6E70FA4E0696A8980E18D8C58E11D817121346E3E66457FDD84CFA72589B25B538EFC304361B54845F39E9EFA52D805E5FD86B595B366C35716ABC91FA3DC159C9F4D8164B5
+detect                        = cd
+mhz                           = 534
+cardmhz                       = 369
+group                         = 18
+emmcache                      = 1,3,2
+
+[reader]
+label                         = tivusat
+description                   = mia card tivusat
+enable                        = 0
+protocol                      = cccam
+device                        = 192.168.1.30,17650
+user                          = tivusat_dec
+password                      = tivusat_deco
+inactivitytimeout             = 30
+caid                          = 183D
+group                         = 18
+cccversion                    = 2.1.3
+
+[reader]
+label                         = cccam-nuvolaverde
+description                   = C: nuvolaverde.no-ip.info 15000 inchiaro inchiar
+enable                        = 0
+protocol                      = cccam
+device                        = nuvolaverde.no-ip.info,15000
+user                          = inchiaro
+password                      = inchiaro
+services                      = cinema,intrat,sport,calcio,formula1,cultu,music,ragaz,notizie,calcio_channel
+inactivitytimeout             = 30
+group                         = 1,5
+dropbadcws                    = 1
+cccversion                    = 2.1.3
+
+[reader]
+label                         = MEDIASET-giumahost1.ddns.net
+description                   = giumahost skype M7 c: giumahost1.ddns.net 13000 speaksat weMAta3e
+protocol                      = cccam
+device                        = giumahost1.ddns.net,13000
+user                          = speaksat
+password                      = weMAta3e
+inactivitytimeout             = 30
+group                         = 4
+dropbadcws                    = 1
+cccversion                    = 2.1.3
+
+[reader]
+label                         = cccam-univoco
+description                   = c: univoco.dyndns.info 12000 hostsatopen_! inchiaro10,forum!
+protocol                      = cccam
+device                        = univoco.dyndns.info,12000
+user                          = hostsatopen_!
+password                      = inchiaro10,forum!
+inactivitytimeout             = 30
+group                         = 1,5
+cccversion                    = 2.1.3
+
+[reader]
+label                         = cccam-ondacalabra.no-ip.org
+description                   = SRG + JSC + redlight
+protocol                      = cccam
+device                        = ondacalabra.no-ip.org,12000
+user                          = speakthesat
+password                      = mediaset
+inactivitytimeout             = 30
+group                         = 4,18,38
+cccversion                    = 2.1.3
+
+[reader]
+label                         = MEDIASET-62.113.242.135
+description                   = davbar http://www.cardsharing.ws mediaset_premium C: 62.113.242.135 15005 speakthesatcsws speakthesatcsws
+protocol                      = cccam
+device                        = 62.113.242.135,15005
+user                          = speakthesatcsws
+password                      = speakthesatcsws
+inactivitytimeout             = 30
+group                         = 25
+cccversion                    = 2.1.3
+
+[reader]
+label                         = TIVUSAT-pincopalla.no-ip.info
+description                   = dispo http://sat-sharing.us tivusat srg C: pincopalla.no-ip.info 13000 speak thesat no { 0:0:2 }
+protocol                      = cccam
+device                        = pincopalla.no-ip.info,13000
+user                          = speak
+password                      = thesat
+inactivitytimeout             = 30
+group                         = 25
+cccversion                    = 2.1.3
+
+[reader]
+label                         = SKY-pictures79.myphotos.cc
+description                   = only-linux skype sky ita pictures79.myphotos.cc,25107
+protocol                      = cs378x
+device                        = pictures79.myphotos.cc,25107
+user                          = speak_sat-09CD
+password                      = 06092014
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-nicola1985.dyndns.org
+description                   = colino85 http://www.cardsharing.ws sky ita N: nicola1985.dyndns.org 12010 speakt11 ehb7grnk 01 02......14
+enable                        = 0
+protocol                      = newcamd
+device                        = nicola1985.dyndns.org,12010
+key                           = 0102030405060708091011121314
+user                          = speakt11
+password                      = ehb7grnk
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-bubu.mine.nu
+description                   = fefe82na skype N: bubu.mine.nu 22000 Scambio0919 speak 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = bubu.mine.nu,22000
+key                           = 0102030405060708091011121314
+user                          = Scambio0919
+password                      = speak
+caid                          = 0919
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-fastreshare.ddns.me
+description                   = domery skype sky N: fastreshare.ddns.me 7001 test1138 EUAJNS 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = domery91.no-ip.biz,7001
+key                           = 0102030405060708091011121314
+user                          = speak-exc
+password                      = sky-exc
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-95.143.41.120
+description                   = nottebianca http://www.cardsharing.ws sky ita N: 95.143.41.120 3501 mr spe 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = 95.143.41.120,3501
+key                           = 0102030405060708091011121314
+user                          = mr
+password                      = spe
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-bitcoin.dyndns.ws
+description                   = newcshare http://www.cardsharing.ws sky ita bitcoin.dyndns.ws,14998
+enable                        = 0
+protocol                      = cs378x
+device                        = bitcoin.dyndns.ws,14998
+user                          = speakthesat
+password                      = skyit
+caid                          = 09CD
+group                         = 1,54
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-tikiavo2.dyndns.tv
+description                   = ninfole SKY ITA full cardsharing.ws C: tikiavo2.dyndns.tv 12001 SpeakThesat dfjgf451yye26kilgh OKKKKKKKKKK
+enable                        = 0
+protocol                      = cccam
+device                        = tikiavo2.dyndns.tv,12001
+user                          = SpeakThesat
+password                      = dfjgf451yye26kilgh
+inactivitytimeout             = 30
+group                         = 1
+cccversion                    = 2.1.3
+
+[reader]
+label                         = SKY-multics.suroot.com
+description                   = LupoSol http://sat-sharing.us sky ita N: multics.suroot.com 7002 speakthesat speakshare 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = multics.suroot.com,7002
+key                           = 0102030405060708091011121314
+user                          = speakthesat
+password                      = speakshare
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-92.222.23.65
+description                   = alfredoskype skype N: 92.222.23.65 35002 n-speak nspeaksat 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+enable                        = 0
+protocol                      = newcamd
+device                        = 92.222.23.65,35002
+key                           = 0102030405060708091011121314
+user                          = n-speak
+password                      = nspeaksat
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-suppercccam78.dyndns.org
+description                   = zago1819 SKY ITA http://multics.info N: suppercccam78.dyndns.org 10000 satopen satopen 01 02 03 04 05 06 07 08 09 10 11 12 13 14 #slyit
+protocol                      = newcamd
+device                        = suppercccam78.dyndns.org,10000
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = satopen
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = TIVUSAT-suppercccam78.dyndns.org
+description                   = zago1819 TIVUSAT http://multics.info N: suppercccam78.dyndns.org 10003 satopen satopen 01 02 03 04 05 06 07 08 09 10 11 12 13 14 #tivusat
+protocol                      = newcamd
+device                        = suppercccam78.dyndns.org,10003
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = satopen
+caid                          = 183D
+group                         = 18
+dropbadcws                    = 1
+
+[reader]
+label                         = MEDIASET-suppercccam78.dyndns.org
+description                   = zago1819 MEDIASET http://multics.info N: suppercccam78.dyndns.org 10003 satopen satopen 01 02 03 04 05 06 07 08 09 10 11 12 13 14 #mediaset
+protocol                      = newcamd
+device                        = suppercccam78.dyndns.org,10002
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = satopen
+caid                          = 1805
+group                         = 4
+dropbadcws                    = 1
+
+[reader]
+label                         = MEDIASET-hdcccam2.no-ip.ca
+description                   = fabioxx5 M7 N: hdcccam2.no-ip.ca 31005 speak-m7 dtt 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = hdcccam2.no-ip.ca,31005
+key                           = 0102030405060708091011121314
+user                          = speak-m7
+password                      = dtt
+caid                          = 1805
+group                         = 4
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-robinud.dyndns.biz
+description                   = maxpein SKY ITA full cardsharing.ws N:robinud.dyndns.biz 36000 speakthest satopen 01 14
+protocol                      = newcamd
+device                        = robinud.dyndns.biz,36000
+key                           = 0102030405060708091011121314
+user                          = speakthest
+password                      = satopen
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-libanese.dyndns.tv
+description                   = cinese SKY ITA full http://sat-sharing.us N: libanese.dyndns.tv 7000 speakthesat speakthesat 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKKKKKK
+protocol                      = newcamd
+device                        = libanese.dyndns.tv,7000
+key                           = 0102030405060708091011121314
+user                          = speakthesat
+password                      = speakthesat
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-sky-nds.ddns.net
+description                   = High definition SKY ITA full http://sat-sharing.us N: sky-nds.ddns.net 33555 speakthesat m7 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E OKKKKKKKKKKKKKKKK
+enable                        = 0
+protocol                      = newcamd
+device                        = sky-nds.ddns.net,33555
+key                           = 0102030405060708090A0B0C0D0E
+user                          = speakthesat
+password                      = m7
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-dragondtv.ddns.net
+description                   = billyto SKY ITA full http://multics.info N: dragondtv.ddns.net 20207 satopen nickpass2307 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKKKKK
+protocol                      = newcamd
+device                        = dragondtv.ddns.net,20207
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = nickpass2307
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-bet07.selfip.com
+description                   = C:bet07.selfip.com 28000 Speakthesat SkyITHD
+protocol                      = cccam
+device                        = bet07.selfip.com,28000
+user                          = Speakthesat
+password                      = SkyITHD
+inactivitytimeout             = 30
+group                         = 1
+dropbadcws                    = 1
+cccversion                    = 2.1.3
+
+[reader]
+label                         = SKY-atti.dyndns.tv
+description                   = ferrari64 http://sat-sharing.us SKYITA C:atti.dyndns.tv 12000 sharing cieloit
+protocol                      = cccam
+device                        = atti.dyndns.tv,12000
+user                          = sharing
+password                      = cieloit
+inactivitytimeout             = 30
+group                         = 1
+dropbadcws                    = 1
+cccversion                    = 2.1.3
+
+[reader]
+label                         = SKY-sharesatch.zapto.org
+description                   = SKY NLINE
+protocol                      = newcamd
+device                        = sharesatch.zapto.org,20244
+key                           = 0102030405060708091011121314
+user                          = speakthesat
+password                      = excsws
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-milanchamp.dyndns.tv
+description                   = SKY NLINE
+protocol                      = newcamd
+device                        = milanchamp.dyndns.tv,22090
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = sopen
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-strangeworld.no-ip.biz
+description                   = segazivibi http://multics.info SKY ITA N: strangeworld.no-ip.biz 15553 satopen multics 9F CD 76 4A BC FF E4 6D FB 2A DC E5 38 2F OKKKKK
+protocol                      = newcamd
+device                        = strangeworld.no-ip.biz,15553
+key                           = 9FCD764ABCFFE46DFB2ADCE5382F
+user                          = satopen
+password                      = multics
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-lagoblu.no-ip.biz
+description                   = lagoblu sat-sharing.us/
+protocol                      = newcamd
+device                        = lagoblu86.homepc.it,36553
+key                           = 0102030405060708091011121314
+user                          = speakthesat
+password                      = forakycopy
+services                      = !sky_blocked
+disableserverfilter           = 1
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-tvmedia.dyndns.info
+description                   = gregorii  sat-sharing.us N: tvmedia.dyndns.info 3140 primafilla221 skyit221 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = tvmedia.dyndns.info,3140
+key                           = 0102030405060708091011121314
+user                          = primafilla221
+password                      = skyit221
+services                      = !sky_blocked,!mediaset
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-bandookk.ddns.net
+description                   = bandookk SKY ITA http://multics.info/ N: bandookk.ddns.net 3405 satopen satopens 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKK
+enable                        = 0
+protocol                      = newcamd
+device                        = bandookk.ddns.net,3405
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = satopens
+services                      = !sky_blocked,!mediaset
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-sanrob.dlinkddns.com
+description                   = Sky italia
+enable                        = 0
+protocol                      = newcamd
+device                        = sanrob.dlinkddns.com,40001
+key                           = 0102030405060708091011091974
+user                          = satopen
+password                      = skyit
+inactivitytimeout             = 30
+disableserverfilter           = 1
+connectoninit                 = 1
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-skyisthebest.no-ip.info
+description                   = Sky italia robier N: skyisthebest.no-ip.info 33000 speakthesat satsharingus 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = skyisthebest.hopto.me,33000
+key                           = 0102030405060708091011121314
+user                          = speakthesat
+password                      = satsharingus
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-sanrob2.dlinkddns.com
+description                   = Sky italia sanrob n: 37.48.73.243 16000 alex alex123456 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+enable                        = 0
+protocol                      = newcamd
+device                        = 37.48.73.243,16000
+key                           = 0102030405060708091011121314
+user                          = alex
+password                      = alex123456
+inactivitytimeout             = 60
+disableserverfilter           = 1
+connectoninit                 = 1
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-externos.dyndns-remote.com
+description                   = Sky italia lospicos http://www.cardsharing.ws/
+enable                        = 0
+protocol                      = newcamd
+device                        = externos.dyndns-remote.com,15030
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = satopen
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-patoloco.no-ip.org
+description                   = qazwsxyz sky italia http://multics.info N: patoloco.no-ip.org 20244 satopen topen 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = patoloco.no-ip.org,20244
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = topen
+inactivitytimeout             = 30
+disableserverfilter           = 1
+connectoninit                 = 1
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-fastserver.dyndns.org
+description                   = accesoriiphone multics SKY ITA N: fastserver.dyndns.org 40000 satopen6r multiinfoit 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKK
+protocol                      = newcamd
+device                        = fastserver.dyndns.org,40000
+key                           = 0102030405060708091011121314
+user                          = satopen6r
+password                      = multiinfoit
+inactivitytimeout             = 30
+disableserverfilter           = 1
+connectoninit                 = 1
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-dzsat.no-ip.biz
+description                   = zaki2010 multics SKY ITA N : dzsat.no-ip.biz 11 satopen exmg 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKK
+protocol                      = newcamd
+device                        = dzsat.no-ip.biz,11
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = exmg
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-fde31gds57rew1.dyndns-office.com
+description                   = Sky italia gim68 http://www.cardsharing.ws N: fde31gds57rew1.dyndns-office.com 23915 speakthesat M7mediaM7 01 02 03 04 05 06 07 08 09 10 11 12 13 14 256
+protocol                      = newcamd
+device                        = fde31gds57rew1.dyndns-office.com,23915
+key                           = 0102030405060708091011121314
+user                          = speakthesat
+password                      = M7mediaM7
+caid                          = 09CD
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-linux85.ddns.net
+description                   = hotclub http://www.cardsharing.ws C: linux85.ddns.net 18000 thes thes
+enable                        = 0
+protocol                      = cccam
+device                        = linux85.ddns.net,18000
+user                          = thes
+password                      = thes
+inactivitytimeout             = 30
+group                         = 1,50
+cccversion                    = 2.1.3
+
+[reader]
+label                         = SKY-teofr.no-ip.org
+description                   = teokaka2 http://www.cardsharing.ws sky ita C: teofr.no-ip.org 11800 speakthesat 4333
+protocol                      = cccam
+device                        = teofr.no-ip.org,11800
+user                          = speakthesat
+password                      = 4333
+inactivitytimeout             = 30
+group                         = 1,5
+cccversion                    = 2.1.3
+
+[reader]
+label                         = SKY-xsempre.no-ip.biz
+description                   = xsempre83 skype xsempre83 sky ita c: xsempre.no-ip.biz 11983 speaksat1 speaksat2
+protocol                      = cccam
+device                        = xsempre.no-ip.biz,11983
+user                          = speaksat1
+password                      = speaksat2
+inactivitytimeout             = 30
+group                         = 1,5
+cccversion                    = 2.1.3
+
+[reader]
+label                         = SKY-kucciolo85.no-ip.org
+description                   = kucciolo C: kucciolo85.no-ip.org 18000 C: kucciolo85.no-ip.org 18000 mediaset mediaset http://sat-sharing.us/
+enable                        = 0
+protocol                      = cccam
+device                        = kucciolo85.no-ip.org,18000
+user                          = tivusat
+password                      = tivusat
+inactivitytimeout             = 30
+group                         = 1
+cccversion                    = 2.1.3
+
+[reader]
+label                         = SKY-hdcccam2.no-ip.ca
+description                   = hdcccam2 N: hdcccam2.no-ip.ca 19000 satopen speaksat-skype 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = hdcccam2.no-ip.ca,19000
+key                           = 0102030405060708091011121314
+user                          = speak
+password                      = sat
+inactivitytimeout             = 30
+disableserverfilter           = 1
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-giovanippv.dyndns.org
+description                   = giovani N: giovanippv.dyndns.org 5003 satopenskysd satopenskysd 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = giovanippv.dyndns.org,5003
+key                           = 0102030405060708091011121314
+user                          = satopenskysd
+password                      = satopenskysd
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-mercury1970.mine.nu
+description                   = silvietta77bv da skype
+protocol                      = newcamd
+device                        = mercury1970.mine.nu,21501
+key                           = 0102030405060708091011121314
+user                          = speaksatSKY
+password                      = SCAMBIOALL2000
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila,!radio,!mediaset,!primafila_hot
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 30
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-Ipersharenet.dyndns.org
+description                   = clarke da skype ipersharenet.dyndns.org,10000 speak-line speak-ws 01......14
+protocol                      = newcamd
+device                        = ipersharenet.dyndns.org,10000
+key                           = 0102030405060708091011121314
+user                          = speak-line
+password                      = speak-ws
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-flashgordon.zapto.org
+description                   = flashgordon70 da http://sat-sharing.us N: flashgordon.zapto.org 3498 speakthesat cardsharingforum 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = flashgordon.zapto.org,3498
+key                           = 0102030405060708091011121314
+user                          = speakthesat
+password                      = cardsharingforum
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-bvferrarixxx.dyndns.tv
+description                   = juve319681 da skype N: bvferrarixxx.dyndns.tv 20200 speaksat SKYIT 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = bvferrarixxx.dyndns.tv,20200
+key                           = 0102030405060708091011121314
+user                          = speaksat
+password                      = SKYIT
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-cosavuoidame.ddns.net
+description                   = morpheus87_2 http://sat-sharing.us sky ita N: cosavuoidame.ddns.net 6665 satopen speakthesat 01...14 #skyitafull
+protocol                      = newcamd
+device                        = cosavuoidame.ddns.net,6665
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = speakthesat
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-mangiuand.no-ip.biz
+description                   = rambo74 N: mangiuand.no-ip.biz 24000 satopen1N satopen2 01 02 03 04 05 06 07 08 09 10 11 12 13 14  SKY ITA OKKKK
+enable                        = 0
+protocol                      = newcamd
+device                        = mangiuand.no-ip.biz,24000
+key                           = 0102030405060708091011121314
+user                          = satopen1N
+password                      = satopen2
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-5.45.181.147
+description                   = Omtecoyrxa da http://sat-sharing.us N: bvferrarixxx.dyndns.tv 20200 speaksat SKYIT 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = 5.45.181.147,35000
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = satopen
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-serverbig.ddns.net
+description                   = gianluca2085 skype da N: 93.186.171.100 8000 scambio-speak-sat skypelua 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+enable                        = 0
+protocol                      = newcamd
+device                        = 93.186.171.100,8000
+key                           = 0102030405060708091011121314
+user                          = scambio-speak-sat
+password                      = skypelua
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-rockcam.net
+description                   = zipto http://multics.info/ sky ita N: rockcam.net 5517 skyb skyith 01....14
+enable                        = 0
+protocol                      = newcamd
+device                        = rockcam.net,5517
+key                           = 0102030405060708091011121314
+user                          = skyb
+password                      = skyith
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-vraisid.ddns.me
+description                   = afra01 http://multics.info/ sky ita N: vraisid.ddns.me 9999 satopen1 satopen 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = vraisid.ddns.me,9999
+key                           = 0102030405060708091011121314
+user                          = satopen1
+password                      = satopen
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-thermalbuginfo.point2this.com
+description                   = iveco http://multics.info N: thermalbuginfo.point2this.com 8023 skyreshare resharesky 01 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+enable                        = 0
+protocol                      = newcamd
+device                        = thermalbuginfo.point2this.com,8023
+key                           = 0102030405060708091011121314
+user                          = skyreshare
+password                      = resharesky
+inactivitytimeout             = 30
+disableserverfilter           = 1
+connectoninit                 = 1
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-80.241.220.129
+description                   = tiesto http://multics.info N: 80.241.220.129 2022 satopen multics.info
+protocol                      = newcamd
+device                        = 80.241.220.129,2022
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = multics.info
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-tvfullhd.dyndns.biz
+description                   = mellali http://sat-sharing.us/ N: tvfullhd.dyndns.biz 5006 satopen dyndns.org 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = tvfullhd.dyndns.biz,5006
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = dyndns.org
+inactivitytimeout             = 30
+caid                          = 09CD
+group                         = 1,5
+dropbadcws                    = 1
+
+[reader]
+label                         = SKY-alessia.dyndns.info
+description                   = AVVISATO otasno da http://sat-sharing.us   C: alessia.dyndns.info 13000 speakthesat@xy otasno@y
+protocol                      = cccam
+device                        = alessia.dyndns.info,13000
+user                          = speakthesat@xy
+password                      = otasno@y
+inactivitytimeout             = 30
+group                         = 1
+cccversion                    = 2.1.3
+
+[reader]
+label                         = PREMIUM-mercury1970.mine.nu
+description                   = silvietta77bv da skype
+protocol                      = newcamd
+device                        = mercury1970.mine.nu,21500
+key                           = 0102030405060708091011121314
+user                          = speaksatM7
+password                      = SCAMBIO20304050
+inactivitytimeout             = 30
+caid                          = 1805
+group                         = 4
+dropbadcws                    = 1
+
+[reader]
+label                         = CACHE-EX-cachexmode2.dyndns.tv
+description                   = morfeus1969 skype cachexmode2.dyndns.tv,2015
+protocol                      = cs378x
+device                        = cachexmode2.dyndns.tv,2015
+user                          = speaksat-cacheX2
+password                      = speaksat-cacheX2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0500,0100,1810,1803,1702,098C
+cacheex_drop_csp              = 1
+caid                          = 09CD,0963,0500,0100,1810,1803,1702,098C
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-zezinhohd.x64.me
+description                   = mamar59 multics zezinhohd.x64.me
+protocol                      = cs378x
+device                        = zezinhohd.x64.me,7300
+user                          = satopen
+password                      = cacheexoscam
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0500,0100,1810,1803,1702,098C
+cacheex_drop_csp              = 1
+caid                          = 09CD,0963,0500,0100,1810,1803,1702,098C
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-share300.bs-code.com
+description                   = PWRXEON http://multics.info/ share300.bs-code.com
+protocol                      = cs378x
+device                        = share300.bs-code.com,3330
+user                          = satopen-C
+password                      = F2HMK71
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0500,0100,1810,1803,1702,098C
+cacheex_drop_csp              = 1
+caid                          = 09CD,0963,0500,0100,1810,1803,1702,098C
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-customer.dyndns.tv
+description                   = mapi http://multics.info/ customer.dyndns.tv,63010
+protocol                      = cs378x
+device                        = customer.dyndns.tv,63010
+user                          = cache2_satopen
+password                      = 5u8w7GV9
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0500,0100,1810,1803,1702,098C
+cacheex_drop_csp              = 1
+caid                          = 09CD,0963,0500,0100,1810,1803,1702,098C
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-newcamd.dyndns.tv
+description                   = mapi http://multics.info/ newcamd.dyndns.tv,63016
+protocol                      = cs378x
+device                        = newcamd.dyndns.tv,63016
+user                          = cache2_satopen
+password                      = 5u8w7GV9
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0500,0100,1810,1803,1702,098C
+cacheex_drop_csp              = 1
+caid                          = 09CD,0963,0500,0100,1810,1803,1702,098C
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-skytv.better-than.tv
+description                   = mapi http://multics.info/ skytv.better-than.tv,63015
+protocol                      = cs378x
+device                        = skytv.better-than.tv,63015
+user                          = cache2_satopen
+password                      = 5u8w7GV9
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD,0963,0500,0100,1810,1803,1702,098C
+cacheex_drop_csp              = 1
+caid                          = 09CD,0963,0500,0100,1810,1803,1702,098C
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-altar82.dyndns.org
+protocol                      = cs378x
+device                        = altar82.dyndns.org,34654
+user                          = speaksat_cacheex2
+password                      = speaksatcacheex
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD
+cacheex_drop_csp              = 1
+caid                          = 09CD
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-guizzardi.dyndns.org
+protocol                      = cs378x
+device                        = guizzardi.dyndns.org,30000
+user                          = speakthesat
+password                      = cardsharing
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD
+cacheex_drop_csp              = 1
+caid                          = 09CD
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-mercury1970.mine.nu
+description                   = cache ex mod 2 alex70it by cardsharing.ws mercury1970.mine.nu OKKKKKKKKKKKK
+protocol                      = cs378x
+device                        = mercury1970.mine.nu,34010
+user                          = CACHE-EX-speaksa
+password                      = speaksat1900
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD
+cacheex_drop_csp              = 1
+caid                          = 09CD
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-raga17777.mine.nu
+description                   = raga17777
+protocol                      = cs378x
+device                        = raga17777.mine.nu,32000
+user                          = speak_sat
+password                      = skype
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD
+cacheex_drop_csp              = 1
+caid                          = 09CD
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-Ipersharenet.dyndns.org
+protocol                      = cs378x
+device                        = Ipersharenet.dyndns.org,12120
+user                          = speak-cache
+password                      = speak-cache-ws
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD
+cacheex_drop_csp              = 1
+caid                          = 09CD
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-servermegadream.hopto.org
+protocol                      = cs378x
+device                        = servermegadream.hopto.org,56000
+user                          = speakthesat
+password                      = cardsharin.ws
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD
+cacheex_drop_csp              = 1
+caid                          = 09CD
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-cache2.hopto.org
+description                   = c. da skype cache2.hopto.org
+protocol                      = cccam
+device                        = cache2.hopto.org,11223
+user                          = speak_cacheex
+password                      = speak1
+inactivitytimeout             = 30
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 09CD
+cacheex_drop_csp              = 1
+caid                          = 09CD
+group                         = 50
+dropbadcws                    = 1
+cccversion                    = 2.1.1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-vipra.dyndns.org
+description                   = skype:gianni7302 mail:satvipra@gmail.com
+protocol                      = cs378x
+device                        = vipra.dyndns.org,13700
+user                          = speakthesat
+password                      = gfF5Fdd£444
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sky-go.dyndns.tv
+description                   = luca da http://multics.info/
+protocol                      = cs378x
+device                        = sky-go.dyndns.tv,13000
+user                          = satopen
+password                      = cacheex_satopen
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-PrijuvaN
+description                   = skype PrijuvaN2001
+protocol                      = cs378x
+device                        = fullhdnew.selfip.com,61200
+user                          = satopen
+password                      = satopen.info
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-dreamteam.dyndns.info
+description                   = kiza1975 ex mod 2 kiza1975  by cardsharing.ws dreamteam.dyndns.info,6006 OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+protocol                      = cs378x
+device                        = dreamteam.dyndns.info,6006
+user                          = speakthesat
+password                      = cachexmod2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-cache-oscam.zapto.org
+description                   = gunners da http://multics.info/
+protocol                      = cs378x
+device                        = cache-oscam.zapto.org,16799
+user                          = satopenCx209cd
+password                      = cache2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sharesatcache.ddns.me
+protocol                      = cs378x
+device                        = sharesatcache.ddns.me,10000
+user                          = cswscacheex2_speakthesat
+password                      = CACHEEX2_speakthesat
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+group                         = 1
+dropbadcws                    = 1
+
+[reader]
+label                         = CACHE-EX-jjj111kkk.selfip.org
+description                   = lupotto301  from  MultiCS jjj111kkk.selfip.org
+protocol                      = cs378x
+device                        = jjj111kkk.selfip.org,18964
+user                          = satopen
+password                      = satopen_mcsforum
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-smarthd.ddns.net
+protocol                      = cs378x
+device                        = smarthd.ddns.net,6666
+user                          = satopen
+password                      = satopen
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-tororusso.dnsalias.com
+protocol                      = cs378x
+device                        = tororusso.dnsalias.com,3400
+user                          = cacheex-satopen
+password                      = torocache
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-skyndas.dyndns.tv
+description                   = danyveneto http://multics.info/
+protocol                      = cs378x
+device                        = skyndas.dyndns.tv,35278
+user                          = satopen
+password                      = cs378x
+reconnecttimeout              = 60
+keepalive                     = 1
+fallback                      = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+group                         = 50
+dropbadcws                    = 1
+
+[reader]
+label                         = CACHE-EX-193.111.139.201
+description                   = resharesat da skype
+protocol                      = cs378x
+device                        = 193.111.139.201,14998
+user                          = live:speaksat
+password                      = cache
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-92.222.25.120
+description                   = riccardino.fallatutti da skype
+protocol                      = cs378x
+device                        = 92.222.25.120,12344
+user                          = cachespeak-sat
+password                      = cacheSPEAKSATcardsharing.ws
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-cccam.dreamboxdb.com
+description                   = bebelusul  jake4 http://multics.info
+protocol                      = cs378x
+device                        = cccam.dreamboxdb.com,38
+user                          = cx-satopen
+password                      = cache
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-fde31gds57rew1.dyndns-office.com
+description                   = gim68 http://www.cardsharing.ws
+protocol                      = cs378x
+device                        = fde31gds57rew1.dyndns-office.com,28834
+user                          = speakthesat_CS378X
+password                      = cacheex2_cs378X
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-cacheex.hopto.org
+description                   = nikk http://multics.info
+protocol                      = cs378x
+device                        = cacheex.hopto.org,22422
+user                          = satopen
+password                      = multics.info25-07-2014
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sharbox.zapto.org
+description                   = blackmore http://www.cardsharing.ws sharbox.zapto.org,17456
+protocol                      = cs378x
+device                        = sharbox.zapto.org,17456
+user                          = speakthesat
+password                      = speakthesat_cntskype
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-fastserver.dyndns.org
+description                   = accesoriiphone multics SKY ITA N: fastserver.dyndns.org 40000 satopen6r multiinfoit 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKK
+enable                        = 0
+protocol                      = cs378x
+device                        = fastserver.dyndns.org,1111
+user                          = satopen6r
+password                      = multiinfoit
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-193.111.139.201
+description                   = newcshare multics SKY ITA 193.111.139.201 OKKKKKKKKKKKKKKKKK
+protocol                      = cs378x
+device                        = 193.111.139.201,14998
+user                          = satopen
+password                      = cache
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-oscamhaj.zapto.org
+description                   = newcshare multics SKY ITA oscamhaj.zapto.org,37000 OKKKKKKKKKKKKKKKKK
+protocol                      = cs378x
+device                        = oscamhaj.zapto.org,37000
+user                          = satopen
+password                      = multicsf
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-danyandroid.dyndns.tv
+description                   = danyveneto  multics cache danyandroid.dyndns.tv,35278 OKKKKKKKKKKKKKKKKK
+enable                        = 0
+protocol                      = cs378x
+device                        = danyandroid.dyndns.tv,35278
+user                          = satopen
+password                      = cs378x
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-vituzzu.is-by.us
+description                   = cache ex mod 2  cachex378_satopen-mcs vituzzu.is-by.us,25010  OKKKKKKKKKKKKKKKKKKKK
+protocol                      = cs378x
+device                        = vituzzu.is-by.us,25010
+user                          = cachex378_satopen-mcs
+password                      = satopen
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-79.143.180.227
+description                   = copyleft cache ex mod 2   79.143.180.227,50205 OKKKKKKKKKKKKKKKKKKKKKKKK
+protocol                      = cs378x
+device                        = 79.143.180.227,50205
+user                          = satopen
+password                      = thahSohng7eiv5ooghoh
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-midhatbr.dynalias.net
+description                   = strawa cache ex mod 2   midhatbr.dynalias.net,15211 OKKKKKKKKKKKKKKKKKKKKKKK
+protocol                      = cs378x
+device                        = midhatbr.dynalias.net,15211
+user                          = satopen_cache
+password                      = satopen_cache
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-tecnicoworld.dyndns.tv
+description                   = Smobile_2004 cache ex mod 2   tecnicoworld.dyndns.tv,14050 OKKKKKKKKKKKKKKKKKKKKKKK
+enable                        = 0
+protocol                      = cs378x
+device                        = tecnicoworld.dyndns.tv,14050
+user                          = satopen
+password                      = multics
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-mydog.homelinux.net
+description                   = nyooyn cache ex mod 2  mydog.homelinux.net OKKKKKKKKKKKKKKKKKKKKKKK
+protocol                      = cs378x
+device                        = mydog.homelinux.net,9110
+user                          = satopencache_mod2
+password                      = simply-multi-cs
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-strangeworld.no-ip.biz
+description                   = segazivibi http://multics.info strangeworld.no-ip.biz 7788  OKKKKKKKKKKKK
+enable                        = 0
+protocol                      = cs378x
+device                        = strangeworld.no-ip.biz,7788
+user                          = satopen
+password                      = multics
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-multics.blogsite.org
+description                   = gobi2000 http://multics.info multics.blogsite.org 22200 OKKKKKKKKKKKK
+protocol                      = cs378x
+device                        = multics.blogsite.org,22200
+user                          = satopen.dyndns-M2
+password                      = satopen.dyndns-M2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-mrmister.ddns.net
+description                   = who.balloo http://multics.info mrmister.ddns.net,2500 OKKKKKKKKKKKK
+protocol                      = cccam
+device                        = mrmister.ddns.net,25001
+user                          = SatOpen-CacheEx
+password                      = SatOpen-UKshare-CacheEx
+inactivitytimeout             = 30
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+cccversion                    = 2.1.1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-ombrellaro.ddns.net
+description                   = ombrellaro  ombrellaro.ddns.net ombrellaro.ddns.net,23000 SATOPEN MULTICSFORUM-c2
+protocol                      = cs378x
+device                        = ombrellaro.ddns.net,23000
+user                          = SATOPEN
+password                      = MULTICSFORUM-c2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sky-nds.ddns.net
+description                   = lifeyas multics.info sky-nds.ddns.net,31921 OKKKKKKKKKKKKKKKKKKKK
+protocol                      = cs378x
+device                        = sky-nds.ddns.net,31921
+user                          = satopen_cache
+password                      = ealkqmdmq
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-92.222.23.65
+description                   = alfredo skype skype 92.222.23.65,12346
+protocol                      = cs378x
+device                        = 92.222.23.65,12346
+user                          = cache-SPEAK-sat-A
+password                      = cache-live:speaksat
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-winnex.4irc.com
+description                   = winnetou http://multics.info/ winnex.4irc.com,7790
+protocol                      = cs378x
+device                        = winnex.4irc.com,7790
+user                          = satopen-cacheex2
+password                      = satopen-passmulticsnfo
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-i2i.dyndns.org
+description                   = jedi007 http://multics.info  i2i.dyndns.org,6200
+protocol                      = cs378x
+device                        = i2i.dyndns.org,6200
+user                          = satopen_ex2
+password                      = nbhgztr
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-37.187.32.219
+description                   = rambo74 skype cache-ex 37.187.32.219,55555  SKY ITA OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+protocol                      = cs378x
+device                        = 37.187.32.219,55555
+user                          = satopenCache
+password                      = satopen3
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-huliobenitez.no-ip.biz
+description                   = Cache tracker http://multics.info cache-ex huliobenitez.no-ip.biz  SKY ITA OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+enable                        = 0
+protocol                      = cs378x
+device                        = huliobenitez.no-ip.biz,7523
+user                          = satopen-ce2
+password                      = multicssdfsd54366ttttty
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-checkmate2.no-ip.biz
+description                   = simply http://multics.info checkmate2.no-ip.biz,18112
+protocol                      = cs378x
+device                        = checkmate2.no-ip.biz,18112
+user                          = satopen
+password                      = satopen
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-scrabicoco.dyndns.org
+description                   = pisoloni http://www.cardsharing.ws scrabicoco.dyndns.org,13000
+protocol                      = cs378x
+device                        = scrabicoco.dyndns.org,13000
+user                          = speackthesatcacheex
+password                      = cardsharingws
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-marekmarecki.ddns.net
+description                   = marku_7501 http://multics.info/ marekmarecki.ddns.net,55555
+enable                        = 0
+protocol                      = cs378x
+device                        = marekmarecki.ddns.net,55555
+user                          = satopen_exch
+password                      = satopen_mcs
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-dreamfoolish.dyndns.tv
+description                   = japoguapo http://multics.info/ dreamfoolish.dyndns.tv
+protocol                      = cs378x
+device                        = dreamfoolish.dyndns.tv,28888
+user                          = CACHE-EX-satopen
+password                      = satopen
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-cosavuoidame.ddns.net
+description                   = morpheus87_2 http://sat-sharing.us sky ita N: cosavuoidame.ddns.net 6665 satopen speakthesat 01...14 #skyitafull
+enable                        = 0
+protocol                      = cs378x
+device                        = cosavuoidame.ddns.net,35552
+user                          = satopen
+password                      = speakthesat
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-nicola1985.dyndns.org
+description                   = colino85 http://www.cardsharing.ws nicola1985.dyndns.org #skyitafull
+protocol                      = cs378x
+device                        = nicola1985.dyndns.org,12001
+user                          = speakthesat
+password                      = cachexspeak
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-alexdb.servehttp.com
+description                   = BuBu1991 http://www.cardsharing.ws nicola1985.dyndns.org #skyitafull
+protocol                      = cs378x
+device                        = alexdb.servehttp.com,12500
+user                          = speakthesat
+password                      = cacheex
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-skyndas.dyndns.tv_2
+description                   = danyveneto http://www.cardsharing.ws skyndas.dyndns.tv,35278
+protocol                      = cs378x
+device                        = skyndas.dyndns.tv,35278
+user                          = sharesatch_09CD
+password                      = cs378x
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-pro-os-ex.ddns.net
+description                   = lifeyas http://www.cardsharing.ws pro-os-ex.ddns.net,31781
+protocol                      = cs378x
+device                        = pro-os-ex.ddns.net,31781
+user                          = satopen_cache
+password                      = poiuytaqs
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-trolhd.no-ip.info
+description                   = darkbox http://multics.info/ cache-ex trolhd.no-ip.info 1111 satopen satopen
+protocol                      = cs378x
+device                        = trolhd.no-ip.info,1111
+user                          = satopen13
+password                      = satopen13
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 1
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-pictures79.myphotos.cc
+description                   = only-linux skype  pictures79.myphotos.cc
+protocol                      = cs378x
+device                        = pictures79.myphotos.cc,25107
+user                          = speak_sat:cacheEX2
+password                      = 06092014
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-okja.dyndns-ip.com
+description                   = okverd http://multics.info/ okja.dyndns-ip.com,18085
+protocol                      = cs378x
+device                        = okja.dyndns-ip.com,18085
+user                          = satopen
+password                      = satopenCa
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-178.62.29.33
+description                   = shiplu http://multics.info/ 178.62.29.33,12322
+protocol                      = cs378x
+device                        = 178.62.29.33,12322
+user                          = satopen-cacheex
+password                      = fg7u3y84tgfhgi74et
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-zied.servep2p.com
+description                   = afra01 http://multics.info/ zied.servep2p.com,15000
+enable                        = 0
+protocol                      = cs378x
+device                        = zied.servep2p.com,15000
+user                          = satopen
+password                      = satopen
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-kkz.ddns.net
+description                   = kkz http://multics.info/ kkz.ddns.net,19100
+protocol                      = cs378x
+device                        = kkz.ddns.net,19100
+user                          = satopen
+password                      = multics
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-spiker.selfhost.eu
+description                   = spiker http://multics.info/ cache-ex spiker.selfhost.eu,33333
+enable                        = 0
+protocol                      = cs378x
+device                        = spiker.selfhost.eu,33333
+user                          = satopen
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 1722,1801,1802,1805,1804,1830,183D,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963,0100,0500
+cacheex_drop_csp              = 1
+group                         = 50
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-tommys
+description                   = tommy http://multics.info cache ex-mod3
+protocol                      = cccam
+device                        = forexchange-hybrid2.dyndns.biz,19993
+user                          = satopen
+password                      = satopen1
+inactivitytimeout             = 30
+cacheex                       = 3
+cacheex_maxhop                = 2
+cacheex_ecm_filter            = 1722,1801,1830,1833,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963
+caid                          = 1722,1801,1830,1833,1834,1835,1838,1843,0B00,0B02,0B01,0D02,09CD,09C8,09AF,09C4,0919,0963
+group                         = 50
+cccversion                    = 2.0.11
+
+[reader]
+label                         = CACHE-EX-INTERNO
+description                   = 127.0.0.1 17000 interno
+protocol                      = cs378x
+device                        = 5.189.190.99,17000
+user                          = CACHE-EX-speaksat
+password                      = speaks05
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 50
+
+[reader]
+label                         = GRUPPO-HOT-TIME
+description                   = hottime.dyndns.tv
+protocol                      = cs378x
+device                        = hottime.dyndns.tv,8002
+user                          = speaksat
+password                      = wrgtrh45hn
+services                      = hot-time
+inactivitytimeout             = 600
+group                         = 25
+
+[reader]
+label                         = INTERNO
+description                   = servermultics.dyndns.org 60000 internal internal
+protocol                      = cccam
+device                        = 127.0.0.1,60000
+user                          = internal
+password                      = internal
+inactivitytimeout             = 30
+group                         = 25
+cccversion                    = 2.2.1
+cccreconnect                  = 2000
+
+[reader]
+label                         = esteri_interno
+description                   = interno esteri
+protocol                      = cs378x
+device                        = 127.0.0.1,18005
+user                          = intero
+password                      = local
+inactivitytimeout             = -1
+reconnecttimeout              = 60
+keepalive                     = 1
+caid                          = 0963,1702,09C4,098C,0500,0100,1810,1803,1805,183D,0D05,1843,0D97,1802,1830,0D02,0D97
+group                         = 25
+

@@ -1,0 +1,1848 @@
+
+
+[account]
+user                          = CLI-jz9FyDi
+pwd                           = PWD-vjPPaIb
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-TkUEARt
+pwd                           = PWD-ZOL4y5z
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-12-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+2015-09-15
+
+[account]
+user                          = CLI-90PSjMR
+pwd                           = PWD-OugOjFR
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+[account]
+user                          = CLI-Drz0n4P
+pwd                           = PWD-s6DhR74
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot,calcio
+cccmaxhops                    = 3
+
+
+2015-09-15
+
+[account]
+user                          = CLI-h6dwN2A
+pwd                           = PWD-kxu48M0
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-AG57P4r
+pwd                           = PWD-ss3u8fI
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-42crL5N
+pwd                           = PWD-o6p55yt
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-f24sfB6
+pwd                           = PWD-rPoCOvA
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-g5D0Nta
+pwd                           = PWD-yvPzlIe
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-UrNjq9m
+pwd                           = PWD-hm4Dw2B
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-3Lv9PtM
+pwd                           = PWD-qHvuPx0
+description                   = mariadiakonova@hushmail.com ch_16keIvKqpGynE6lxToBQkS3O
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-uafNIB8
+pwd                           = PWD-Oyr7f6F
+description                   = martingarciasuero@gmail.com ch_16khhHKqpGynE6lxRUj6zljt
+caid                          = 1810
+uniq                          = 1
+expdate                       = 2016-09-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-nbbgPxB
+pwd                           = PWD-HCOllAs
+description                   = gianluigicorda89@gmail.com 3CZESBN-AANUH
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-MZ4CR4A
+pwd                           = PWD-sZ1T2V6
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 1970-01-11
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-ATlle7z
+pwd                           = PWD-sMUegxU
+description                   = napule89@gmail.com 514801058
+caid                          = 1810,09CD
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-GZhwaes
+pwd                           = PWD-LprUxyj
+description                   = carlosboca@tiscali.it 0408-3233-2490-4603
+caid                          = 1810,09CD
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-wMmgwyw
+pwd                           = PWD-jz1xwB3
+description                   = soundexibition@hotmail.it ch_16kuNNKqpGynE6lxG9SWhL3z
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-kGLZdA6
+pwd                           = PWD-T7UaHnd
+description                   = countergoose@t-online.de ch_16kvERKqpGynE6lxZqhVnYUz 
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-GfwpHxl
+pwd                           = PWD-15RFalh
+description                   = simonekkk@live.it 3CZGAP8-A6KLZR
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-PP0Oosc
+pwd                           = PWD-sw8jz4M
+description                   = giomarfe@gmail.com ch_16l6JvKqpGynE6lxnwo0BKPd
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-iaATIep
+pwd                           = PWD-70tkznH
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-oc1ignj
+pwd                           = PWD-Fx9fNLr
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-FbTCOwZ
+pwd                           = PWD-RMC9sqh
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-qplCkLU
+pwd                           = PWD-vr33foV
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-12-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-jhazf7M
+pwd                           = PWD-y83VLDu
+description                   = Gianluca_SR@libero.it ch_16l8wWKqpGynE6lxwfYrOyMG
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-TubsZVA
+pwd                           = PWD-PZ57BEa
+description                   = andrea.cristofaro90@hotmail.it ch_16lFcBKqpGynE6lxqankXl87
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-nPlFzCU
+pwd                           = PWD-Sarmv7l
+description                   = salvatore.farenga@web.de ch_16lKSGKqpGynE6lxoZ4xZ0mw
+caid                          = 1702,098C
+uniq                          = 1
+expdate                       = 2016-03-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-7bB6xLM
+pwd                           = PWD-B7GrRSD
+description                   = andreamelon@gmail.com ch_16lNXjKqpGynE6lxS4B9ib1a
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-hZyoHC6
+pwd                           = PWD-f2UaNUa
+description                   = bikezzo@libero.it ch_16lOjkKqpGynE6lxM7H3T1vD
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-87hN1x3
+pwd                           = PWD-44haUgE
+description                   = spaziosudiscoinsufficiente@gmail.com ch_16lPBmKqpGynE6lxRJrDIs0U
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-vpRr6dB
+pwd                           = PWD-1s0605c
+description                   = maidiretvpz@libero.it ch_16lQVJKqpGynE6lxYeSbrMoE
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-a7VxtAF
+pwd                           = PWD-OPtBhpZ
+description                   = baltimoraluigi@gmail.com 3CZHVBU-AFVJE7
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-tzkenbd
+pwd                           = PWD-TxlDgC2
+description                   = lancer32@live.it 3czgemh-a3pbkn
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-15
+
+
+[account]
+user                          = CLI-8lrmM2C
+pwd                           = PWD-VsZZdPv
+description                   = masatt@tin.it ch_16lJkMKqpGynE6lxvSM3EBSr
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-17
+
+
+[account]
+user                          = CLI-jgntxVg
+pwd                           = PWD-vhTxFbO
+description                   = patsmyk84@gmail.com ch_16lSkQKqpGynE6lxCKE80rUT
+caid                          = 0963,1702,098C
+uniq                          = 1
+expdate                       = 2015-10-18
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-17
+
+
+[account]
+user                          = CLI-p4foHTe
+pwd                           = PWD-c4A00br
+description                   = cborichi@thetorpedoes.com ch_16lVSbKqpGynE6lxWd2H1aL6
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2016-03-18
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-17
+
+
+[account]
+user                          = CLI-nwxaEb8
+pwd                           = PWD-TOyA8cj
+description                   = savi95@live.it ch_16lWeAKqpGynE6lxJhDF29u7
+caid                          = 09CD,1805
+uniq                          = 1
+expdate                       = 2015-10-18
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-17
+
+
+[account]
+user                          = CLI-8Sd7Df2
+pwd                           = PWD-6fu4fFR
+description                   = andreamelon@gmail.com ch_16lewEKqpGynE6lxC5DbSwD2
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-18
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-17
+
+
+[account]
+user                          = CLI-vEPsa9t
+pwd                           = PWD-Pc3m5Oi
+description                   = teseore@gmail.com ch_16lg9rKqpGynE6lx9BLeg9VT
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-18
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-17
+
+
+[account]
+user                          = CLI-oOG0C6i
+pwd                           = PWD-bgzpfu3
+description                   = devilishado@gmail.com 3CZLB8B-AGUUMX
+caid                          = 0963
+uniq                          = 1
+expdate                       = 2015-10-18
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-17
+
+
+[account]
+user                          = CLI-hvaZ9pP
+pwd                           = PWD-2pEID6S
+description                   = dmitrysmirnov@hmamail.com 0017299341876057
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-18
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-18
+
+
+[account]
+user                          = CLI-SsgPVVV
+pwd                           = PWD-zLtnGv7
+description                   = matano.fabio1998@gmail.com ch_16mKBvKqpGynE6lxePFv7rwu
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-19
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-18
+
+
+[account]
+user                          = CLI-ALbLrqh
+pwd                           = PWD-rVBLEsh
+description                   = bacmpa@yahoo.it ch_16mMXYKqpGynE6lxuGZXWlhV
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-19
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-18
+
+
+[account]
+user                          = CLI-jIBxSSo
+pwd                           = PWD-cVFoboA
+description                   = mickkmoro@gmail.com ch_16mNWRKqpGynE6lxSwsSagHK
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-19
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-18
+
+
+[account]
+user                          = CLI-jDua9Gu
+pwd                           = PWD-59NEhzV
+description                   = bikezzo@libero.it ch_16mNg6KqpGynE6lxgJY8YGeU
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-19
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-18
+
+
+[account]
+user                          = CLI-CgbLnj9
+pwd                           = PWD-ToI2imd
+description                   = bikezzo@libero.it ch_16mNk2KqpGynE6lxMRrXLjpk
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-19
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-18
+
+
+[account]
+user                          = CLI-APsTvCr
+pwd                           = PWD-wpHfhBL
+description                   = bikezzo@libero.it ch_16mNn2KqpGynE6lxKqjlNtKu
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-19
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-18
+
+
+[account]
+user                          = CLI-bbVLZoP
+pwd                           = PWD-ta5HteT
+description                   = bikezzo@libero.it ch_16mNpuKqpGynE6lxR1LgEv6Z
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-19
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-18
+
+
+[account]
+user                          = CLI-5ZTv27L
+pwd                           = PWD-xbiwyrg
+description                   = marco@thezollingers.org ch_16mSVVKqpGynE6lxamaTkFZo
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-19
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-18
+
+
+[account]
+user                          = CLI-tz5nNnU
+pwd                           = PWD-gfzpbs0
+description                   = lehitales@yahoo.it ch_16m6HuKqpGynE6lxHF2Ghvk0
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-12-19
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-18
+
+
+[account]
+user                          = CLI-xis7yhG
+pwd                           = PWD-p5DDjL2
+description                   = lehitales@yahoo.it ch_16m6HuKqpGynE6lxHF2Ghvk0
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-12-19
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-19
+
+
+[account]
+user                          = CLI-PpliyN0
+pwd                           = PWD-VLAPAo7
+description                   = cicciocastelleone88@hotmail.it ch_16mmZoKqpGynE6lxTW2q2yTS
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-20
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-19
+
+
+[account]
+user                          = CLI-hm41RcV
+pwd                           = PWD-mwzHMfl
+description                   = jettalo82@gmail.com ch_16mpukKqpGynE6lxIun4kCrG
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-12-20
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-gcizHfi
+pwd                           = PWD-7EwaLl2
+description                   = caterina.lagala@libero.it ch_16n6C3KqpGynE6lxqHE4RzKh
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-9Ff8FTg
+pwd                           = PWD-zeqbpLG
+description                   = helioclaudio@gmail.com ch_16n5STKqpGynE6lxowt8NFSb
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-Np0pstD
+pwd                           = PWD-scxckt3
+description                   = rinaldocerusico@gmail.com ch_16n5XfKqpGynE6lxHsfqvwWO
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-CcICGkl
+pwd                           = PWD-HdwE0NO
+description                   = maidiretvpz@libero.it ch_16nANgKqpGynE6lx7tyF2MOB
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-Ee8Axdm
+pwd                           = PWD-un8h54y
+description                   = francesco.provitera@computer-assistance.it ch_16nTLRKqpGynE6lx6fqSxDLS
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-hCtNUso
+pwd                           = PWD-RDNeScx
+description                   = eduvargas80@hotmail.it ch_16nTsLKqpGynE6lxIo3hOrS2
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot,calcio
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-R36ifxT
+pwd                           = PWD-q4Imr0t
+description                   = alonsox@libero.it ch_16nY7SKqpGynE6lx6NzurjN9
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-kBNahhZ
+pwd                           = PWD-Zwl4TLC
+description                   = profilo54@libero.it ch_16no9jKqpGynE6lxDYElhX82
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-38TUzwF
+pwd                           = PWD-HCSqDs6
+description                   = luca.napoliello@gmail.com ch_16nsRwKqpGynE6lxWrixveah
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-cEb2Evp
+pwd                           = PWD-yV0w3iw
+description                   = marcycosma9591@hotmail.it ch_16np0YKqpGynE6lxdBxYciyC
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-TtekIxf
+pwd                           = PWD-aCvP5hr
+description                   = eduvargas80@hotmail.it ch_16nGbHKqpGynE6lxcR0UYxM3
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-6Dr3UVb
+pwd                           = PWD-G2To5F5
+description                   = judgesth@gmail.com 3CZXNSV-A8Q4A2
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-LxzrGcV
+pwd                           = PWD-6lZfiBF
+description                   = xavenetidis@cyta.gr 3D22ARQ-A8L4VQ
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-22
+
+
+[account]
+user                          = CLI-sxu4ra9
+pwd                           = PWD-11hrxGu
+description                   = l.mauriello@swisstecnology.ch ch_16nxGsKqpGynE6lxVZSIsKC4
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-23
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-23
+
+
+[account]
+user                          = CLI-UIy6T3b
+pwd                           = PWD-skRaSvD
+description                   = mark@diplomats.com ch_16nxkfKqpGynE6lxycdSLwXi
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2016-03-24
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-23
+
+
+[account]
+user                          = CLI-wffouTs
+pwd                           = PWD-7kBpfAi
+description                   = alessandro.71@email.it ch_16nxqvKqpGynE6lxhl0oR1PY
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-24
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-23
+
+
+[account]
+user                          = CLI-s3MZy0m
+pwd                           = PWD-y5bHxFL
+description                   = e.gobbi@gepin.it ch_16o8d8KqpGynE6lxq1kycy8L
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-24
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot,calcio
+cccmaxhops                    = 3
+
+2015-09-23
+
+
+[account]
+user                          = CLI-ByggLGt
+pwd                           = PWD-0ezE4zC
+description                   = mattme@live.it 0094-1000-2583-8756
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-24
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-23
+
+
+[account]
+user                          = CLI-DOdVosl
+pwd                           = PWD-PVZ7xTD
+description                   = andreamelon@gmail.com ch_16oGIQKqpGynE6lxCTaeNw8C
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-24
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-24
+
+
+[account]
+user                          = CLI-VzDIOa8
+pwd                           = PWD-lrpl0sS
+description                   = madmattla@yahoo.com 8d4f3e7df2a3fff3df2f5a0170df5ee7aa1e325bdbba0fd8f0e23ca8d27acee5
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-12-25
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-25
+
+
+[account]
+user                          = CLI-uTUMcar
+pwd                           = PWD-d7t9phN
+description                   = egazzel@tin.it 3D2A66A-A6SAU7
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-26
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-25
+
+
+[account]
+user                          = CLI-q1AkgSz
+pwd                           = PWD-Sun2BOk
+description                   = giuseppe.graziano24@virgilio.it ch_16ocHFKqpGynE6lxldPyLEDJ
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-26
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-25
+
+
+[account]
+user                          = CLI-VafIbPb
+pwd                           = PWD-yAu7M0G
+description                   = hayrettin.alkis@gmail.com ch_16oheOKqpGynE6lxb1lH9Xhd
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-26
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-25
+
+
+[account]
+user                          = CLI-D9waFpe
+pwd                           = PWD-vL0BLB9
+description                   = davidethered@gmail.com ch_16oj74KqpGynE6lxRc3Y3FHe
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-26
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot,calcio
+cccmaxhops                    = 3
+
+2015-09-25
+
+
+[account]
+user                          = CLI-R85dzFa
+pwd                           = PWD-cilBhok
+description                   = dariosniper@gmail.com ch_16osexKqpGynE6lxsOW6QcHw
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-26
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-25
+
+
+[account]
+user                          = CLI-SAtGtmR
+pwd                           = PWD-VSNH9FD
+description                   = ugo691966@libero.it ch_16olFvKqpGynE6lxTbEL0Zi9
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-26
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-26
+
+
+[account]
+user                          = CLI-RfqzNV1
+pwd                           = PWD-BPNiM7F
+description                   = napule89@gmail.com ch_16n5XfKqpGynE6lxHsfqvwWO
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-27
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+2015-09-26
+
+
+[account]
+user                          = CLI-dCkEIAV
+pwd                           = PWD-PMwehVA
+description                   = napule89@gmail.com ch_16n5XfKqpGynE6lxHsfqvwWO
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-27
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-26
+
+
+[account]
+user                          = CLI-36pZ6iH
+pwd                           = PWD-OBGZs4U
+description                   = napule89@gmail.com ch_16n5XfKqpGynE6lxHsfqvwWO
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-27
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-26
+
+
+[account]
+user                          = CLI-bCA50wB
+pwd                           = PWD-rCVhCjh
+description                   = fuego@inwind.it ch_16pEE6KqpGynE6lxpKLbKRPC
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-12-27
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-26
+
+
+[account]
+user                          = CLI-jVjN1La
+pwd                           = PWD-4Me9nmc
+description                   = elektro22@intrage.it ch_16pJzZKqpGynE6lxuZgkFVAk
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-10-27
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-26
+
+
+[account]
+user                          = CLI-BrkvrwF
+pwd                           = PWD-s5IMlMl
+description                   = vecchigiorgio9@mail.com ch_16pKKDKqpGynE6lxX9WRoOOx
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-27
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-26
+
+
+[account]
+user                          = CLI-cUgV35o
+pwd                           = PWD-y6cGyR3
+description                   = nubo73@googlemail.com ch_16pMOpKqpGynE6lxOn6mQzjR
+caid                          = 0500
+uniq                          = 1
+expdate                       = 2015-10-27
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot,adult
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-26
+
+
+[account]
+user                          = CLI-HbapTSs
+pwd                           = PWD-MV0aG2T
+description                   = tombundy21@googlemail.com ch_16pM4IKqpGynE6lxGib2L8Dx
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-27
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-26
+
+
+[account]
+user                          = CLI-Erz1Ukp
+pwd                           = PWD-g0wfA6N
+description                   = luciano.lupo47@hotmail.it ch_16pLrqKqpGynE6lx1aWTyjD0
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2016-09-27
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-26
+
+
+[account]
+user                          = CLI-Cqzq1cG
+pwd                           = PWD-ywSa7Sr
+description                   = coppolaalfredo4@hotmail.it ch_16p2AuKqpGynE6lxhDxzG0yc
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-27
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-27
+
+
+[account]
+user                          = CLI-h6keIiH
+pwd                           = PWD-96L0G8n
+description                   = beglos@email.it ch_16pH6uKqpGynE6lxdEze5Yhx
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-28
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-27
+
+
+[account]
+user                          = CLI-aVwVw5b
+pwd                           = PWD-nhtEDzn
+description                   = tomma1977@gmail.com ch_16pNR7KqpGynE6lxW63WqirP
+caid                          = 09CD,1805
+uniq                          = 1
+expdate                       = 2015-10-28
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-27
+
+
+[account]
+user                          = CLI-5ZoCcn4
+pwd                           = PWD-8p11o8b
+description                   = morenomuskardin@gmail.com ch_16pPdYKqpGynE6lxcvMVXY16
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-28
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-27
+
+
+[account]
+user                          = CLI-mjgdxRN
+pwd                           = PWD-4vlPnBa
+description                   = sticoglioni@hotmail.com ch_16pebnKqpGynE6lxCUW76l6s
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-12-28
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-27
+
+
+[account]
+user                          = CLI-9PVBhGI
+pwd                           = PWD-tIRCVae
+description                   = marianolivorno@gmail.com ch_16pgs0KqpGynE6lxVtuiuaL1
+caid                          = 09CD,1805
+uniq                          = 1
+expdate                       = 2015-10-28
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-29
+
+
+[account]
+user                          = CLI-imjCHLa
+pwd                           = PWD-dmfxRry
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-30
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-30
+
+
+[account]
+user                          = CLI-sfpcicP
+pwd                           = PWD-UhMr4ra
+description                   = daniele.catucci@gmail.com ch_16piZMKqpGynE6lxNAtkiM8d
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-11-01
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-30
+
+
+[account]
+user                          = CLI-7r7t1Z0
+pwd                           = PWD-7T5F9pD
+description                   = phillbraintree@gmail.com ch_16pj1YKqpGynE6lxs5YIFeQb
+caid                          = 0963
+uniq                          = 1
+expdate                       = 2015-11-01
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-30
+
+
+[account]
+user                          = CLI-9eBqs52
+pwd                           = PWD-TR13DmM
+description                   = verniciatoresuper@alice.it ch_16pjTEKqpGynE6lx7Pk59IwZ
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-11-01
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-30
+
+
+[account]
+user                          = CLI-reRxLUG
+pwd                           = PWD-qyPHwUN
+description                   = info@atabek.de ch_16pmh5KqpGynE6lxgUAUuINb
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2016-04-01
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-30
+
+
+[account]
+user                          = CLI-LeyLd3I
+pwd                           = PWD-nVToTUE
+description                   = hasimaus2@uni.de ch_16qAVCKqpGynE6lxjVFVpsOz
+caid                          = 1702,098C
+uniq                          = 1
+expdate                       = 2015-11-01
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-30
+
+
+[account]
+user                          = CLI-D8ED8ig
+pwd                           = PWD-SsbB9sp
+description                   = yurirm@icloud.com ch_16qTH3KqpGynE6lxZlKV2tKc
+caid                          = 0500
+uniq                          = 1
+expdate                       = 2015-11-01
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot,srgssr
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-30
+
+
+[account]
+user                          = CLI-z3ofpjy
+pwd                           = PWD-ngA253f
+description                   = 6mksrarn@mailinator.com 0309-6482-6639-6194
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-11-01
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-30
+
+
+[account]
+user                          = CLI-d5GnpvO
+pwd                           = PWD-V64qEVv
+description                   = madmattla@yahoo.com f61926328b1c590abb221620fdc857f9c6c403ed74d9fbfed7ffda1594e07797
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2016-01-01
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-30
+
+
+[account]
+user                          = CLI-DDauyCI
+pwd                           = PWD-H9PlCS9
+description                   = gian.dantona@hotmail.de lnrlxwmlvi
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2016-01-01
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-09-30
+
+
+[account]
+user                          = CLI-zCl3G4x
+pwd                           = PWD-BF1imGO
+description                   = tindarino3@gmail.com 0090-6556-7219-0479
+caid                          = 1805,09CD,1702,098C
+uniq                          = 1
+expdate                       = 2015-11-01
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot,calcio_mediaset,calcio,calcio_skyde
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-01
+
+
+[account]
+user                          = CLI-ccBG3LI
+pwd                           = PWD-Af8cPqV
+description                   = nonnaorgilla@virgilio.it ch_16qfZ5KqpGynE6lxLUVH2mht
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-11-02
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-01
+
+
+[account]
+user                          = CLI-FEqf0DT
+pwd                           = PWD-hvgVas7
+description                   = antoracio@hotmail.it ch_16qoRLKqpGynE6lxDm6ycrUM
+caid                          = 09CD,1805
+uniq                          = 1
+expdate                       = 2015-11-02
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-01
+
+
+[account]
+user                          = CLI-PjuPo3o
+pwd                           = PWD-OVqReA3
+description                   = pifegia@gmail.com ch_16rBYFKqpGynE6lxpY4Oj94D
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-11-02
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-01
+
+
+[account]
+user                          = CLI-620cgVv
+pwd                           = PWD-k6qZflm
+description                   = sannicandro1995@gmail.com ch_16rCivKqpGynE6lxTBtbKigG
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2016-01-02
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-03
+
+
+[account]
+user                          = CLI-liAhRvF
+pwd                           = PWD-LFnD2ft
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-11-04
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-03
+
+
+[account]
+user                          = CLI-jEAOgnm
+pwd                           = PWD-FDgANEn
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-11-04
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-03
+
+
+[account]
+user                          = CLI-86D03SS
+pwd                           = PWD-ZeznMlw
+description                   = napule89@gmail.com ch_16n5XfKqpGynE6lxHsfqvwWO
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-11-04
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-03
+
+
+[account]
+user                          = CLI-iuZ2jN4
+pwd                           = PWD-9bOLIIk
+description                   = marconi@ngi.it ch_16rFhxKqpGynE6lx6wKrNb94
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2016-04-04
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-04
+
+
+[account]
+user                          = CLI-wrP8v9x
+pwd                           = PWD-wSdkM9I
+description                   = napule89@gmail.com tegvdvevv
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-11-05
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-04
+
+
+[account]
+user                          = CLI-afniLU0
+pwd                           = PWD-Zn8upvm
+description                   = tindarino3@gmail.com 0402-3620-6872-4251
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-11-05
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-04
+
+
+[account]
+user                          = CLI-o23iA0N
+pwd                           = PWD-GcTsekb
+description                   = gavinopinn@tiscali.it ch_16ru7RKqpGynE6lxFpCvj4xE
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-11-05
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-04
+
+
+[account]
+user                          = CLI-Bovvn8n
+pwd                           = PWD-7D7E3Sb
+description                   = michele@e-vincent.net ch_16rTuaKqpGynE6lxcFH6CNrX
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-11-05
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-04
+
+
+[account]
+user                          = CLI-nU48MGm
+pwd                           = PWD-Fntqjx6
+description                   = guisimguisim@gmail.com ch_16s9n8KqpGynE6lxv7GpMZQz
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-11-05
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-04
+
+
+[account]
+user                          = CLI-Hd6eOdh
+pwd                           = PWD-A8RubHE
+description                   = infopizzinga@libero.it ch_16rVgFKqpGynE6lxE0FQE6bH
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-11-05
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-04
+
+
+[account]
+user                          = CLI-yZM0jTy
+pwd                           = PWD-6xNZvyH
+description                   = 48morto@gmail.com ch_16rWkwKqpGynE6lxucvk2tYT
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2016-04-05
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-04
+
+
+[account]
+user                          = CLI-4C4U4Vu
+pwd                           = PWD-DErgx8T
+description                   = vallievi@yahoo.com ch_16sDE6KqpGynE6lxVwh5tovk
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-11-05
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-04
+
+
+[account]
+user                          = CLI-lklZLjH
+pwd                           = PWD-lwAIiyg
+description                   = johnathanhall@hotmail.co.uk 3D34MMF-AETUFB
+caid                          = 0963
+uniq                          = 1
+expdate                       = 2015-11-05
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-06
+
+
+[account]
+user                          = CLI-zFGnRy2
+pwd                           = PWD-Z1D9oxc
+description                   = checol@alice.it ch_16sH23KqpGynE6lx4QGCxPq0
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-11-07
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-06
+
+
+[account]
+user                          = CLI-L0nB7v4
+pwd                           = PWD-1zS879O
+description                   = francescolv@gmail.com ch_16sU6dKqpGynE6lxjR0xzHnD
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-11-07
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-06
+
+
+[account]
+user                          = CLI-htfvTEj
+pwd                           = PWD-rR6f2Eg
+description                   = claunad@libero.it ch_16senlKqpGynE6lxkCV73pYh
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2016-01-07
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-06
+
+
+[account]
+user                          = CLI-RtLl1Sf
+pwd                           = PWD-kI8Erm9
+description                   = ccfabrizio1@yahoo.it ch_16snV1KqpGynE6lxJEwuec5r
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-11-07
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-06
+
+
+[account]
+user                          = CLI-ENlnPcv
+pwd                           = PWD-55S9bwD
+description                   = davide.montagono@gmail.com ch_16sUUdKqpGynE6lxoWAPVf6C
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-11-07
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-06
+
+
+[account]
+user                          = CLI-gGULPH5
+pwd                           = PWD-Sbv0RyO
+description                   = infopizzinga@libero.it ch_16swpUKqpGynE6lxG8demk1n
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2016-01-07
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-06
+
+
+[account]
+user                          = CLI-Pq0zDM9
+pwd                           = PWD-tjgTSmw
+description                   = toffe838@hotmail.com ch_16sT0nKqpGynE6lxBEnNyU7Y
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-11-07
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-06
+
+
+[account]
+user                          = CLI-UAAejkP
+pwd                           = PWD-gan1Oit
+description                   = cesare.caso123@gmail.com 0099153492332430
+caid                          = 09CD,1805
+uniq                          = 1
+expdate                       = 2015-11-07
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam
+
+2015-10-06
+
+
+[account]
+user                          = CLI-RTrFO03
+pwd                           = PWD-RtVIsNL
+description                   = infopizzinga@libero.it ch_16swssKqpGynE6lxWGDqV92Y
+caid                          = 1805
+uniq                          = 1
+expdate                       = 2015-11-07
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+allowedprotocols              = cccam

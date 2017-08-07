@@ -1,0 +1,15 @@
+[reader]
+label = SKYITA-127.0.0.1
+description = speaksat 127.0.0.1 10013
+protocol = newcamd
+device = 127.0.0.1,10013
+key = 0102030405060708091011121314
+user = gruppo919
+password = 919wvnwft
+reconnecttimeout = 60
+caid = 0919
+group = 1
+dropbadcws = 1
+audisabled = 1
+
+

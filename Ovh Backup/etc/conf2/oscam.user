@@ -1,0 +1,131 @@
+# oscam.user generated automatically by Streamboard OSCAM 1.20-unstable_svn SVN r9916
+# Read more: http://www.streamboard.tv/svn/oscam/trunk/Distribution/doc/txt/oscam.user.txt
+
+#CARDSHARINGZONE.DYNDNS.ORG
+
+[account]
+user                          = intero
+pwd                           = local
+group                         = 1,2,3,4,30
+
+
+[account]
+user                          = EX-test
+pwd                           = test0v1v
+group                         = 1,2,3,4,30
+description                   = C: cardsharingzone.dyndns.org 19999 EX-test test0v1v N: cardsharingzone.dyndns.org 19998 forlanrodrigez forlanrodrigez 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+
+
+
+[account]
+user                          = EX-s007n 
+pwd                           = s007n 
+group                         = 1,2,3,4,30
+description                   = D+ N: marcos-dplus.ddns.net 1317 speakthesat sat-sharing.info 01 02 03 04 05 06 07 08 09 10 11 12 13 14  s007n http://sat-sharing.us
+
+
+
+
+[account]
+user                          = EX-marshallcards
+pwd                           = marshallcards
+description                   = marshallcards http://multics.info SKY ITA N: sky-nds.ddns.net 33555 satopen dplusmovistar 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E +++SUL SERVER N1
+group                         = 1,2,3,4,30
+caid = 1810
+
+
+[account]
+user                          = EX-popebo
+pwd                           = popebo
+description                   = popebo cardsharing.ws pope9999.mine.nu 17500 speakthesat speakthesat 
+group                         = 1,2,3,4,30
+caid = 1810
+
+
+[account]
+user                          = EX-loloiu
+pwd                           = loloiu
+description                   = loloiu cardsharing.ws C: apiretal.noip.me 12000 speakthesat atvspeakthesat
+group                         = 1,2,3,4,30
+caid = 1810
+
+[account]
+user                          = EX-cyberpaper
+pwd                           = cyberpaper
+description                   = cyberpaper MULTICS  C: f3n1x.org 12000 satopen 329g8fdm98n7
+group                         = 1,2,3,4,30
+caid = 1810
+
+[account]
+user                          = EX-lordvampire
+pwd                           = lordvampire
+description                   = SkyDe_098C / ORFHD_0D95 / HD+1843 /SRG0500 lordvampire C: lordvampire.homelinux.com 12002 satopen neoptas no
+group                         = 1,2,3,4,30
+caid = 1810
+
+
+
+[account]
+user                          = EX-andromeda
+pwd                           = andromeda
+group                         = 1,2,3,4,30
+description                   = andromeda sat-sharing C: tryme.homeunix.com 60001 speakth speakth123
+caid = 1810
+
+
+
+
+
+[account]
+user                          = EX-blackboss
+pwd                           = blackboss
+group                         = 1,2,3,4,30
+description                   = blackboss sat-sharing N: shomoo.zapto.org 16000 speakthesat cardus 01 02 03 04 05 06 07 08 09 10 11 12 13 14 
+caid = 1810
+
+
+
+
+[account]
+user                          = EX-bekkay_azzouzi
+pwd                           = bekkay_azzouzi
+description                   = SKYPE bekkay_azzouzi N: digitalcccam.no-ip.org 10210 speak sat 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+group                         = 1,2,3,4,30
+caid = 1810
+
+
+[account]
+user                          = EX-popebo
+pwd                           = popebo
+description                   = popebo cardsharing.ws pope9999.mine.nu 17500 speakthesat speakthesat 
+group                         = 1,2,3,4,30
+caid = 1810
+
+
+
+
+
+[account]
+user                          = EX-Isaac
+pwd                           = Isaac
+description                   = Isaac http://multics.info DIGITAL+ 1810 N: tvencolor.mine.nu 19039 satopen satopen 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+group                         = 1,2,3,4,30
+caid = 1810
+
+
+
+[account]
+user                          = EX-amro155
+pwd                           = amro155
+description                   = SKYPE amro155 N: vunour.dyndns.tv 34000 speaksat speaksat 01 02 03 04 05 06 07 08 09 10 11 12 13 14 256 CYFRA+HD OKKKKKKKKKKKKKKKKKKKKKK
+group                         = 1,2,3,4,30
+caid = 1810
+
+
+[account]
+user                          = EX-merix
+pwd                           = merix
+description                   = MULTICS N: wastra.gotdns.com 14215 satopenMax satopenMax  merix MAXTV
+group                         = 1,2,3,4,30
+caid = 1810
+

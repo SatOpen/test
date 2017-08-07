@@ -1,0 +1,678 @@
+[reader]
+label                         = SKYUK-myserveris.worse-than.tv
+description                   = tel2355 http://www.cardsharing.ws SKYUK C: myserveris.worse-than.tv 22734 speakthesat speakthesatskyitalia
+protocol                      = cccam
+device                        = myserveris.worse-than.tv,22734
+user                          = speakthesat
+password                      = speakthesatskyitalia
+inactivitytimeout             = 30
+group                         = 1
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+[reader]
+label                         = SKYUK-kingof-cs.dyndns.biz
+description                   = goal http://sat-sharing.us sky uk C: kingof-cs.dyndns.biz 17502 speakthesat speakthesat
+protocol                      = cccam
+device                        = kingof-cs.dyndns.biz,17502
+user                          = speakthesat
+password                      = speakthesat
+inactivitytimeout             = 30
+group                         = 1
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+[reader]
+label                         = SKYUK-mrmister.ddns.net
+description                   = who.balloo http://multics.info/ sky uk N: mrmister.ddns.net 20100 SatOpen-1 UKshare 01......14
+protocol                      = cccam
+device                        = mrmister.ddns.net,20100
+user                          = SatOpen-1
+password                      = UKshare
+inactivitytimeout             = 30
+group                         = 1
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+[reader]
+label                         = SKYUK-skyserver.blogdns.com
+description                   = nikki skyuk full http://sat-sharing.us C: skyserver.blogdns.com 15000 speakthesat satsharing OKKKKK
+protocol                      = cccam
+device                        = skyserver.blogdns.com,15000
+user                          = speakthesat
+password                      = satsharing
+inactivitytimeout             = 30
+group                         = 1
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+
+
+
+
+[reader]
+label                         = SKYUK-scoobydoo.no-ip.org
+description                   = Chrisabel http://multics.info/ sky uk N: scoobydoo.no-ip.org 15001 satopen satopen16082014 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = mrmister.ddns.net,20100
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = satopen16082014
+inactivitytimeout             = 30
+group                         = 1
+caid = 963
+dropbadcws                    = 1
+
+
+
+
+[reader]
+label                         = SKYUK-primehdserver.ddns.net
+description                   = primehdserver SKY UK http://multics.info/ N: primehdserver.ddns.net 2005 satopen satopen 01 02 03 04 05 06 07 08 09 10 11 12 13 14 okkkkkkkkkkkkkkkkkkk
+protocol                      = newcamd
+device                        = primehdserver.ddns.net,2005
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = satopen
+inactivitytimeout             = 30
+group                         = 1
+caid = 963
+dropbadcws                    = 1
+
+
+
+[reader]
+label                         = SKYUK-weepulic.no-ip.biz
+description                   = sky123 SKY UK http://multics.info/ N: weepulic.no-ip.biz 20214 satopen satopenskyit 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKKKKKKKKKKKKK
+protocol                      = newcamd
+device                        = weepulic.no-ip.biz,20214
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = satopenskyit
+inactivitytimeout             = 30
+group                         = 1
+caid = 963
+dropbadcws                    = 1
+
+
+[reader]
+label                         = SKYUK-bestcccam.selfip.org
+description                   = kingserver SKY UK http://multics.info/ N: bestcccam.selfip.org 18000 satopen slyit 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKKKKK
+protocol                      = newcamd
+device                        = bestcccam.selfip.org,18000
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = slyit
+inactivitytimeout             = 30
+group                         = 1
+caid = 963
+dropbadcws                    = 1
+
+
+
+
+
+
+
+
+
+[reader]
+label                         = SKYUK-148.251.73.71
+description                   = lobobenfica66 SKY UK MULTICS N: 148.251.73.71 8013 marques satsharing584 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = 148.251.73.71,8013
+key                           = 0102030405060708091011121314
+user                          = marques
+password                      = satsharing584
+inactivitytimeout             = 30
+group                         = 1
+caid = 963
+dropbadcws                    = 1
+
+
+[reader]
+label                         = SKYUK-vpss.dyndns.tv
+description                   = hamdyhamdy  multics.info SKYUK N: vpss.dyndns.tv 5511 eurr34 eurr54 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKK
+protocol                      = newcamd
+device                        = vpss.dyndns.tv,5511
+key                           = 0102030405060708091011121314
+user                          = eurr34
+password                      = eurr54
+inactivitytimeout             = 30
+group                         = 1
+caid = 963
+dropbadcws                    = 1
+
+
+
+
+
+[reader]
+label                         = SKYUK-forexchange-hybrid2.dyndns.biz
+description                   = tommys http://multics.info/ sky uk N: forexchange-hybrid2.dyndns.biz 26001 satopen multics.info 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = forexchange-hybrid2.dyndns.biz,2600
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = multics.info
+inactivitytimeout             = 30
+group                         = 1
+caid = 963
+dropbadcws                    = 1
+
+
+
+
+[reader]
+label                         = SKYUK-mecidosen.dyndns.tv
+description                   = seloteyp http://sat-sharing.us SKY UK C+NL C: mecidosen.dyndns.tv 17500 speakthesatx u21 OKKKKK
+protocol                      = cccam
+device                        = mecidosen.dyndns.tv,17500
+user                          = speakthesatx
+password                      = u21
+inactivitytimeout             = 30
+group                         = 1
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+
+
+
+
+[reader]
+label                         = SKYUK+CSAT-davidmultiub7.dyndns.tv
+description                   = killbrice http://sat-sharing.us sky uk + csat sd C: davidmultiub7.dyndns.tv 58500 speakthesatus speakskyit09cd no
+protocol                      = cccam
+device                        = davidmultiub7.dyndns.tv,58500
+user                          = speakthesatus
+password                      = speakskyit09cd
+inactivitytimeout             = 30
+group                         = 1
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+
+[reader]
+label                         = SKYUK-billybobthekid.no-ip.biz
+description                   = scuderia http://sat-sharing.us 0963 & 098c C: billybobthekid.no-ip.biz 6000 speakthebeast scuderia6
+protocol                      = cccam
+device                        = billybobthekid.no-ip.biz,6000
+user                          = speakthebeast
+password                      = scuderia6
+inactivitytimeout             = 30
+group                         = 1
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+[reader]
+label                         = DIGITAL+-nervooo.no-ip.biz 
+description                   = orangeCine http://sat-sharing.us digital+ spain C: nervooo.no-ip.biz 13000 speakthesatUS skyitt
+protocol                      = cccam
+device                        = nervooo.no-ip.biz,13000
+user                          = speakthesatUS
+password                      = skyitt
+inactivitytimeout             = 30
+group                         = 2
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+[reader]
+label                         = DIGITAL+-bestshare.selfip.com
+description                   = cheetah http://multics.info/ digital+ spain N: bestshare.selfip.com 1200 satopen multics.info 01 02 03 04 ..14
+protocol                      = cccam
+device                        = bestshare.selfip.com,1200
+user                          = satopen
+password                      = multics.info
+inactivitytimeout             = 30
+group                         = 2
+caid = 1810
+dropbadcws                    = 1
+
+
+[reader]
+label                         = DIGITAL+-libanese.dyndns.tv
+description                   = cheetah http://multics.info/ digital+ spain N: bestshare.selfip.com 1200 satopen multics.info 01 02 03 04 ..14
+protocol                      = newcamd
+device                        = bestshare.selfip.com,1200
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = multics.info
+group                         = 2
+caid                          = 1810
+dropbadcws                    = 1
+
+
+
+[reader]
+label                         = DIGITAL+-newcamd-server.zapto.org
+description                   = smith1 DIGITAL+  http://multics.info N: newcamd-server.zapto.org 2288 satopen skyitaliaa23 01 02 03 04 05 06 07 08 09 10 11 12 13 14 okkkkkkkk
+protocol                      = newcamd
+device                        = newcamd-server.zapto.org,2288
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = skyitaliaa23
+caid                          = 1810
+group                         = 2
+dropbadcws                    = 1
+
+
+[reader]
+label                         = DIGITAL+-mikay.dyndns.tv
+description                   = baghera  D+es full hd N: mikay.dyndns.tv 22207 satopen satopenskyit 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKKK
+protocol                      = newcamd
+device                        = mikay.dyndns.tv,22207
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = satopenskyit
+caid                          = 1810
+group                         = 2
+dropbadcws                    = 1
+
+[reader]
+label                         = DIGITAL+-d1.no-ip.net
+description                   = majidos digital+ http://multics.info N: d1.no-ip.net 18177 satopen ggdgsss 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKKKKKKKKK
+protocol                      = newcamd
+device                        = d1.no-ip.net,18177
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = ggdgsss
+caid                          = 1810
+group                         = 2
+dropbadcws                    = 1
+
+
+[reader]
+label                         = DIGITAL+-harbil.dyndns.org
+description                   = aouamed http://multics.info/ N: harbil.dyndns.org 5090 satopen satopen 01 02 03 04 05 06 07 08 09 10 11 12 13 14 #DIGITAL+ OKKKKKK
+protocol                      = newcamd
+device                        = harbil.dyndns.org,5090
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = satopen
+caid                          = 1810
+group                         = 2
+dropbadcws                    = 1
+
+
+[reader]
+label                         = DIGITAL+-cambiosam.zapto.org
+description                   = batatatomat http://sat-sharing.us digital+ spain C: cambiosam.zapto.org 15003 intercam26 ca4fffqsz
+protocol                      = cccam
+device                        = cambiosam.zapto.org,15003
+user                          = intercam26
+password                      = ca4fffqsz
+inactivitytimeout             = 30
+group                         = 2
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+[reader]
+label                         = DIGITAL+-a1best.dyndns.tv
+description                   = sasodaniel http://sat-sharing.us DIGITAL+ C: a1best.dyndns.tv 12000 speakthesat speakthesat
+protocol                      = cccam
+device                        = a1best.dyndns.tv,12000
+user                          = speakthesat
+password                      = speakthesat
+inactivitytimeout             = 30
+group                         = 2
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+[reader]
+label                         = SKYDE-elicottero.ddns.net
+description                   = lino57 C: elicottero.ddns.net 13000 speakthesat skyit  http://sat-sharing.us SKY DE REDLIGHT OKKKKKKKKKKKKKKKKKKKKKK
+protocol                      = cccam
+device                        = elicottero.ddns.net,13000
+user                          = speakthesat
+password                      = skyit
+inactivitytimeout             = 30
+group                         = 3
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+
+[reader]
+label                         = SKYDE-rokis1.dyndns.org
+description                   = cheetah http://multics.info/ digital+ spain N: rokis1.dyndns.org 5112 satopen sdljgna 
+protocol                      = newcamd
+device                        = rokis1.dyndns.org,5112
+key                           = a1c2f304050607c50910111213145B
+user                          = satopen
+password                      = multics.info
+group                         = 3
+caid                          = 1702
+dropbadcws                    = 1
+
+[reader]
+label                         = SKYDE-gangy.serveminecraft.net
+description                   = sunrise  local sky DE & M/SCT & Redlight da http://www.cardsharing.ws/ C: gangy.serveminecraft.net 2500 speakthesat lkjhcdxg
+protocol                      = newcamd
+device                        = gangy.serveminecraft.net,2500
+key                           = a1c2f304050607c50910111213145B
+user                          = speakthesat
+password                      = lkjhcdxg
+group                         = 3
+caid                          = 1702
+dropbadcws                    = 1
+
+
+
+
+
+[reader]
+label                         = SKYDE-rrumbus.hopto.org
+description                   = N: rrumbus.hopto.org 20233 satopen AQSucnc7 01 02 03 04 05 06 07 08 09 10 11 12 13 14 #TRING e SKY DE NDS OKKKKKK
+protocol                      = newcamd
+device                        = rrumbus.hopto.org,20233
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = AQSucnc7
+group                         = 3
+caid                          = 1702
+dropbadcws                    = 1
+
+
+
+[reader]
+label                         = SKYDE-3276.gotdns.com
+description                   = mcs4a Sky de 1702 + D+ Espania + Tring multics N: 3276.gotdns.com 2045 satopen 45dwed8 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OK OKKKKKK
+protocol                      = newcamd
+device                        = 3276.gotdns.com,2045
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = 45dwed8 
+group                         = 3
+caid                          = 1702
+dropbadcws                    = 1
+
+
+
+
+[reader]
+label                         = TIVUSAT-bionda.ddns.net
+description                   = mini56 C: bionda.ddns.net 12000 speakth skyitaly  http://sat-sharing.us TIVUSAT hdplus1830 OKKKKKKKKKKKKKKKKKKKKKK
+protocol                      = cccam
+device                        = bionda.ddns.net,12000
+user                          = speakth
+password                      = skyitaly
+inactivitytimeout             = 30
+group                         = 4
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+
+[reader]
+label                         = CANALDIGITAL-freehost.hobby-site.com
+description                   = cire1967 http://sat-sharing.us CANALDIGITAL C: freehost.hobby-site.com 14550 user250_speakthesat 25698hdgft
+protocol                      = cccam
+device                        = freehost.hobby-site.com,14550
+user                          = user250_speakthesat
+password                      = 25698hdgft
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+
+[reader]
+label                         = POLSAT-freehost.hobby-site.com
+description                   = WYSZKOW http://sat-sharing.us POLSAT c: dream8000hdplus.dyndns.org 4000 speak thesatit
+protocol                      = cccam
+device                        = dream8000hdplus.dyndns.org,4000
+user                          = speak 
+password                      = thesatit
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+
+
+[reader]
+label                         = POLSAT-mm44.dyndns.org
+description                   = mitkor http://sat-sharing.us POLSAT C: mm44.dyndns.org 21000 speakthesat speakthesat OKKKKK
+protocol                      = cccam
+device                        = mm44.dyndns.org,21000
+user                          = speakthesat
+password                      = speakthesat
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+[reader]
+label                         = VARIE-oscam2015.gotdns.ch
+description                   = kipps1986 http://sat-sharing.us C: oscam2015.gotdns.ch 13000 opz sat-sharing
+protocol                      = cccam
+device                        = oscam2015.gotdns.ch,13000
+user                          = opz
+password                      = sat-sharing
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+
+[reader]
+label                         = VARIE-funfilescccam2011.dyndns-home.com
+description                   = kivenhd MULTISAT da  http://sat-sharing.us C: funfilescccam2011.dyndns-home.com 22000 speakthesat1 speakthesat2 OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+protocol                      = cccam
+device                        = funfilescccam2011.dyndns-home.com,22000
+user                          = speakthesat1
+password                      = speakthesat2
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+[reader]
+label                         = ZON-arronches.ath.cx
+description                   = molhopicante http://www.cardsharing.ws zon C: arronches.ath.cx 12000 satopen BWGTFT2J5209
+protocol                      = cccam
+device                        = arronches.ath.cx,12000
+user                          = satopen
+password                      = BWGTFT2J5209
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+[reader]
+label                         = MEO-tacuara.dyndns.info
+description                   = pierre77 http://sat-sharing.us meo C: tacuara.dyndns.info 12000 CSspeakthesat speakthesatCS
+protocol                      = cccam
+device                        = tacuara.dyndns.info,12000
+user                          = CSspeakthesat
+password                      = speakthesatCS
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+[reader]
+label                         = MEO-cs-server2.mine.nu
+description                   = penryj http://sat-sharing.us meo C: cs-server2.mine.nu 55001 Viernes058 jul2014 no
+protocol                      = cccam
+device                        = cs-server2.mine.nu,55001
+user                          = Viernes058
+password                      = jul2014
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+[reader]
+label                         = DIGI-fifieasy.dyndns.tv 
+description                   = easyyu http://www.cardsharing.ws Digi Hu full 2x UPC Full HD CZ+HUN C: fifieasy.dyndns.tv 13000 speakthesat cardsharing.ws_1882014 no
+protocol                      = cccam
+device                        = fifieasy.dyndns.tv,13000
+user                          = cardsharing.ws_1882014
+password                      = jul2014
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+[reader]
+label                         = MEO-cameu.dyndns.tv
+description                   = moicas3004 http://www.cardsharing.ws meo N: cameu.dyndns.tv 8016 sharesky 387832jfh 01 02 03 04 05 06 07 08 09 10 11 12 13 14
+protocol                      = newcamd
+device                        = cameu.dyndns.tv,8016
+user                          = sharesky
+password                      = 387832jfh
+key                           = 0102030405060708091011121314
+inactivitytimeout             = 30
+group                         = 30
+caid                          = 0100
+dropbadcws                    = 1
+
+
+[reader]
+label                         = CSAT-satpower.no-ip.org
+description                   = garden77 csat full hd http://sat-sharing.us C: satpower.no-ip.org 18088 speakthesat4 skyprima4 no OKKKKK
+protocol                      = cccam
+device                        = satpower.no-ip.org,18088
+user                          = speakthesat4
+password                      = skyprima4
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+[reader]
+label                         = CSAT-share4u2020.from-nd.com
+description                   = gseret csat full hd http://sat-sharing.us N: share4u2020.from-nd.com 10044 speakthesat canalfr 01...14 OKKKKK
+protocol                      = cccam
+device                        = share4u2020.from-nd.com,10044
+user                          = speakthesat
+password                      = canalfr
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+[reader]
+label                         = CYFRA-franczesko.zapto.org
+description                   = miscardasd http://sat-sharing.us CYFRA C:franczesko.zapto.org 9999 speAkk dfttttghy OKKKKK
+protocol                      = cccam
+device                        = sfranczesko.zapto.org,9999
+user                          = speAkk
+password                      = dfttttghy
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+[reader]
+label                         = CYFRA-msi.mine.nu
+description                   = MSI C: msi.mine.nu 14336 speakthesat speakthesatttt no  http://sat-sharing.us CYFRA OKKKKKKKKKKKKKKKKKKKKKK
+protocol                      = cccam
+device                        = msi.mine.nu,14336
+user                          = speakthesat
+password                      = speakthesatttt
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+[reader]
+label                         = ADULT-bozacixx.dyndns.info
+description                   = bozacixx C: bozacixx.dyndns.info 15500 DRE460 PGFHGFH caid:1843,d05 xxx  http://sat-sharing.us OKKKKKKKKKKKKKKKK
+protocol                      = cccam
+device                        = bozacixx.dyndns.info,15500
+user                          = DRE460
+password                      = PGFHGFH
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+[reader]
+label                         = ADULT-simon611.dyndns.org
+description                   = johnco8487 da skype x porno  c: simon611.dyndns.org 44500 speaksat20 speaksat21  OKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+protocol                      = cccam
+device                        = simon611.dyndns.org,44500
+user                          = speaksat20
+password                      = speaksat21
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+[reader]
+label                         = HD+-miky10.dnsdojo.org
+description                   = mesi da  HD+ GERMANY http://sat-sharing.us C: miky10.dnsdojo.org 12000 SATOPEN TIVUsat no
+protocol                      = cccam
+device                        = miky10.dnsdojo.org,1200
+user                          = SATOPEN
+password                      = TIVUsat
+inactivitytimeout             = 30
+group                         = 30
+cccversion                    = 2.1.3
+dropbadcws                    = 1
+
+
+
+[reader]
+label                         = ADULT-slicks.webhop.me
+description                   = bananna N: slicks.webhop.me 15000 speakthesat skyitaly 01 02 03 04 05 06 07 08 09 10 11 12 13 14  http://sat-sharing.us ADULT OKKKKK
+protocol                      = newcamd
+device                        = slicks.webhop.me,15000
+key                           = 0102030405060708091011121314
+user                          = speakthesat
+password                      = skyitaly
+inactivitytimeout             = 30
+group                         = 1
+caid = 0500
+dropbadcws                    = 1
+
+[reader]
+label                         = ADULT-anymore.no-ip.org
+description                   = hornac adulti http://multics.info/ N: anymore.no-ip.org 33002 speakthesat skypr58 01 02 03 04 05 06 07 08 09 10 11 12 13 14 OKKKKKKKKKKKKKK
+protocol                      = newcamd
+device                        = anymore.no-ip.org,33002
+key                           = 0102030405060708091011121314
+user                          = speakthesat
+password                      = skypr58
+inactivitytimeout             = 30
+group                         = 1
+caid = 0500
+dropbadcws                    = 1
+
+
+
+[reader]
+label                         = MEO-slicks.webhop.me
+description                   = jaime-dias-l  skype MEO N: server1.dreamclube.com 20802 satopen weTdfFDgg 01 02 03 04 05 06 07 08 09 10 11 12 13 14 #mEO
+protocol                      = newcamd
+device                        = server1.dreamclube.com,20802 
+key                           = 0102030405060708091011121314
+user                          = satopen
+password                      = weTdfFDgg
+inactivitytimeout             = 30
+group                         = 1
+caid = 0100
+dropbadcws                    = 1
+
+
+
+

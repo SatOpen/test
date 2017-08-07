@@ -1,0 +1,139 @@
+# oscam.services generated automatically by Streamboard OSCAM 1.20-unstable_svn SVN r1066
+# Read more: http://www.streamboard.tv/svn/oscam/trunk/Distribution/doc/txt/oscam.services.txt
+
+[sky_blocked]
+caid = 09CD,0919,093B
+provid=000000
+srvid=2d04,2c32,2c75,2c77,2c76,37a9,1e5d,1c38,106a,2b18,2b16,0dec,2cf4,1c57,2c45,2c46,106c,1c3f,104a,2d02,1015,2b13,1c32,1020,2d03,2c2b,2c26,3315,1036,2cf2,0dc4,379e,379d,0db8,2d0b,1e4f,0db7,3454,0dca,0db9,2c39,2c6b,2508,0015,0001,0dba,0dbb,379c,2c3d,2c43,0f54,2509,2504,1e60,0f4c,0f71,1e5b,108b,108f,0f72,37d2,2c4d,2c4c,0f53,250c,4224,000a,1037,2b42,2b43,2d00,3792,0f4d,0f6f,1089,108a,0f46,0f48,1e5f,1e5c,2b0f,2b11,2b12,2b10,1c50,1c34,2b1b,2b1c,2b20,2b1d,2506,250b,1c40,1c3e,1c29,0dbf,0dcc,0dc1,37ba,2505,2c2d,2c52
+
+[Canalsat]
+caid				= 0500,0100
+provid				=
+srvid				=  
+7A4D,7AB1,10EA,189D,189E,18A0,18B1,18B2,18B4,2135,2136,2137,2138,2139,213A,213B,213C,213D,275F,2761,6F73,6F86,6F87,1F41,1F42,1F43,1F44,1F46,1F47,1F48,1F49,1F4A,2009,200A,200B,200C,200D,200E,200F,2010,2011,2012,2013,201D,2020,2031,22C5,22C6,22C7,22C8,22C9,22CA,22CB,22CC,22CD,2261,2262,2263,2264,2265,2266,2267,2268,2269,24B9,24BA,24BB,24BC,24BD,24BE,24BF,24C0,24C1,24C2,26AD,26AE,26AF,26B0,26B1,26B2,26B3,26B4,26B5,2455,2456,2457,2458,2459,245A,245B,245C,245D,2329,232A,232B,232C,232D,232E,232F,2330,19C9,19CA,19CB,19CC,19CD,19CE,19CF,19D0,19D1,19D2,427C,427D,427E,427F,4280,4281,4282,4286,4287,428B,429E,219A,219B,21FD,21FE,21FF,2200,2201,2202,2203,2204,2205,1965,1966,1967,1968,1969,196A,196B,196C,196D,196E,23F1,23F2,23F3,23F4,23F5,23F6,23F7,23F8,2F6C,2F6D,2581,2582,2583,2584,2585,2586,2587,2588,20D1,20D2,20D3,20D4,20D5,20D6,20D7,20D8,251D,251E,251F,2520,2521,2522,2523,2524,2649,264A,264B,264C,264D,264E,264F,2650,2651,2652,2653,2654,2655,2656,2657,2658,2659,265A,265B,265C,265D,265E,265F,2660,2135,2136,2137,2138,2139,213A
+
+
+
+[adult]
+caid				= 0500
+provid				=
+srvid				= 364C,4223,4224,4225,000A,35C0,35C1,35C2,35C3,35C4,35C6,35C7,35C8,1360,1361,0833,128F,1299,129A,364C,1251,0832,0833,000A,0014,001E,000A,35C0,35C1,35C2,35C4,35C3,35C6,35C7,35C7
+
+[srgssr]
+caid                          = 0500
+provid                        = 050800,050810,FFF430,023800,040810,040820,040830
+srvid                         = 038F,0385,4331,038B,4332,36B8,4334,36B2,4333,36B3,36E3,36B9,03B7,1260,038F,0385,4331,038B,4332,36B8,4334,36B2,4333,36B3,36E3,36B9,03B7,1260
+
+
+[calcio_mediaset]
+caid                          = 1805
+provid                        = 008C11,008D11,000000,007911,007a11
+srvid                         = 0C44,0078,0C43,0065,0066,0067,0068,0069,006A,006B,1FAC,0C3F,0C40
+
+[calcio_skyde]
+caid                          = 1702,098C,094c
+provid                        = 000000
+srvid                         = 0069,010b,0115,00df,011f,0129,0133,0110,011a,0124,012e,0138,0142,014c,00fc,0106
+
+
+[mediaset]
+caid                          = 1805,1804,1802,1803
+provid                        = 008C11,008D11,000000,007911,007a11
+srvid                         = 0001,0002,0003,0004,0005,0006,0007,04E3,04E4,0FA4,0FA5,0FA6,14B9,14DC,0083,0084,0096,0076,0092,009A,0080,006F,0070,0097,0086,0077,0078,0FAD,0017,0FAB,14BF,0065,006C,14DB,0066,0067,0068,0069,006A,006B,00B3,0015,0085,006D,00A0,009E,009D,0091,0093,0FAE,0099,008F,008D,008E,0075,14B5,14DD,00BD,0081,09D9,09DA,09D3,13FB,1BD1,007A,1FC5
+
+
+[cinema]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2B5D,2DCA,2B63,2DCC,2B61,2B73,2DCD,2B6B,2DC3,1FC9,2B65
+
+[intrat]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2DC6,2A97,0584,1FBA,0FBD,0FD5,0FCA,1FC5,0FC2,0FD6,1FCB,0FC1,0FD7,1FC8,05A3,2BA3,2B60,0E47,2C91,3902,1018,2B66,057C,38C5,3C03,0585,2CF3,10E4,05BD,3BCA,2BCD,2C37,2CC2,2BAC
+
+[generalisti]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 057F,2DE8,2DE9
+
+[sport]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2AB1,2AA8,2AA9,2DC0,3311,331D,2DB9,2BC7,2CB5,2DD2,2C55,110C,06B0,064B,2D5A,2D5C,2504,2509,250D,250E,2AA2
+
+[calcio]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2E0A,2AAA,2DBA,2AAD,2BCF,2BD1,2BD3,2BD5,2BD7,2BD9,2D56,2D5D,2D5F,2D61,2D62,2D63,2C2F,2AAB,2AAC,2AB7,1C3B,0F5A,2B17
+
+[formula1]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2D5A,2D5C,2504,2509,250D,250E
+
+[motogp]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2AA2
+
+[cultu]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 0E39,0FDA,1FBE,2B71,2C3A,05BB,0E41,0E4B,0E2B,0E50,2C90,1FCF,0FD9,1FCC,3C01,1101,1FAF
+
+[music]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 0E24,0594,2DBD,0595,2DBC,0593,2C28,0E2A,3BCD,3BE5,058C
+
+[ragaz]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2C63,2C67,2C69,2B6E,2C8B,2B6A,3BCB,2CBD,2C8D,2CBE,2B7C,3BC5,3BCC,2C5B,3C07,2C4F,2C38,38C4,0590,0FC6,0FF5,3450,0FDE,2C2E,2C31,2CC4,0FBF,3452,2C9D,2CCA,2C9A
+
+[notizie]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 110A,10E8,10EC,10EA,10E9,10E7,10E1,3A0B,0599,2BCB,1FA7,38D0,1FAC
+
+[shopping]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2DC8,0FE0,0FDC,0FE2,2DEA,2DD3,2DE3,2DEC,0FCF,0FCE,0FDD,0FE1,0FD0,0FD1,0FDF,2DC5,2DEB
+
+[servizio]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 1041,1042,1043,1044,2DC7,2B20,2B1D,2AB8,2ABA,2A96,2A9A,2A9D,37AB,2B12,2AB0,1C3E,2AAF,2A98,2A9F,2510,2517,2511,2B43,0DC1,0DCC,1123,10FC,10E3,1113
+
+[test]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 1084,1E50,2B21,2B22,2B25,2DBB,2BD6,0DBE,0DC9,0DC6,1C3A,1C3C,0F43,2D8C,0E52,2AB9,2ABB,2BBA,342C,2503,253B,0F4B,0F53,0F54,37A0,1C7E,1FC6
+
+[promo]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 0FA1,38C0,38C2,38CB,2C45,2C46,2C41,2C60,2C39,2C6B,2C2D,2C52,2C76,2C77,2C26,2C2B,2C32,2C75,2C3D,2C43,2C4C,2C4D
+
+[primafila]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 1FBC,1FBD,2BD0,38BF,2BCC,38E0,2BCE,38E1,2D65,340D,2BCA,3400,2BC5,3402,2BC3,3405,2D57,2D53,2D51,2D54,2D55,2DBF,38FA,38C8,3421,3427,3422,3423,341E,38C9
+
+[radio]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 3BEB,3C06,3BEA,3BE9,3BFE,3BFF,3BE8,3C11,3C19,2B7B,3C18,3C0C,3C1A,3C15,3C0A,3BEC,3C12,3C13,3C0E,38D2,3C17,38D8,38D3,38DA,38D5,38D1,38D9,38D6,38DC,38DB,3C0D,3C0F,3C10,38D7,3C16,3C14,3C00,38D4,3BE6,3BED,38CC,0E4D,0E4F,0E51,2BAD
+
+[sky-tv]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 2DC6,2A97,0584,1FBA,0FBD,0FD5,1FC5,0FC2,0FD6,1FCB,0FC1,0FD7,1FC8,05A3,2BA3,2B60,057F,2C91,3902,1018,2B66,057C,38C5,3C03,0585,2CF3,10E4,05BD,0E47,3BCA,2BCD,2C37,2CC2,2AB1,2CB5,05B9,1FCC,3C01,0E4B,1FAF,1C5C,0E24,0E2A,3452,2C2E,110A,10E8,10EC,10EA,10E9,10E7,10E1,3A0B,0599,2BCB,1FA7,38D0,0000
+
+[primafila_hot]
+caid                          = 09CD,093B,0919
+provid                        = 000000
+srvid                         = 38FA,38C8,3421,3427,3422,3423,341E,38C9
+

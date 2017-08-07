@@ -1,0 +1,51 @@
+body {font-family: Tahoma; color: white;font-size: 14; BACKGROUND: url(http://img0.cfstatic.com/wallpapers/82208bcd3c422c7c3d16af88848550d8_large.jpeg) fixed;}
+a { font-family: Tahoma; font-size: 12; }
+a:link { text-decoration: none; color: #6C13A0; }
+a:visited { text-decoration: none; color: #3D14EC; }
+a:hover { text-decoration: none; color: #FF0000; }
+a:active { text-decoration: none; color: #3300FF; }
+td { border-width: 0px; font-family: Tahoma; font-size: 11; padding: 2px 5px 1px 5px; }
+textarea { border:1px solid #999999; width:100%; height:81%; margin:5px 0; padding:3px; }
+div.outer { position: relative; width: 100%; } div.right { width: 100%; margin-left: 50%; } div.top,div.bottom { position: absolute; width: 50%; } div.top { top: 0; } div.bottom { bottom: 0; }
+fieldset { color: white !important;      font-size: 10px;      background-color: rgba(34, 4, 54, 0.61); -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; }
+pre { color: white !important; }
+.menu { padding: 3px; width:100%; color: white; height: 22px;           background: #4A3D5F;                -moz-box-shadow: inset rgba(0,0,0,0.6) 0px 1px 5px,rgba(255,255,255,0.08) 0px -1px 0px,rgba(0,0,0,0.3) 0px 1px 4px;      -khtml-box-shadow: inset rgba(0,0,0,0.6) 0px 1px 5px,rgba(255,255,255,0.08) 0px -1px 0px,rgba(0,0,0,0.3) 0px 1px 4px;      box-shadow: inset rgba(0,0,0,0.6) 0px 1px 5px,rgba(255,255,255,0.08) 0px -1px 0px,rgba(0,0,0,0.3) 0px 1px 4px;}
+.menu ul { margin:0px; padding:0px; }
+.menu li { list-style-type: none; float:left; border-right: 1px solid #777; }
+.menu li a { float: left; color: #FFF; padding: 3px 16px; margin: 0 2px 0 1px; text-decoration: none; font: 900 14px Arial,Helvetica,sans-serif; }
+.menu a.selected { color: #C887FB; }
+.menu a.disabled { color:#f00; }
+.menu li a:hover { color: #4A3D5F; text-decoration: none; background-color: #FFFFFF; }
+input, textarea, select { color: #BBA5FF; background-color: rgba(21, 2, 39, 0.67); padding:3px; border:1px solid ##006; border-radius:5px; box-shadow: 1px 1px 2px rgba(134, 46, 243, 0.72) inset; }
+input, select { margin: 5px 1px; background: #4A3D5F; color: white;}
+input:hover, select:hover { background: #FDFDFD; color: #4A3D5F;}
+.sbutton { font-weight:bolder; }
+.option th, .option td { font-family : Arial,sans-serif; font-size: 10; background : #efe none; color : #630; }
+.infomenu { border-width: 0px; background-color: whitesmoke; font-family: Tahoma; font-size: 14; }
+.infomenu td { border-width: 0px; font-family: Tahoma; font-size: 14; padding: 0px 0px; }
+.maintable { font: 10px Verdana, Arial, Helvetica, sans-serif; border-collapse: collapse; }
+.maintable th { padding: 3px; text-align: left; border-top: 1px solid #6031CE; border-bottom: 1px solid #6031CE; background: #7744CE; }
+.maintable tr:hover { background-color: #ebf2fb; }
+.maintable a { font-size: 11; font-weight:bolder; }
+.maintable td { font-family: Tahoma; color: #380582; font-size: 11; border-bottom: 1px solid #CCC; padding: 3px; }
+.maintable td+td, .maintable th+th { border-left: 1px solid #CCC; }
+.alt1 { background-color: #FFFFFF; }
+.alt2 { background-color: #FAF8FA; }
+.alt3 { background-color: #E4EAE4; }
+.success { color: #347C17; }
+.failed { color: #71123C; }
+.busy { background-color: #99bb00; text-align: center; }
+.online { background-color: #66F822; text-align: center; }
+.offline { background-color: #300C44; text-align: center; color: red !important;}
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+.online:hover .connect_data, .offline:hover .connect_data, .busy:hover .connect_data { visibility: visible; }
+.connect_data { border-collapse: collapse; padding: 0px; margin: -1px 0px 0px 55px; position: absolute; visibility: hidden; border: 1px solid #000; font-size: 8; background : #969 none; color : #000; }
+.connect_data td { background-color: #ebf2fb;border-bottom: 1px solid #777; padding: 0px 10px; }
+.infotable { width:100%; border: 1px solid black; margin: 0px 0px; font: 12px Verdana, Arial, Helvetica, sans-serif; border-collapse: collapse; }
+.infotable th { padding:3px; font-size: 10px; text-align: center; background-color: #708090; }
+.infotable tr:hover { background-color: #f2ebfb; }
+.infotable a { font-size: 10; font-weight:bolder; }
+.infotable td { font-size:10px; border-bottom: 1px solid #CCC; padding: 3px; margin: 3px; }
+.infotable .left { text-transform:uppercase; font-weight:bolder; }

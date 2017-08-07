@@ -1,0 +1,93 @@
+[account]
+user = SKYITA-speaksat
+pwd = speaksat
+description = speaksat 127.0.0.1 10013
+caid=09cd
+uniq = 1
+sleep = 600
+group=1
+service=!sky_blocked,!promo
+
+
+[account]
+user                          = CLI-90PSjMR
+pwd                           = PWD-OugOjFR
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-Drz0n4P
+pwd                           = PWD-s6DhR74
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot,calcio
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-h6dwN2A
+pwd                           = PWD-kxu48M0
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-AG57P4r
+pwd                           = PWD-ss3u8fI
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-42crL5N
+pwd                           = PWD-o6p55yt
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-FbTCOwZ
+pwd                           = PWD-RMC9sqh
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-10-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3
+
+
+[account]
+user                          = CLI-qplCkLU
+pwd                           = PWD-vr33foV
+description                   = napule89@gmail.com 514801058
+caid                          = 09CD,0963,0100,1810,1702,098C,0500,1805,183D,1830,1843,1830
+uniq                          = 1
+expdate                       = 2015-12-16
+group                         = 1,4,25,50
+services                      = !sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot
+cccmaxhops                    = 3

@@ -1,0 +1,385 @@
+
+-------------------------------------------------------------------------------
+>> OSCam <<  cardserver log switched at Sun Mar 19 08:22:38 2017
+-------------------------------------------------------------------------------
+2017/03/19 08:22:38 00000000 s >> OSCam <<  cardserver log switched, version 1.20-unstable_svn, build r10991 (x86_64-linux-gnu-ssl)
+2017/03/19 08:22:38 00000000 s     (main) System name    = Linux
+2017/03/19 08:22:38 00000000 s     (main) Host name      = n3032559.ovh.host
+2017/03/19 08:22:38 00000000 s     (main) Release        = 3.14.32-xxxx-grs-ipv6-64
+2017/03/19 08:22:38 00000000 s     (main) Version        = #7 SMP Wed Jan 27 18:05:09 CET 2016
+2017/03/19 08:22:38 00000000 s     (main) Machine        = x86_64
+2017/03/19 08:22:38 00000000 s     (main) creating pidfile /tmp/.oscam/oscam.pid with pid 1966
+2017/03/19 08:22:38 00000000 s   (config) services reloaded: 0 services freed, 51 services loaded, rejected 0
+2017/03/19 08:22:38 00000000 s   (config) userdb reloaded: 8 accounts loaded, 7 expired, 0 disabled
+2017/03/19 08:22:38 00000000 s     (main) signal handling initialized
+2017/03/19 08:22:38 00000000 s      (net) newcamd: initialized (fd=5, port=49999)
+2017/03/19 08:22:38 00000000 s      (net) -> CAID: 0919 PROVID: 000000
+2017/03/19 08:22:38 00000000 s      (net) cccam: initialized (fd=6, port=19959)
+2017/03/19 08:22:38 00000000 s   (reader) test [cccam] creating thread for device 5.189.190.99
+2017/03/19 08:22:38 00000000 s   (reader) cccam [cccam] creating thread for device opensat2.dyndns.org
+2017/03/19 08:22:38 00000000 s     (stat) loadbalancer: could not open /usr/local/etc/stat3 for reading (errno=2 No such file or directory)
+2017/03/19 08:22:38 00000000 s     (main) waiting for local card init
+2017/03/19 08:22:38 215242DB p   (reader) 5.189.190.99: resolved ip=5.189.190.99
+2017/03/19 08:22:38 215242DB p   (reader) test [cccam] connecting to 5.189.190.99:23000
+2017/03/19 08:22:38 35895D52 h    (webif) webif: decompressed 164180 bytes back into 392496 bytes
+2017/03/19 08:22:38 35895D52 h    (webif) HTTP Server running. ip=0.0.0.0 port=55100
+2017/03/19 08:22:38 00000000 s     (main) init for all local cards done
+2017/03/19 08:22:38 00000000 s (emmcache) loading emmcache disabled since no reader is using it!
+2017/03/19 08:22:38 00000000 s (emmcache) loading emmstats disabled since no reader is using it!
+2017/03/19 08:22:38 00000000 s (anticasc) anti cascading disabled
+2017/03/19 08:22:38 3E583CB2 c   (client) plain dvbapi-client granted (anonymous, au=off)
+2017/03/19 08:22:38 3E583CB2 c   (dvbapi) dvbapi channelcache loaded from /usr/local/etc/conf3/oscam.ccache
+2017/03/19 08:22:38 3E583CB2 c   (dvbapi) ERROR: Could not detect DVBAPI version.
+2017/03/19 08:22:39 2D809919 p      (net) can't resolve opensat2.dyndns.org, error: Name or service not known
+2017/03/19 08:22:39 2D809919 p   (reader) cccam [cccam] proxy initialized, server opensat2.dyndns.org:10002
+2017/03/19 08:22:41 215242DB p   (reader) test [cccam] connect failed: Connection timed out
+2017/03/19 08:22:41 215242DB p   (reader) test [cccam] proxy initialized, server 5.189.190.99:23000
+2017/03/20 08:20:06 35895D52 h    (webif) HTTP Server stopped
+2017/03/20 08:20:06 00000000 s   (dvbapi) dvbapi channelcache saved to /usr/local/etc/conf3/oscam.ccache
+2017/03/20 08:20:06 00000000 s (emmcache) saving emmcache disabled since no reader is using it!
+2017/03/20 08:20:06 00000000 s (emmcache) saving emmstats disabled since no reader is using it!
+2017/03/20 08:20:06 00000000 s   (client) killing client 
+2017/03/20 08:20:06 00000000 s   (reader) test [cccam] Killing reader
+2017/03/20 08:20:06 00000000 s   (reader) cccam [cccam] Killing reader
+2017/03/20 08:20:06 00000000 s   (config) userdb 8 accounts freed
+2017/03/20 08:20:06 00000000 s   (config) readerdb 3 readers freed
+2017/03/20 08:20:06 00000000 s     (main) cardserver down
+
+-------------------------------------------------------------------------------
+>> OSCam <<  cardserver log switched at Mon Mar 20 08:23:07 2017
+-------------------------------------------------------------------------------
+2017/03/20 08:23:07 00000000 s >> OSCam <<  cardserver log switched, version 1.20-unstable_svn, build r10991 (x86_64-linux-gnu-ssl)
+2017/03/20 08:23:07 00000000 s     (main) System name    = Linux
+2017/03/20 08:23:07 00000000 s     (main) Host name      = n3032559.ovh.host
+2017/03/20 08:23:07 00000000 s     (main) Release        = 3.14.32-xxxx-grs-ipv6-64
+2017/03/20 08:23:07 00000000 s     (main) Version        = #7 SMP Wed Jan 27 18:05:09 CET 2016
+2017/03/20 08:23:07 00000000 s     (main) Machine        = x86_64
+2017/03/20 08:23:07 00000000 s     (main) creating pidfile /tmp/.oscam/oscam.pid with pid 1983
+2017/03/20 08:23:07 00000000 s   (config) services reloaded: 0 services freed, 51 services loaded, rejected 0
+2017/03/20 08:23:07 00000000 s   (config) userdb reloaded: 8 accounts loaded, 7 expired, 0 disabled
+2017/03/20 08:23:07 00000000 s     (main) signal handling initialized
+2017/03/20 08:23:07 00000000 s      (net) newcamd: initialized (fd=5, port=49999)
+2017/03/20 08:23:07 00000000 s      (net) -> CAID: 0919 PROVID: 000000
+2017/03/20 08:23:07 00000000 s      (net) cccam: initialized (fd=6, port=19959)
+2017/03/20 08:23:07 00000000 s   (reader) test [cccam] creating thread for device 5.189.190.99
+2017/03/20 08:23:07 00000000 s   (reader) cccam [cccam] creating thread for device opensat2.dyndns.org
+2017/03/20 08:23:07 00000000 s     (stat) loadbalancer: could not open /usr/local/etc/stat3 for reading (errno=2 No such file or directory)
+2017/03/20 08:23:07 00000000 s     (main) waiting for local card init
+2017/03/20 08:23:07 02196FBF p   (reader) 5.189.190.99: resolved ip=5.189.190.99
+2017/03/20 08:23:07 02196FBF p   (reader) test [cccam] connecting to 5.189.190.99:23000
+2017/03/20 08:23:07 44F2F6B6 h    (webif) webif: decompressed 164180 bytes back into 392496 bytes
+2017/03/20 08:23:07 44F2F6B6 h    (webif) HTTP Server running. ip=0.0.0.0 port=55100
+2017/03/20 08:23:07 00000000 s     (main) init for all local cards done
+2017/03/20 08:23:07 00000000 s (emmcache) loading emmcache disabled since no reader is using it!
+2017/03/20 08:23:07 00000000 s (emmcache) loading emmstats disabled since no reader is using it!
+2017/03/20 08:23:07 00000000 s (anticasc) anti cascading disabled
+2017/03/20 08:23:07 24DB6248 c   (client) plain dvbapi-client granted (anonymous, au=off)
+2017/03/20 08:23:07 24DB6248 c   (dvbapi) dvbapi channelcache loaded from /usr/local/etc/conf3/oscam.ccache
+2017/03/20 08:23:07 24DB6248 c   (dvbapi) ERROR: Could not detect DVBAPI version.
+2017/03/20 08:23:07 7D0B077B p      (net) can't resolve opensat2.dyndns.org, error: Name or service not known
+2017/03/20 08:23:07 7D0B077B p   (reader) cccam [cccam] proxy initialized, server opensat2.dyndns.org:10002
+2017/03/20 08:23:10 02196FBF p   (reader) test [cccam] connect failed: Connection timed out
+2017/03/20 08:23:10 02196FBF p   (reader) test [cccam] proxy initialized, server 5.189.190.99:23000
+2017/03/21 08:20:03 00000000 s   (dvbapi) dvbapi channelcache saved to /usr/local/etc/conf3/oscam.ccache
+2017/03/21 08:20:03 00000000 s (emmcache) saving emmcache disabled since no reader is using it!
+2017/03/21 08:20:03 00000000 s (emmcache) saving emmstats disabled since no reader is using it!
+2017/03/21 08:20:03 00000000 s   (client) killing client 
+2017/03/21 08:20:03 00000000 s   (reader) test [cccam] Killing reader
+2017/03/21 08:20:03 00000000 s   (reader) cccam [cccam] Killing reader
+2017/03/21 08:20:03 00000000 s   (config) userdb 8 accounts freed
+2017/03/21 08:20:03 00000000 s   (config) readerdb 3 readers freed
+2017/03/21 08:20:03 00000000 s     (main) cardserver down
+
+-------------------------------------------------------------------------------
+>> OSCam <<  cardserver log switched at Tue Mar 21 08:23:13 2017
+-------------------------------------------------------------------------------
+2017/03/21 08:23:13 00000000 s >> OSCam <<  cardserver log switched, version 1.20-unstable_svn, build r10991 (x86_64-linux-gnu-ssl)
+2017/03/21 08:23:13 00000000 s     (main) System name    = Linux
+2017/03/21 08:23:13 00000000 s     (main) Host name      = n3032559.ovh.host
+2017/03/21 08:23:13 00000000 s     (main) Release        = 3.14.32-xxxx-grs-ipv6-64
+2017/03/21 08:23:13 00000000 s     (main) Version        = #7 SMP Wed Jan 27 18:05:09 CET 2016
+2017/03/21 08:23:13 00000000 s     (main) Machine        = x86_64
+2017/03/21 08:23:13 00000000 s     (main) creating pidfile /tmp/.oscam/oscam.pid with pid 2025
+2017/03/21 08:23:13 00000000 s   (config) services reloaded: 0 services freed, 51 services loaded, rejected 0
+2017/03/21 08:23:13 00000000 s   (config) userdb reloaded: 8 accounts loaded, 7 expired, 0 disabled
+2017/03/21 08:23:13 00000000 s     (main) signal handling initialized
+2017/03/21 08:23:13 00000000 s      (net) newcamd: initialized (fd=5, port=49999)
+2017/03/21 08:23:13 00000000 s      (net) -> CAID: 0919 PROVID: 000000
+2017/03/21 08:23:13 00000000 s      (net) cccam: initialized (fd=6, port=19959)
+2017/03/21 08:23:13 00000000 s   (reader) test [cccam] creating thread for device 5.189.190.99
+2017/03/21 08:23:13 00000000 s   (reader) cccam [cccam] creating thread for device opensat2.dyndns.org
+2017/03/21 08:23:13 00000000 s     (stat) loadbalancer: could not open /usr/local/etc/stat3 for reading (errno=2 No such file or directory)
+2017/03/21 08:23:13 00000000 s     (main) waiting for local card init
+2017/03/21 08:23:13 326B7598 p   (reader) 5.189.190.99: resolved ip=5.189.190.99
+2017/03/21 08:23:13 326B7598 p   (reader) test [cccam] connecting to 5.189.190.99:23000
+2017/03/21 08:23:13 1ECE3DB4 h    (webif) webif: decompressed 164180 bytes back into 392496 bytes
+2017/03/21 08:23:13 1ECE3DB4 h    (webif) HTTP Server running. ip=0.0.0.0 port=55100
+2017/03/21 08:23:13 00000000 s     (main) init for all local cards done
+2017/03/21 08:23:13 00000000 s (emmcache) loading emmcache disabled since no reader is using it!
+2017/03/21 08:23:13 00000000 s (emmcache) loading emmstats disabled since no reader is using it!
+2017/03/21 08:23:13 00000000 s (anticasc) anti cascading disabled
+2017/03/21 08:23:13 05E00341 c   (client) plain dvbapi-client granted (anonymous, au=off)
+2017/03/21 08:23:13 05E00341 c   (dvbapi) dvbapi channelcache loaded from /usr/local/etc/conf3/oscam.ccache
+2017/03/21 08:23:13 05E00341 c   (dvbapi) ERROR: Could not detect DVBAPI version.
+2017/03/21 08:23:13 22177879 p      (net) can't resolve opensat2.dyndns.org, error: Name or service not known
+2017/03/21 08:23:13 22177879 p   (reader) cccam [cccam] proxy initialized, server opensat2.dyndns.org:10002
+2017/03/21 08:23:16 326B7598 p   (reader) test [cccam] connect failed: Connection timed out
+2017/03/21 08:23:16 326B7598 p   (reader) test [cccam] proxy initialized, server 5.189.190.99:23000
+
+-------------------------------------------------------------------------------
+>> OSCam <<  cardserver log switched at Wed Mar 22 08:23:10 2017
+-------------------------------------------------------------------------------
+2017/03/22 08:23:10 00000000 s >> OSCam <<  cardserver log switched, version 1.20-unstable_svn, build r10991 (x86_64-linux-gnu-ssl)
+2017/03/22 08:23:10 00000000 s     (main) System name    = Linux
+2017/03/22 08:23:10 00000000 s     (main) Host name      = n3032559.ovh.host
+2017/03/22 08:23:10 00000000 s     (main) Release        = 3.14.32-xxxx-grs-ipv6-64
+2017/03/22 08:23:10 00000000 s     (main) Version        = #7 SMP Wed Jan 27 18:05:09 CET 2016
+2017/03/22 08:23:10 00000000 s     (main) Machine        = x86_64
+2017/03/22 08:23:10 00000000 s     (main) creating pidfile /tmp/.oscam/oscam.pid with pid 1998
+2017/03/22 08:23:10 00000000 s   (config) services reloaded: 0 services freed, 51 services loaded, rejected 0
+2017/03/22 08:23:10 00000000 s   (config) userdb reloaded: 8 accounts loaded, 7 expired, 0 disabled
+2017/03/22 08:23:10 00000000 s     (main) signal handling initialized
+2017/03/22 08:23:10 00000000 s      (net) newcamd: initialized (fd=5, port=49999)
+2017/03/22 08:23:10 00000000 s      (net) -> CAID: 0919 PROVID: 000000
+2017/03/22 08:23:10 00000000 s      (net) cccam: initialized (fd=6, port=19959)
+2017/03/22 08:23:10 00000000 s   (reader) test [cccam] creating thread for device 5.189.190.99
+2017/03/22 08:23:10 00000000 s   (reader) cccam [cccam] creating thread for device opensat2.dyndns.org
+2017/03/22 08:23:10 00000000 s     (stat) loadbalancer: could not open /usr/local/etc/stat3 for reading (errno=2 No such file or directory)
+2017/03/22 08:23:10 00000000 s     (main) waiting for local card init
+2017/03/22 08:23:10 25A31BA3 p   (reader) 5.189.190.99: resolved ip=5.189.190.99
+2017/03/22 08:23:10 25A31BA3 p   (reader) test [cccam] connecting to 5.189.190.99:23000
+2017/03/22 08:23:10 2A1B4304 h    (webif) webif: decompressed 164180 bytes back into 392496 bytes
+2017/03/22 08:23:10 2A1B4304 h    (webif) HTTP Server running. ip=0.0.0.0 port=55100
+2017/03/22 08:23:10 377E1D29 p      (net) can't resolve opensat2.dyndns.org, error: Name or service not known
+2017/03/22 08:23:10 377E1D29 p   (reader) cccam [cccam] proxy initialized, server opensat2.dyndns.org:10002
+2017/03/22 08:23:10 00000000 s     (main) init for all local cards done
+2017/03/22 08:23:10 00000000 s (emmcache) loading emmcache disabled since no reader is using it!
+2017/03/22 08:23:10 00000000 s (emmcache) loading emmstats disabled since no reader is using it!
+2017/03/22 08:23:10 00000000 s (anticasc) anti cascading disabled
+2017/03/22 08:23:10 2D59C812 c   (client) plain dvbapi-client granted (anonymous, au=off)
+2017/03/22 08:23:10 2D59C812 c   (dvbapi) dvbapi channelcache loaded from /usr/local/etc/conf3/oscam.ccache
+2017/03/22 08:23:10 2D59C812 c   (dvbapi) ERROR: Could not detect DVBAPI version.
+2017/03/22 08:23:13 25A31BA3 p   (reader) test [cccam] connect failed: Connection timed out
+2017/03/22 08:23:13 25A31BA3 p   (reader) test [cccam] proxy initialized, server 5.189.190.99:23000
+2017/03/23 08:20:05 2A1B4304 h    (webif) HTTP Server stopped
+2017/03/23 08:20:05 00000000 s   (dvbapi) dvbapi channelcache saved to /usr/local/etc/conf3/oscam.ccache
+2017/03/23 08:20:05 00000000 s (emmcache) saving emmcache disabled since no reader is using it!
+2017/03/23 08:20:05 00000000 s (emmcache) saving emmstats disabled since no reader is using it!
+2017/03/23 08:20:05 00000000 s   (client) killing client 
+2017/03/23 08:20:05 00000000 s   (reader) test [cccam] Killing reader
+2017/03/23 08:20:05 00000000 s   (reader) cccam [cccam] Killing reader
+2017/03/23 08:20:05 00000000 s   (config) userdb 8 accounts freed
+2017/03/23 08:20:05 00000000 s   (config) readerdb 3 readers freed
+2017/03/23 08:20:05 00000000 s     (main) cardserver down
+
+-------------------------------------------------------------------------------
+>> OSCam <<  cardserver log switched at Thu Mar 23 08:23:09 2017
+-------------------------------------------------------------------------------
+2017/03/23 08:23:09 00000000 s >> OSCam <<  cardserver log switched, version 1.20-unstable_svn, build r10991 (x86_64-linux-gnu-ssl)
+2017/03/23 08:23:09 00000000 s     (main) System name    = Linux
+2017/03/23 08:23:09 00000000 s     (main) Host name      = n3032559.ovh.host
+2017/03/23 08:23:09 00000000 s     (main) Release        = 3.14.32-xxxx-grs-ipv6-64
+2017/03/23 08:23:09 00000000 s     (main) Version        = #7 SMP Wed Jan 27 18:05:09 CET 2016
+2017/03/23 08:23:09 00000000 s     (main) Machine        = x86_64
+2017/03/23 08:23:09 00000000 s     (main) creating pidfile /tmp/.oscam/oscam.pid with pid 1996
+2017/03/23 08:23:09 00000000 s   (config) services reloaded: 0 services freed, 51 services loaded, rejected 0
+2017/03/23 08:23:09 00000000 s   (config) userdb reloaded: 8 accounts loaded, 7 expired, 0 disabled
+2017/03/23 08:23:09 00000000 s     (main) signal handling initialized
+2017/03/23 08:23:09 00000000 s      (net) newcamd: initialized (fd=5, port=49999)
+2017/03/23 08:23:09 00000000 s      (net) -> CAID: 0919 PROVID: 000000
+2017/03/23 08:23:09 00000000 s      (net) cccam: initialized (fd=6, port=19959)
+2017/03/23 08:23:09 00000000 s   (reader) test [cccam] creating thread for device 5.189.190.99
+2017/03/23 08:23:09 00000000 s   (reader) cccam [cccam] creating thread for device opensat2.dyndns.org
+2017/03/23 08:23:09 00000000 s     (stat) loadbalancer: could not open /usr/local/etc/stat3 for reading (errno=2 No such file or directory)
+2017/03/23 08:23:09 00000000 s     (main) waiting for local card init
+2017/03/23 08:23:09 65496A53 p   (reader) 5.189.190.99: resolved ip=5.189.190.99
+2017/03/23 08:23:09 65496A53 p   (reader) test [cccam] connecting to 5.189.190.99:23000
+2017/03/23 08:23:09 22A78DF8 h    (webif) webif: decompressed 164180 bytes back into 392496 bytes
+2017/03/23 08:23:09 22A78DF8 h    (webif) HTTP Server running. ip=0.0.0.0 port=55100
+2017/03/23 08:23:09 00000000 s     (main) init for all local cards done
+2017/03/23 08:23:09 00000000 s (emmcache) loading emmcache disabled since no reader is using it!
+2017/03/23 08:23:09 00000000 s (emmcache) loading emmstats disabled since no reader is using it!
+2017/03/23 08:23:09 00000000 s (anticasc) anti cascading disabled
+2017/03/23 08:23:09 068FE23A c   (client) plain dvbapi-client granted (anonymous, au=off)
+2017/03/23 08:23:09 068FE23A c   (dvbapi) dvbapi channelcache loaded from /usr/local/etc/conf3/oscam.ccache
+2017/03/23 08:23:09 068FE23A c   (dvbapi) ERROR: Could not detect DVBAPI version.
+2017/03/23 08:23:09 284EDDD9 p      (net) can't resolve opensat2.dyndns.org, error: Name or service not known
+2017/03/23 08:23:09 284EDDD9 p   (reader) cccam [cccam] proxy initialized, server opensat2.dyndns.org:10002
+2017/03/23 08:23:12 65496A53 p   (reader) test [cccam] connect failed: Connection timed out
+2017/03/23 08:23:12 65496A53 p   (reader) test [cccam] proxy initialized, server 5.189.190.99:23000
+2017/03/24 08:20:04 22A78DF8 h    (webif) HTTP Server stopped
+2017/03/24 08:20:04 00000000 s   (dvbapi) dvbapi channelcache saved to /usr/local/etc/conf3/oscam.ccache
+2017/03/24 08:20:04 00000000 s (emmcache) saving emmcache disabled since no reader is using it!
+2017/03/24 08:20:04 00000000 s (emmcache) saving emmstats disabled since no reader is using it!
+2017/03/24 08:20:04 00000000 s   (client) killing client 
+2017/03/24 08:20:04 00000000 s   (reader) test [cccam] Killing reader
+2017/03/24 08:20:04 00000000 s   (reader) cccam [cccam] Killing reader
+2017/03/24 08:20:05 00000000 s   (config) userdb 8 accounts freed
+2017/03/24 08:20:05 00000000 s   (config) readerdb 3 readers freed
+2017/03/24 08:20:05 00000000 s     (main) cardserver down
+
+-------------------------------------------------------------------------------
+>> OSCam <<  cardserver log switched at Fri Mar 24 08:23:08 2017
+-------------------------------------------------------------------------------
+2017/03/24 08:23:08 00000000 s >> OSCam <<  cardserver log switched, version 1.20-unstable_svn, build r10991 (x86_64-linux-gnu-ssl)
+2017/03/24 08:23:08 00000000 s     (main) System name    = Linux
+2017/03/24 08:23:08 00000000 s     (main) Host name      = n3032559.ovh.host
+2017/03/24 08:23:08 00000000 s     (main) Release        = 3.14.32-xxxx-grs-ipv6-64
+2017/03/24 08:23:08 00000000 s     (main) Version        = #7 SMP Wed Jan 27 18:05:09 CET 2016
+2017/03/24 08:23:08 00000000 s     (main) Machine        = x86_64
+2017/03/24 08:23:08 00000000 s     (main) creating pidfile /tmp/.oscam/oscam.pid with pid 2025
+2017/03/24 08:23:08 00000000 s   (config) services reloaded: 0 services freed, 51 services loaded, rejected 0
+2017/03/24 08:23:08 00000000 s   (config) userdb reloaded: 8 accounts loaded, 7 expired, 0 disabled
+2017/03/24 08:23:08 00000000 s     (main) signal handling initialized
+2017/03/24 08:23:08 00000000 s      (net) newcamd: initialized (fd=5, port=49999)
+2017/03/24 08:23:08 00000000 s      (net) -> CAID: 0919 PROVID: 000000
+2017/03/24 08:23:08 00000000 s      (net) cccam: initialized (fd=6, port=19959)
+2017/03/24 08:23:08 00000000 s   (reader) test [cccam] creating thread for device 5.189.190.99
+2017/03/24 08:23:08 00000000 s   (reader) cccam [cccam] creating thread for device opensat2.dyndns.org
+2017/03/24 08:23:08 00000000 s     (stat) loadbalancer: could not open /usr/local/etc/stat3 for reading (errno=2 No such file or directory)
+2017/03/24 08:23:08 00000000 s     (main) waiting for local card init
+2017/03/24 08:23:08 65841F37 p   (reader) 5.189.190.99: resolved ip=5.189.190.99
+2017/03/24 08:23:08 65841F37 p   (reader) test [cccam] connecting to 5.189.190.99:23000
+2017/03/24 08:23:08 1F524FBE h    (webif) webif: decompressed 164180 bytes back into 392496 bytes
+2017/03/24 08:23:08 1F524FBE h    (webif) HTTP Server running. ip=0.0.0.0 port=55100
+2017/03/24 08:23:08 00000000 s     (main) init for all local cards done
+2017/03/24 08:23:08 00000000 s (emmcache) loading emmcache disabled since no reader is using it!
+2017/03/24 08:23:08 00000000 s (emmcache) loading emmstats disabled since no reader is using it!
+2017/03/24 08:23:08 00000000 s (anticasc) anti cascading disabled
+2017/03/24 08:23:08 39E7B765 c   (client) plain dvbapi-client granted (anonymous, au=off)
+2017/03/24 08:23:08 39E7B765 c   (dvbapi) dvbapi channelcache loaded from /usr/local/etc/conf3/oscam.ccache
+2017/03/24 08:23:08 39E7B765 c   (dvbapi) ERROR: Could not detect DVBAPI version.
+2017/03/24 08:23:09 1DBDDDD5 p      (net) can't resolve opensat2.dyndns.org, error: Name or service not known
+2017/03/24 08:23:09 1DBDDDD5 p   (reader) cccam [cccam] proxy initialized, server opensat2.dyndns.org:10002
+2017/03/24 08:23:11 65841F37 p   (reader) test [cccam] connect failed: Connection timed out
+2017/03/24 08:23:11 65841F37 p   (reader) test [cccam] proxy initialized, server 5.189.190.99:23000
+
+-------------------------------------------------------------------------------
+>> OSCam <<  cardserver log switched at Sat Mar 25 08:23:12 2017
+-------------------------------------------------------------------------------
+2017/03/25 08:23:12 00000000 s >> OSCam <<  cardserver log switched, version 1.20-unstable_svn, build r10991 (x86_64-linux-gnu-ssl)
+2017/03/25 08:23:12 00000000 s     (main) System name    = Linux
+2017/03/25 08:23:12 00000000 s     (main) Host name      = n3032559.ovh.host
+2017/03/25 08:23:12 00000000 s     (main) Release        = 3.14.32-xxxx-grs-ipv6-64
+2017/03/25 08:23:12 00000000 s     (main) Version        = #7 SMP Wed Jan 27 18:05:09 CET 2016
+2017/03/25 08:23:12 00000000 s     (main) Machine        = x86_64
+2017/03/25 08:23:12 00000000 s     (main) creating pidfile /tmp/.oscam/oscam.pid with pid 1983
+2017/03/25 08:23:12 00000000 s   (config) services reloaded: 0 services freed, 51 services loaded, rejected 0
+2017/03/25 08:23:12 00000000 s   (config) userdb reloaded: 8 accounts loaded, 7 expired, 0 disabled
+2017/03/25 08:23:12 00000000 s     (main) signal handling initialized
+2017/03/25 08:23:12 00000000 s      (net) newcamd: initialized (fd=5, port=49999)
+2017/03/25 08:23:12 00000000 s      (net) -> CAID: 0919 PROVID: 000000
+2017/03/25 08:23:12 00000000 s      (net) cccam: initialized (fd=6, port=19959)
+2017/03/25 08:23:12 00000000 s   (reader) test [cccam] creating thread for device 5.189.190.99
+2017/03/25 08:23:12 00000000 s   (reader) cccam [cccam] creating thread for device opensat2.dyndns.org
+2017/03/25 08:23:12 00000000 s     (stat) loadbalancer: could not open /usr/local/etc/stat3 for reading (errno=2 No such file or directory)
+2017/03/25 08:23:12 00000000 s     (main) waiting for local card init
+2017/03/25 08:23:12 20BEEC11 p   (reader) 5.189.190.99: resolved ip=5.189.190.99
+2017/03/25 08:23:12 20BEEC11 p   (reader) test [cccam] connecting to 5.189.190.99:23000
+2017/03/25 08:23:12 5EDC202E h    (webif) webif: decompressed 164180 bytes back into 392496 bytes
+2017/03/25 08:23:12 5EDC202E h    (webif) HTTP Server running. ip=0.0.0.0 port=55100
+2017/03/25 08:23:12 00000000 s     (main) init for all local cards done
+2017/03/25 08:23:12 00000000 s (emmcache) loading emmcache disabled since no reader is using it!
+2017/03/25 08:23:12 00000000 s (emmcache) loading emmstats disabled since no reader is using it!
+2017/03/25 08:23:12 00000000 s (anticasc) anti cascading disabled
+2017/03/25 08:23:12 789AEFC0 c   (client) plain dvbapi-client granted (anonymous, au=off)
+2017/03/25 08:23:12 789AEFC0 c   (dvbapi) dvbapi channelcache loaded from /usr/local/etc/conf3/oscam.ccache
+2017/03/25 08:23:12 789AEFC0 c   (dvbapi) ERROR: Could not detect DVBAPI version.
+2017/03/25 08:23:12 5CF0F0DA p      (net) can't resolve opensat2.dyndns.org, error: Name or service not known
+2017/03/25 08:23:12 5CF0F0DA p   (reader) cccam [cccam] proxy initialized, server opensat2.dyndns.org:10002
+2017/03/25 08:23:15 20BEEC11 p   (reader) test [cccam] connect failed: Connection timed out
+2017/03/25 08:23:15 20BEEC11 p   (reader) test [cccam] proxy initialized, server 5.189.190.99:23000
+2017/03/26 08:20:05 5EDC202E h    (webif) HTTP Server stopped
+2017/03/26 08:20:05 00000000 s   (dvbapi) dvbapi channelcache saved to /usr/local/etc/conf3/oscam.ccache
+2017/03/26 08:20:05 00000000 s (emmcache) saving emmcache disabled since no reader is using it!
+2017/03/26 08:20:05 00000000 s (emmcache) saving emmstats disabled since no reader is using it!
+2017/03/26 08:20:05 00000000 s   (client) killing client 
+2017/03/26 08:20:05 00000000 s   (reader) test [cccam] Killing reader
+2017/03/26 08:20:05 00000000 s   (reader) cccam [cccam] Killing reader
+2017/03/26 08:20:05 00000000 s   (config) userdb 8 accounts freed
+2017/03/26 08:20:05 00000000 s   (config) readerdb 3 readers freed
+2017/03/26 08:20:05 00000000 s     (main) cardserver down
+
+-------------------------------------------------------------------------------
+>> OSCam <<  cardserver log switched at Sun Mar 26 08:23:09 2017
+-------------------------------------------------------------------------------
+2017/03/26 08:23:09 00000000 s >> OSCam <<  cardserver log switched, version 1.20-unstable_svn, build r10991 (x86_64-linux-gnu-ssl)
+2017/03/26 08:23:09 00000000 s     (main) System name    = Linux
+2017/03/26 08:23:09 00000000 s     (main) Host name      = n3032559.ovh.host
+2017/03/26 08:23:09 00000000 s     (main) Release        = 3.14.32-xxxx-grs-ipv6-64
+2017/03/26 08:23:09 00000000 s     (main) Version        = #7 SMP Wed Jan 27 18:05:09 CET 2016
+2017/03/26 08:23:09 00000000 s     (main) Machine        = x86_64
+2017/03/26 08:23:09 00000000 s     (main) creating pidfile /tmp/.oscam/oscam.pid with pid 2010
+2017/03/26 08:23:09 00000000 s   (config) services reloaded: 0 services freed, 51 services loaded, rejected 0
+2017/03/26 08:23:09 00000000 s   (config) userdb reloaded: 8 accounts loaded, 7 expired, 0 disabled
+2017/03/26 08:23:09 00000000 s     (main) signal handling initialized
+2017/03/26 08:23:09 00000000 s      (net) newcamd: initialized (fd=5, port=49999)
+2017/03/26 08:23:09 00000000 s      (net) -> CAID: 0919 PROVID: 000000
+2017/03/26 08:23:09 00000000 s      (net) cccam: initialized (fd=6, port=19959)
+2017/03/26 08:23:09 00000000 s   (reader) test [cccam] creating thread for device 5.189.190.99
+2017/03/26 08:23:09 00000000 s   (reader) cccam [cccam] creating thread for device opensat2.dyndns.org
+2017/03/26 08:23:09 00000000 s     (stat) loadbalancer: could not open /usr/local/etc/stat3 for reading (errno=2 No such file or directory)
+2017/03/26 08:23:09 00000000 s     (main) waiting for local card init
+2017/03/26 08:23:09 7E26AA8B p   (reader) 5.189.190.99: resolved ip=5.189.190.99
+2017/03/26 08:23:09 7E26AA8B p   (reader) test [cccam] connecting to 5.189.190.99:23000
+2017/03/26 08:23:09 391E3040 h    (webif) webif: decompressed 164180 bytes back into 392496 bytes
+2017/03/26 08:23:09 391E3040 h    (webif) HTTP Server running. ip=0.0.0.0 port=55100
+2017/03/26 08:23:09 1E3D2E02 p      (net) can't resolve opensat2.dyndns.org, error: Name or service not known
+2017/03/26 08:23:09 1E3D2E02 p   (reader) cccam [cccam] proxy initialized, server opensat2.dyndns.org:10002
+2017/03/26 08:23:09 00000000 s     (main) init for all local cards done
+2017/03/26 08:23:09 00000000 s (emmcache) loading emmcache disabled since no reader is using it!
+2017/03/26 08:23:09 00000000 s (emmcache) loading emmstats disabled since no reader is using it!
+2017/03/26 08:23:09 00000000 s (anticasc) anti cascading disabled
+2017/03/26 08:23:09 706B5CE9 c   (client) plain dvbapi-client granted (anonymous, au=off)
+2017/03/26 08:23:09 706B5CE9 c   (dvbapi) dvbapi channelcache loaded from /usr/local/etc/conf3/oscam.ccache
+2017/03/26 08:23:09 706B5CE9 c   (dvbapi) ERROR: Could not detect DVBAPI version.
+2017/03/26 08:23:12 7E26AA8B p   (reader) test [cccam] connect failed: Connection timed out
+2017/03/26 08:23:12 7E26AA8B p   (reader) test [cccam] proxy initialized, server 5.189.190.99:23000
+2017/03/26 11:14:16 281AE2E2 c  (newcamd) client connected to 49999 port
+2017/03/26 11:14:47 281AE2E2 c   (client) anonymous disconnected from 46.101.32.157
+2017/03/27 08:20:06 391E3040 h    (webif) HTTP Server stopped
+2017/03/27 08:20:06 00000000 s   (dvbapi) dvbapi channelcache saved to /usr/local/etc/conf3/oscam.ccache
+2017/03/27 08:20:06 00000000 s (emmcache) saving emmcache disabled since no reader is using it!
+2017/03/27 08:20:06 00000000 s (emmcache) saving emmstats disabled since no reader is using it!
+2017/03/27 08:20:06 00000000 s   (client) killing client 
+2017/03/27 08:20:06 00000000 s   (reader) test [cccam] Killing reader
+2017/03/27 08:20:06 00000000 s   (reader) cccam [cccam] Killing reader
+2017/03/27 08:20:06 00000000 s   (config) userdb 8 accounts freed
+2017/03/27 08:20:06 00000000 s   (config) readerdb 3 readers freed
+2017/03/27 08:20:06 00000000 s     (main) cardserver down
+
+-------------------------------------------------------------------------------
+>> OSCam <<  cardserver log switched at Mon Mar 27 08:23:13 2017
+-------------------------------------------------------------------------------
+2017/03/27 08:23:13 00000000 s >> OSCam <<  cardserver log switched, version 1.20-unstable_svn, build r10991 (x86_64-linux-gnu-ssl)
+2017/03/27 08:23:13 00000000 s     (main) System name    = Linux
+2017/03/27 08:23:13 00000000 s     (main) Host name      = n3032559.ovh.host
+2017/03/27 08:23:13 00000000 s     (main) Release        = 3.14.32-xxxx-grs-ipv6-64
+2017/03/27 08:23:13 00000000 s     (main) Version        = #7 SMP Wed Jan 27 18:05:09 CET 2016
+2017/03/27 08:23:13 00000000 s     (main) Machine        = x86_64
+2017/03/27 08:23:13 00000000 s     (main) creating pidfile /tmp/.oscam/oscam.pid with pid 2014
+2017/03/27 08:23:13 00000000 s   (config) services reloaded: 0 services freed, 51 services loaded, rejected 0
+2017/03/27 08:23:13 00000000 s   (config) userdb reloaded: 8 accounts loaded, 7 expired, 0 disabled
+2017/03/27 08:23:13 00000000 s     (main) signal handling initialized
+2017/03/27 08:23:13 00000000 s      (net) newcamd: initialized (fd=5, port=49999)
+2017/03/27 08:23:13 00000000 s      (net) -> CAID: 0919 PROVID: 000000
+2017/03/27 08:23:13 00000000 s      (net) cccam: initialized (fd=6, port=19959)
+2017/03/27 08:23:13 00000000 s   (reader) test [cccam] creating thread for device 5.189.190.99
+2017/03/27 08:23:13 00000000 s   (reader) cccam [cccam] creating thread for device opensat2.dyndns.org
+2017/03/27 08:23:13 00000000 s     (stat) loadbalancer: could not open /usr/local/etc/stat3 for reading (errno=2 No such file or directory)
+2017/03/27 08:23:13 00000000 s     (main) waiting for local card init
+2017/03/27 08:23:13 6C17C64F p   (reader) 5.189.190.99: resolved ip=5.189.190.99
+2017/03/27 08:23:13 6C17C64F p   (reader) test [cccam] connecting to 5.189.190.99:23000
+2017/03/27 08:23:13 28E76712 h    (webif) webif: decompressed 164180 bytes back into 392496 bytes
+2017/03/27 08:23:13 28E76712 h    (webif) HTTP Server running. ip=0.0.0.0 port=55100
+2017/03/27 08:23:13 146631FA p      (net) can't resolve opensat2.dyndns.org, error: Name or service not known
+2017/03/27 08:23:13 146631FA p   (reader) cccam [cccam] proxy initialized, server opensat2.dyndns.org:10002
+2017/03/27 08:23:13 00000000 s     (main) init for all local cards done
+2017/03/27 08:23:13 00000000 s (emmcache) loading emmcache disabled since no reader is using it!
+2017/03/27 08:23:13 00000000 s (emmcache) loading emmstats disabled since no reader is using it!
+2017/03/27 08:23:13 00000000 s (anticasc) anti cascading disabled
+2017/03/27 08:23:13 573536A6 c   (client) plain dvbapi-client granted (anonymous, au=off)
+2017/03/27 08:23:13 573536A6 c   (dvbapi) dvbapi channelcache loaded from /usr/local/etc/conf3/oscam.ccache
+2017/03/27 08:23:13 573536A6 c   (dvbapi) ERROR: Could not detect DVBAPI version.
+2017/03/27 08:23:16 6C17C64F p   (reader) test [cccam] connect failed: Connection timed out
+2017/03/27 08:23:16 6C17C64F p   (reader) test [cccam] proxy initialized, server 5.189.190.99:23000

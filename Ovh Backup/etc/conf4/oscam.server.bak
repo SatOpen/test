@@ -1,0 +1,679 @@
+# oscam.server generated automatically by Streamboard OSCAM 1.20-unstable_svn SVN r9827
+# Read more: http://www.streamboard.tv/svn/oscam/trunk/Distribution/doc/txt/oscam.server.txt
+
+[reader]
+label                         = CACHE-EX-213.136.82.140
+description                   = speaksat 213.136.82.140 18000
+protocol                      = cs378x
+device                        = 127.0.0.1,18000
+user                          = speaksat_interno
+password                      = sfefeveb
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-katia-pompadour.noip.biz
+description                   = fefe82na katia-pompadour.noip.biz 25000
+protocol                      = cs378x
+device                        = katia-pompadour.no-ip.biz,25000
+user                          = bubufefe
+password                      = bubu2014
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sharbox.zapto.org
+description                   = sharbox.zapto.org 17456
+protocol                      = cs378x
+device                        = sharbox.zapto.org,17456
+user                          = gruppocacheex
+password                      = sanacore@1963
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-matrice.noip.us
+description                   = mariorossix83 matrice.noip.us 1804
+protocol                      = cs378x
+device                        = matrice.noip.us,1804
+user                          = cachegruppo
+password                      = scambiocs378x2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-cievo2.ath.cx
+description                   = cievo cievo2.ath.cx 33000
+protocol                      = cs378x
+device                        = cievo2.ath.cx,33000
+user                          = cico2004
+password                      = cache_ex
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sebi.zapto.org
+description                   = cellnico sebi.zapto.org 15055
+protocol                      = cs378x
+device                        = sebi.zapto.org,15055
+user                          = gruppows
+password                      = wsgroup
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sanrob.dlinkddns.com
+description                   = sanrob sanrob.dlinkddns.com 50000
+protocol                      = cs378x
+device                        = sanrob.dlinkddns.com,50000
+user                          = gruppo_cache
+password                      = gruppo_cache
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-morositas.dyndns.tv
+description                   = skype cicciripillo
+protocol                      = cs378x
+device                        = morositas.dyndns.tv,15000
+user                          = CacheEX-gruppo-cacheexmode2
+password                      = Cacheex-9
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-donia.homelinux.com
+description                   = silvio.vaira@hotmail.it donia.homelinux.com 2425
+protocol                      = cs378x
+device                        = donia.homelinux.com,2425
+user                          = opensat
+password                      = $opensat$
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-nos1.no-ip.info
+description                   = tuviroc18@hotmail.com nos1.no-ip.info 5557
+protocol                      = cs378x
+device                        = nos1.no-ip.info,5557
+user                          = metropolis_x005
+password                      = beverly500
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-tikiavo2.dyndns.tv
+description                   = mister30@libero.it tikiavo2.dyndns.tv 12002
+protocol                      = cs378x
+device                        = tikiavo2.dyndns.tv,12002
+user                          = Cachex-SpeaktheSat
+password                      = ahdsjks8546yuoiyh34798
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sorgente1.dyndns.info
+description                   = goldrake3@gmail.com sorgente1.dyndns.info 10512
+protocol                      = cs378x
+device                        = sorgente1.dyndns.info,10512
+user                          = euro1
+password                      = catania
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-conserver.dyndns.org
+description                   = di-molfetta@hotmail.de conserver.dyndns.org 7009
+protocol                      = cs378x
+device                        = conserver.dyndns.org,7009
+user                          = gruppocardws
+password                      = cardwsgruppo
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-friends.doesntexist.org
+description                   = sirk98mail@gmail.com friends.doesntexist.org 4000
+protocol                      = cs378x
+device                        = friends.doesntexist.org,4000
+user                          = GRPCX2CRDSRNGWS
+password                      = GN2MTW8XT629ZPP
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sharesatcache.ddns.me
+description                   = pratafulvio89@yahoo.com sharesatcache.ddns.me 10000
+protocol                      = cs378x
+device                        = sharesatcache.ddns.me,10000
+user                          = cswscacheex2_publicgroupspeakthesat
+password                      = CACHEEX2_publicgroupspeakthesat
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-sharesatcache2.ddns.me
+description                   = pratafulvio89@yahoo.com sharesatcache2.ddns.me 20000
+protocol                      = cs378x
+device                        = sharesatcache2.ddns.me,20000
+user                          = cswscacheex2_publicgroupspeakthesat_2
+password                      = CACHEEX2_publicgroupspeakthesat_2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-dreamteam.dyndns.info
+description                   = kiza1975@hotmail.com dreamteam.dyndns.info 6006
+protocol                      = cs378x
+device                        = dreamteam.dyndns.info,6006
+user                          = group-speaktesat
+password                      = satsupremecs2
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-maxspeed.from-id.com
+description                   = miguel_burguera maxspeed.from-id.com 7642
+protocol                      = cs378x
+device                        = maxspeed.from-id.com,7642
+user                          = GrupoCacheex
+password                      = Cacheex_mode2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-s-type.us.to
+description                   = stipe.matijevic s-type.us.to 12326
+protocol                      = cs378x
+device                        = s-type.us.to,12326
+user                          = speakthesat_group
+password                      = dsfjhwefew
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-91.121.98.38
+description                   = silvietta77bv 91.121.98.38 34010
+protocol                      = cs378x
+device                        = mercury1970.mine.nu,34010
+user                          = cardshcache
+password                      = CacheCardshcw
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-vipra.dyndns.org
+description                   = gianni7302 vipra.dyndns.org 13700
+protocol                      = cs378x
+device                        = vipra.dyndns.org,13700
+user                          = Vipra
+password                      = vipracacheex2
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-lupoalberto.dyndns.info
+description                   = suunto.69 lupoalberto.dyndns.info 30000
+protocol                      = cs378x
+device                        = lupoalberto.dyndns.info,30000
+user                          = suunto69
+password                      = bbabbuino
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-benji79.no-ip.biz
+description                   = benji79@cheapnet.it benji79.no-ip.biz 45678
+protocol                      = cs378x
+device                        = benji79.no-ip.biz,45678
+user                          = masterchef
+password                      = pwdc2excsws
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-server540014.ddns.me
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1110
+protocol                      = cs378x
+device                        = server540014.ddns.me,1110
+user                          = mblaauw
+password                      = wietje
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-server540014.ddns.me
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1119
+protocol                      = cs378x
+device                        = server540014.ddns.me,1119
+user                          = mblaauw
+password                      = wietje
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-server540014.ddns.me
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1113
+protocol                      = cs378x
+device                        = server540014.ddns.me,1113
+user                          = mblaauw3
+password                      = wietje3
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-server540014.ddns.me
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1112
+protocol                      = cs378x
+device                        = server540014.ddns.me,1112
+user                          = mblaauw4
+password                      = wietje4
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-server540014.ddns.me
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1111
+protocol                      = cs378x
+device                        = server540014.ddns.me,1111
+user                          = mblaauw5
+password                      = wietje5
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-server540014.ddns.me
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1100
+protocol                      = cs378x
+device                        = server540014.ddns.me,1100
+user                          = mblaauw5
+password                      = wietje5
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-dreamtv.dnsfor.me
+description                   = mblaauw1@hotmail.com dreamtv.dnsfor.me 1212
+protocol                      = cs378x
+device                        = homeshare.dnsfor.me,1212
+user                          = mblaauw5
+password                      = wietje5
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-usamax.dyndns.tv
+description                   = bashsysinfo@gmail.com usamax.dyndns.tv
+protocol                      = cs378x
+device                        = usamax.dyndns.tv,15503
+user                          = GrupoCacheex
+password                      = Cacheex_mode2
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-lammics.no-ip.net
+description                   = live:lammitta lammics.no-ip.net 11378
+protocol                      = cs378x
+device                        = lammics.no-ip.net,11378
+user                          = group-cache2
+password                      = cardshrgroup
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 1
+cacheex_ecm_filter            = 0919,093B,09CD,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-skyfullhd.dyndns.org
+description                   = puke80 skyfullhd.dyndns.org 8002
+protocol                      = cs378x
+device                        = skyfullhd.dyndns.org,8002
+user                          = tito1980
+password                      = alex2009
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-gruppo-italiano-vbr.ddns.net
+description                   = cityville02@live.it gruppo-italiano-vbr.ddns.net 9097
+protocol                      = cs378x
+device                        = gruppo-italiano-vbr.ddns.net,9097
+user                          = freskos-gruppo
+password                      = cache-gruppo.ita
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 093B,09CD,0963,0100,0500,1810,1803,1805,1702,098C,183D
+cacheex_drop_csp              = 1
+caid                          = 093B,09CD,0963,0100,0500,1810,1803,1805,1702,098C,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-hardtunnel.dynalias.net
+description                   = cr1stof hardtunnel.dynalias.net 12005
+protocol                      = cs378x
+device                        = hardtunnel.dynalias.net,12005
+user                          = cristofEx
+password                      = cristofer
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-elldorado.zapto.org
+description                   = Ivan elldorado.zapto.org
+protocol                      = cs378x
+device                        = elldorado.zapto.org,18500
+user                          = CACHE-EX-Ivan
+password                      = Ivan_skyit
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-ccc-server.zapto.org
+description                   = Lui20045@hotmail.de ccc-server.zapto.org 14578
+protocol                      = cs378x
+device                        = ccc-server.zapto.org,14578
+user                          = GruppoCe2-Cache
+password                      = fdg457dfg457hg
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-altar82.dyndns.org
+description                   = iguana82 altar82.dyndns.org 34654
+protocol                      = cs378x
+device                        = altar82.dyndns.org,34654
+user                          = gruppocs_cacheex2
+password                      = gruppocscacheex
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1
+
+[reader]
+label                         = CACHE-EX-paycek3.dyndns.biz
+description                   = dreambox..1980 paycek3.dyndns.biz 65065
+protocol                      = cs378x
+device                        = paycek3.dyndns.biz,65065
+user                          = gCX2_Gruppo_Speaksat
+password                      = CX2_Gruppo_Speaksat
+reconnecttimeout              = 60
+keepalive                     = 1
+cacheex                       = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+group                         = 1
+dropbadcws                    = 1
+audisabled                    = 1

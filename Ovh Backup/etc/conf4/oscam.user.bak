@@ -1,0 +1,539 @@
+# oscam.user generated automatically by Streamboard OSCAM 1.20-unstable_svn SVN r9827
+# Read more: http://www.streamboard.tv/svn/oscam/trunk/Distribution/doc/txt/oscam.user.txt
+
+[account]
+user                          = CACHE-EX-speaksat
+pwd                           = speaks05
+description                   = speaksat 127.0.0.1 18000
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-blackmore
+pwd                           = blackmore
+description                   = sharbox.zapto.org 17456
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-cievo
+pwd                           = cievo
+description                   = cievo cievo2.ath.cx 33000
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-cellnico
+pwd                           = cellnico
+description                   = cellnico sebi.zapto.org 15055
+hostname                      = sebi.zapto.org
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-sanrob
+pwd                           = sanrob
+description                   = sanrob sanrob.dlinkddns.com 50000
+hostname                      = sanrob.dlinkddns.com
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+no_wait_time                  = 1
+
+[account]
+user                          = CACHE-EX-morositas
+pwd                           = morositas
+description                   = morositas morositas.dyndns.tv
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-D1abl0
+pwd                           = D1abl0
+description                   = silvio.vaira@hotmail.it donia.homelinux.com 2425
+hostname                      = donia.homelinux.com
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,09C4,0500,1805,183D,0B01
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-Metropolis
+pwd                           = Metropolis
+description                   = tuviroc18@hotmail.com nos1.no-ip.info 5557
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-ninfole
+pwd                           = ninfole
+description                   = mister30@libero.it tikiavo2.dyndns.tv 12002
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,09C4,0500,1805,183D,0B01
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+no_wait_time                  = 1
+
+[account]
+user                          = CACHE-EX-mariorossix83
+pwd                           = mariorossix83
+description                   = mariorossix83 matrice.noip.us 1804
+hostname                      = matrice.noip.us
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-ezziog
+pwd                           = ezziog
+description                   = sorgente1.dyndns.info 10512
+hostname                      = sorgente1.dyndns.info
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-newlinux
+pwd                           = newlinux
+description                   = di-molfetta@hotmail.de conserver.dyndns.org 7009
+hostname                      = conserver.dyndns.org
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-sirk98
+pwd                           = sirk98
+description                   = sirk98mail@gmail.com friends.doesntexist.org 4000
+hostname                      = friends.doesntexist.org
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-sharesatch
+pwd                           = sharesatch
+description                   = pratafulvio89@yahoo.com sharesatcache.ddns.me 10000
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-sharesatch-2
+pwd                           = sharesatch
+description                   = pratafulvio89@yahoo.com sharesatcache.ddns.me 20000
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-kiza1975
+pwd                           = kiza1975
+description                   = kiza1975@hotmail.com dreamteam.dyndns.info 6006
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+uniq                          = 1
+keepalive                     = 1
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-MiquelB
+pwd                           = MiquelB
+description                   = miguel_burguera maxspeed.from-id.com 7642
+hostname                      = maxspeed.from-id.com
+uniq                          = 1
+sleep                         = 600
+keepalive                     = 1
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_ecm_filter            = 0100,1810,1812,0500,1702,09C4,09CD,1830
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-s-type
+pwd                           = s-type
+description                   = stipe.matijevic s-type.us.to 12326
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D,0B01
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-alex70it
+pwd                           = alex70it
+description                   = silvietta77bv 91.121.98.38 34010
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-Vipra
+pwd                           = Vipra
+description                   = gianni7302 vipra.dyndns.org 13700
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-suunto69
+pwd                           = suunto69
+description                   = suunto.69 lupoalberto.dyndns.info 30000
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-Masterchef
+pwd                           = Masterchef
+description                   = benji79@cheapnet.it benji79.no-ip.biz 45678
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-Miquelc
+pwd                           = Miquelc
+description                   = miguel_burguera maxspeed.from-id.com 7642
+keepalive                     = 1
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_ecm_filter            = 0100,1810,1812,0500,09C4,09CD,1830,1702,098C,0500,1805,183D
+cacheex_drop_csp              = 1
+cacheex_allow_request         = 1
+
+[account]
+user                          = CACHE-EX-strangeman_2014
+pwd                           = strangeman_2014
+description                   = segazivibi@safe-mail.net strangeworld.ddns.net 15778
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-mblaauw
+pwd                           = mblaauw
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1110
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-mblaauw2
+pwd                           = mblaauw2
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1119
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-mblaauw3
+pwd                           = mblaauw
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1113
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-mblaauw4
+pwd                           = mblaauw
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1112
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-mblaauw5
+pwd                           = mblaauw
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1111
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-mblaauw6
+pwd                           = mblaauw6
+description                   = mblaauw1@hotmail.com server540014.ddns.me 1100
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-mblaauw7
+pwd                           = mblaauw6
+description                   = mblaauw1@hotmail.com dreamtv.dnsfor.me 1212
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-Usamax
+pwd                           = usamax
+description                   = bashsysinfo@gmail.com usamax.dyndns.tv 15503
+hostname                      = usamax.dyndns.tv
+uniq                          = 1
+sleep                         = 600
+keepalive                     = 1
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,09C4,0500,1805,183D,0B01,1830
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-lammitta
+pwd                           = lammitta
+description                   = live:lammitta lammics.no-ip.net 11378
+caid                          = 0919,093B,09CD,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_ecm_filter            = 0919,093B,09CD,0500,1805,183D
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-tito1980
+pwd                           = tito1980
+description                   = puke80 skyfullhd.dyndns.org 8002
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-alchol
+pwd                           = alchol
+description                   = cityville02@live.it gruppo-italiano-vbr.ddns.net 9097
+caid                          = 093B,09CD,0963,0100,0500,1810,1803,1805,1702,098C,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-cr1stof
+pwd                           = cr1stof
+description                   = cr1stof hardtunnel.dynalias.net 12005
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-Lui2004
+pwd                           = Lui2004
+description                   = Lui20045@hotmail.de ccc-server.zapto.org 14578
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-iguana82
+pwd                           = iguana82
+description                   = skype altar82
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+cacheex                       = 2
+cacheex_maxhop                = 3
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-sav1980
+pwd                           = sav1980
+description                   = dreambox..1980 paycek3.dyndns.biz 65065
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+service                       = !sky_blocked,!promo
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
+[account]
+user                          = CACHE-EX-Sexy Nurse
+pwd                           = Sexy Nurse
+description                   = bdiego sexy nurse sexynursesexy.dyndns.tv 7001
+caid                          = 0919,093B,09CD,0963,0100,1810,1803,1702,098C,0500,1805,183D
+uniq                          = 1
+sleep                         = 600
+allowedprotocols              = cs378x
+group                         = 1
+service                       = !sky_blocked,!promo
+cacheex                       = 2
+cacheex_maxhop                = 2
+cacheex_drop_csp              = 1
+
