@@ -70,6 +70,7 @@ if (isset($_POST["submit"])) {
         /* Set Var */
         $emailSatOpen = "satopen1@gmail.com";
         $email = $_POST['email'];
+        $email2 = $_POST['email2'];
         $status = $_POST['status'];
         $usernameCs = $_POST['usernameCs'];
         $passwordCs = $_POST['passwordCs'];
@@ -91,7 +92,7 @@ if (isset($_POST["submit"])) {
 
         $country = findState($ip_addr);
         $errSecurity = checkSecurity($ip_addr, $email);
-        list ($errPack, $errEmail, $errCline, $errIdCode) = errorMessageValidate($status, $email,$pack,$typeAccount,$usernameIptv,$passwordIptv,$usernameCs,$passwordCs,$codeId);
+        list ($errPack, $errEmail, $errCline, $errIdCode) = errorMessageValidate($status, $email,$email2,$pack,$typeAccount,$usernameIptv,$passwordIptv,$usernameCs,$passwordCs,$codeId);
         list($price, $coinsPrice, $linkCreditCard, $paysafecardEn, $paysafecardIt) = packageInfo($pack);
 
         if (!$errPack && !$errEmail && !$errCline && !$errIdCode && $errSecurity!=="error") {
@@ -147,6 +148,13 @@ if (isset($_POST["submit"])) {
                     <label for="email" class="col-sm-5 control-label">Email</label>
                     <div class="col-sm-5">
                         <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+                        <?php echo "<p class='text-danger'>$errEmail</p>";?>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-5 control-label">Email Confirmation</label>
+                    <div class="col-sm-5">
+                        <input type="email" class="form-control" id="email2" name="email2" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email2']); ?>">
                         <?php echo "<p class='text-danger'>$errEmail</p>";?>
                     </div>
                 </div>

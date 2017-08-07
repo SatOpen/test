@@ -9,9 +9,9 @@
 
 function packageInfo($pack)
 {
-    $tasso_bitcoins = '0,0005';
-    $tasso_bitcoins = file_get_contents('https://blockchain.info/tobtc?currency=EUR&value=1');
 
+    $tasso_bitcoins = file_get_contents('https://blockchain.info/tobtc?currency=EUR&value=1');
+    $tasso_bitcoins = '0,00025';
     if ($pack == "Promo_CS_1_Year") {
         $price = "20.00E";
         $link_c2 = "http://goo.gl/j6Hxc3";

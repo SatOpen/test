@@ -26,12 +26,16 @@ function errorMessage($status,$email,$pack,$cline)
 }
 
 
-function errorMessageValidate($status, $email,$pack,$typeAccount,$usernameIptv,$passwordIptv,$usernameCs,$passwordCs,$codeId)
+function errorMessageValidate($status, $email,$email2,$pack,$typeAccount,$usernameIptv,$passwordIptv,$usernameCs,$passwordCs,$codeId)
 {
 
 
     if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $errEmail = '<div class="alert alert-warning">Failed! Insert correct email address!</div>';
+    }
+
+    if (strcmp($email, $email2) !== 0) {
+        $errEmail = '<div class="alert alert-warning">Failed! Wrong Email Confirmation!</div>';
     }
 
     if (empty($pack) || $pack==='NULL') {
