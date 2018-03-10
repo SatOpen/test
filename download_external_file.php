@@ -57,6 +57,7 @@ function writeIdCodeOnFileLocal ($id_code){
 function findAccountLineOnFileCs($userRenewalCs){
     $numeroLineaUtenteFile1 = exec("sed -n '/$userRenewalCs/=' /usr/local/etc/oscam.user");
     $numeroLineaDataUtenteFile1 = $numeroLineaUtenteFile1 + 3;
+    echo "Linea numero $numeroLineaDataUtenteFile1";
     if ($numeroLineaDataUtenteFile1==3) {
         exit('Account Non Trovato nel file Oscam 1');
     }
