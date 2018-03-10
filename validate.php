@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="SatOpen.cc Best Cardsharing Server">
     <meta name="author" content="SatOpen.cc">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <meta http-equiv="cache-control" content="max-age=0"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Require Pay info</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -61,12 +64,17 @@ if (isset($_POST["submit"])) {
         $_SERVER["REMOTE_ADDR"],
         $_POST["recaptcha_challenge_field"],
         $_POST["recaptcha_response_field"]);
-    if (!$resp->is_valid) {
-        //What happens when the CAPTCHA was entered incorrectly
-        die ("The reCAPTCHA wasn't entered correctly. Go back and try it again." .
-            "(reCAPTCHA said: " . $resp->error . ")");
-        header( "refresh:8;url=http://opensat.ddns.net/pay.php" );
+
+    $secret = '6LcBEUcUAAAAAFaiOUhSfpRquXUVXm3vrpGg_vNI';
+
+    if (!(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response']))) {
+        $error = "ERROR: Please click on the reCAPTCHA box.";
+        echo  "<div style='color:#ffa605'> <b>" . $error."</b></div><br>";
+        header("refresh:5;url=http://opensat.ddns.net/pay.php");
     } else {
+        $verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $_POST['g-recaptcha-response']);
+        $responseData = json_decode($verifyResponse);
+        if ($responseData->success) {
         /* Set Var */
         $emailSatOpen = "satopen1@gmail.com";
         $email = $_POST['email'];
@@ -93,7 +101,7 @@ if (isset($_POST["submit"])) {
         $country = findState($ip_addr);
         $errSecurity = checkSecurity($ip_addr, $email);
         list ($errPack, $errEmail, $errCline, $errIdCode) = errorMessageValidate($status, $email,$email2,$pack,$typeAccount,$usernameIptv,$passwordIptv,$usernameCs,$passwordCs,$codeId);
-        list($price, $coinsPrice, $linkCreditCard, $paysafecardEn, $paysafecardIt) = packageInfo($pack);
+        list($price, $coinsPrice, $linkCreditCard, $paysafecardEn, $paysafecardIt,$cryptocurrency) = packageInfo($pack);
 
         if (!$errPack && !$errEmail && !$errCline && !$errIdCode && $errSecurity!=="error") {
             list($emailBody,$emailObject,$headers,$successMessage) = generateEmailValidate($email,$status,$country, $pack, $paySystem, $price, $coinsPrice,$paysafecardEn, $paysafecardIt, $codeId,$usernameIptv,$passwordIptv,$usernameCs,$passwordCs,$note,$ip_addr);
@@ -132,6 +140,12 @@ if (isset($_POST["submit"])) {
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
             <?php
+        }
+        else {
+            $error = "ERROR: Please click on the reCAPTCHA box.";
+            echo  "<div style='color:#ffa605'> <b>" . $error."</b></div><br>";
+            header("refresh:5;url=http://opensat.ddns.net/pay.php");
+        }
     }
 }
 ?>
@@ -165,9 +179,12 @@ if (isset($_POST["submit"])) {
                         <select name="paySystem" id="paySystem" onchange="update_type_paySystem()">
                             <option value="">             </option>
                             <option value="creditCardMyCommerce">CreditCard by Mycommerce.com</option>
-                            <option value="neteller">Neteller</option>
+<!--                            <option value="neteller">Neteller</option>-->
                             <option value="skrill">Skrill</option>
                             <option value="bitcoin">Bitcoin</option>
+                            <option value="paypal">Paypal</option>
+                            <option value="coinpaymentsNet">Bitcoin-BitcoinsCash-Ethereum by coinpayments.net</option>
+                            <option value="amazon">Amazon Gift Card</option>
                             <option value="paySafeCard">PaySafeCard</option>
                         </select>
                     </div>
@@ -219,10 +236,10 @@ if (isset($_POST["submit"])) {
                             <option value="Sky_DE_Full_6_Month">CARDSHARING SKY DE - FULL PACK - 6 MONTHS - 20E</option>
                             <option value="Sky_DE_Full_12_Month">CARDSHARING SKY DE - FULL PACK - 12 MONTHS - 40E</option>
                             <option value="NULL">                                            </option>
-                            <option value="CSAT_Full_1_Month">CARDSHARING CANALSAT - FULL PACK - 1 MONTH - 4E</option>
-                            <option value="CSAT_Full_3_Month">CARDSHARING CANALSAT - FULL PACK - 3 MONTHS - 10E</option>
-                            <option value="CSAT_Full_6_Month">CARDSHARING CANALSAT- FULL PACK - 6 MONTHS - 20E</option>
-                            <option value="CSAT_Full_12_Month">CARDSHARING CANALSAT - FULL PACK - 12 MONTHS - 40E</option>
+                            <option value="CSAT_Full_1_Month">CARDSHARING CANALSAT FR - FULL PACK - 1 MONTH - 4E</option>
+                            <option value="CSAT_Full_3_Month">CARDSHARING CANALSAT FR - FULL PACK - 3 MONTHS - 10E</option>
+                            <option value="CSAT_Full_6_Month">CARDSHARING CANALSAT FR - FULL PACK - 6 MONTHS - 20E</option>
+                            <option value="CSAT_Full_12_Month">CARDSHARING CANALSAT FR - FULL PACK - 12 MONTHS - 40E</option>
                             <option value="NULL">                                            </option>
                             <option value="Mediaset_Premium_1_Month">CARDSHARING MEDIASET PREMIUM - FULL PACK - 1 MONTH - 4E</option>
                             <option value="Mediaset_Premium_3_Month">CARDSHARING MEDIASET PREMIUM - FULL PACK - 3 MONTHS - 10E</option>
@@ -233,6 +250,11 @@ if (isset($_POST["submit"])) {
                             <option value="CSPAIN_Full_3_Month">CARDSHARING DIGITAL+ SPAIN - FULL PACK - 3 MONTHS - 10E</option>
                             <option value="CSPAIN_Full_6_Month">CARDSHARING DIGITAL+ SPAIN - FULL PACK - 6 MONTHS - 20E</option>
                             <option value="CSPAIN_Full_12_Month">CARDSHARING DIGITAL+ SPAIN - FULL PACK - 12 MONTHS - 40E</option>
+                            <option value="NULL">                                            </option>
+                            <option value="CDIGITAAL_Full_1_Month">CARDSHARING CANALDIGITAAL - FULL PACK - 1 MONTH - 4E</option>
+                            <option value="CDIGITAAL_Full_3_Month">CARDSHARING CANALDIGITAAL - FULL PACK - 3 MONTHS - 10E</option>
+                            <option value="CDIGITAAL_Full_6_Month">CARDSHARING CANALDIGITAAL - FULL PACK - 6 MONTHS - 20E</option>
+                            <option value="CDIGITAAL_Full_12_Month">CARDSHARING CANALDIGITAAL - FULL PACK - 12 MONTHS - 40E</option>
                             <option value="NULL">                                            </option>
                             <option value="Tivusat_1_Month">CARDSHARING TIVUSAT 1 MONTH - 2E</option>
                             <option value="Tivusat_12_Month">CARDSHARING TIVUSAT 12 MONTHS - 20E</option>
@@ -357,7 +379,7 @@ if (isset($_POST["submit"])) {
                 <!--Additional Note-->
                 <div class="form-group" id="paysafetxtDiv">
                     <div class="col-sm-5"  style="color:#ff0000">
-                        <b>In case of PaySafeCard paymenth with more of one Pin write here all other Pin (with the amount to be withdrawn from it)</b>
+                       <b>In case of PaySafeCard paymenth with more of one Pin write here all other Pin (with the amount to be withdrawn from it)</b>
                     </div>
                 </div>
                 <div class="form-group" id="devicetxtDiv">
@@ -374,11 +396,8 @@ if (isset($_POST["submit"])) {
 
 
 
-                <?php
-                require_once('recaptchalib.php');
-                $publickey = "6LdhjA4TAAAAALCToFKJAgFXb54FkYIGRYR6Kt2Z"; // you got this from the signup page
-                echo recaptcha_get_html($publickey);
-                ?>
+                <div class="g-recaptcha" data-sitekey="6LcBEUcUAAAAAElycP2nlHVk2d9Q9khY-SJ4__Di"></div>
+
 
                 <input type="checkbox" name="checkbox" value="check" id="agree" /> I have read and agree to <a href="http://www.satopen.cc/correct-payment.html">Validate payment</a> after to paid.
                 I have read and agree to <a href="http://www.satopen.cc/TOS.html">TOS</a>.

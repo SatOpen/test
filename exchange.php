@@ -81,7 +81,7 @@ if (isset($_POST["submit"])) {
 
     if ($typeAccount == "CEX2"){
         $newuser = "<b>[account]</b><br>
-                user                          = $typeAccount-$randomusername<br>
+                user                          = CEX2-$randomusername<br>
                 pwd                           = $randompassword<br>
                 description                   = $dns $port $username $password $contact $nickname<br>
                 caid                          = $caid<br>
@@ -96,8 +96,8 @@ if (isset($_POST["submit"])) {
                 cccreshare                    = 1<br><br><br>";
 
         if ($username!='' && $password!='' && $dns!='' && $port!='') {
-        $newserver = "<b>[reader]</b><br>
-                            label                         = $typeAccount-$randompassword<br>
+            $newserver = "<b>[reader]</b><br>
+                            label                         = CEX2-$dns<br>
                             description                   = $dns $port $username $password $contact $nickname<br>
                             protocol                      = cs378x<br>
                             device                        = $dns,$port<br>
@@ -116,9 +116,51 @@ if (isset($_POST["submit"])) {
                         <b>Cache-Ex Mode 2</b><br>
                         Dns: satopen-exchange.ddns.net<br>
                         Port Cs378x Protocol: 18000<br>
-                        Username: $typeAccount-$randomusername<br>
+                        Username: CEX2-$randomusername<br>
                         Password: $randompassword<br>
-                        Caid: $caid<br>
+                        cacheex_maxhop                = 3<br>
+                        My Email = cardsharezone@gmail.com<br>
+                        My Skype = speaksat@hotmail.com<br><br><br>";
+    }
+    else if ($typeAccount == "CEX2Server2"){
+        $newuser = "<b>[account]</b><br>
+                user                          = CEX2-$randomusername<br>
+                pwd                           = $randompassword<br>
+                description                   = $dns $port $username $password $contact $nickname<br>
+                caid                          = $caid<br>
+                services                      = !sky_blocked<br>
+                uniq                          = 2<br>
+                group                         = 1<br>
+                cacheex                       = 2<br>
+                cacheex_maxhop                = 3<br>
+                no_wait_time                  = 1<br>
+                cacheex_block_fakecws         = 1<br>
+                cccmaxhops                    = 3<br>
+                cccreshare                    = 1<br><br><br>";
+
+        if ($username!='' && $password!='' && $dns!='' && $port!='') {
+            $newserver = "<b>[reader]</b><br>
+                            label                         = CEX2-$dns<br>
+                            description                   = $dns $port $username $password $contact $nickname<br>
+                            protocol                      = cs378x<br>
+                            device                        = $dns,$port<br>
+                            user                          = $username<br>
+                            password                      = $password<br>
+                            keepalive                     = 1<br>
+                            cacheex                       = 2<br>
+                            cacheex_maxhop                = 3<br>
+                            cacheex_block_fakecws         = 1<br>
+                            caid                          = $caid<br>
+                            group                         = 1<br>
+                            dropbadcws                    = 1<br><br><br>";
+        }
+        else { $attempdata = "<b>My data are active for 48 Hour and attemp your data.</b>";}
+        $infotosend =  "<b>Info for User</b><br>
+                        <b>Cache-Ex Mode 2</b><br>
+                        Dns: satsharezone.ddns.net<br>
+                        Port Cs378x Protocol: 1100<br>
+                        Username: CEX2-$randomusername<br>
+                        Password: $randompassword<br>
                         cacheex_maxhop                = 3<br>
                         My Email = cardsharezone@gmail.com<br>
                         My Skype = speaksat@hotmail.com<br><br><br>";
@@ -212,8 +254,11 @@ if (isset($_POST["submit"])) {
                     <label for="typeAccount" class="col-sm-5 control-label">Type</label>
                     <div class="col-sm-5">
                         <select name="typeAccount">
-                            <option value="CEX2">Cache-ex Mod2</option>
-                            <option value="CCAM">CCcam</option>
+                            <option value="CEX2">Cache-ex Mod2 *** Server1</option>
+
+                            <option value="CEX2Server2">Cache-ex *** Mod2 Server2</option>
+
+                            <option value="CCAM">CCcam *** Server1</option>
                         </select>
                     </div>
                 </div>
@@ -234,7 +279,7 @@ if (isset($_POST["submit"])) {
                 <div class="form-group">
                     <label for="username" class="col-sm-5 control-label">Nickname</label>
                     <div class="col-sm-5">
-                        <input type="text" class="form-control" id="username" name="username" placeholder="username">
+                        <input type="text" class="form-control" id="nickname" name="nickname" placeholder="nickname">
                     </div>
                 </div>
 

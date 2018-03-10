@@ -10,9 +10,21 @@
 function packageInfo($pack)
 {
 
+//    ini_set('display_startup_errors', 1);
+//    ini_set('display_errors', 1);
+//    error_reporting(-1);
     $tasso_bitcoins = '0,00025';
     $tasso_bitcoins = file_get_contents('https://blockchain.info/tobtc?currency=EUR&value=1');
-    $tasso_bitcoins = bcdiv($tasso_bitcoins, '1.8', 6);
+    $tasso_bitcoins = bcdiv($tasso_bitcoins, '1.7', 6);
+    //CoinApi set Params
+//    $requestCryptoValue = new HttpRequest();
+//    $requestCryptoValue->setUrl('https://rest.coinapi.io/v1/exchangerate/EUR/USD');
+//    $requestCryptoValue->setMethod(HTTP_METH_GET);
+//    $requestCryptoValue->setHeaders(array(
+//        'X-CoinAPI-Key' => '83A2CD84-78AE-43EA-95C1-DC31FD3DF478'
+//    ));
+//    $requestCryptoValue = $requestCryptoValue->send();
+//    echo $requestCryptoValue->getBody();
 
     if ($pack == "Promo_CS_1_Year") {
         $price = "20.00E";
@@ -23,8 +35,9 @@ function packageInfo($pack)
         $link_credit_card = "goo.gl/SibXVj";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
         $coins_conv2 = "http://www.computersebooks.org/prodotto/1-gift-card-10e/";
-        $pay_safe_card_price_en = "24E (20E+20%tax): Buy PIN 25E -> You'll have 365 Days of service";
-        $pay_safe_card_price_it = "24E (20E+20%tasse): Acquista il PIN da 25E -> Avrai 365 Giorni di servizio";
+        $pay_safe_card_price_en = "25 Euro Pin. NOTE: Different amount Pins will be rejected!";
+        $pay_safe_card_price_it = "25 Euro Pin. NOTA: Pin di diversi importi saranno rifiutati!";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server020&currency=EUR&amountf=20.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
 
     }
 
@@ -37,8 +50,10 @@ function packageInfo($pack)
         $link_credit_card = "goo.gl/f5u32w";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
         $coins_conv2 = "http://www.computersebooks.org/prodotto/1-gift-card-10e/";
-        $pay_safe_card_price_en = "14.40E (12E+20%tax): Buy PIN 20E (10+10) -> You'll have 45 Days of service";
-        $pay_safe_card_price_it = "14.40E (12E+20%tasse): Acquista il PIN da 20E (10+10) -> Avrai 45 Giorni di servizio";
+        $pay_safe_card_price_en = "20 Euro Pin. NOTE: Different amount Pins will be rejected!.  You'll have 2 Months of service";
+        $pay_safe_card_price_it = "20 Euro Pin. NOTA: Pin di diversi importi saranno rifiutati!. Avrai 2 Mesi di servizio";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server012&currency=EUR&amountf=12.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
 
@@ -51,8 +66,10 @@ function packageInfo($pack)
         $link_credit_card = "goo.gl/SibXVj";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
         $coins_conv2 = "http://www.computersebooks.org/prodotto/1-gift-card-10e/";
-        $pay_safe_card_price_en = "24E (20E+20%tax): Buy PIN 25E -> You'll have 33 Days of service";
-        $pay_safe_card_price_it = "24E (20E+20%tasse): Acquista il PIN da 25E -> Avrai 33 Giorni di servizio";
+        $pay_safe_card_price_en = "25 Euro Pin. NOTE: Different amount Pins will be rejected!";
+        $pay_safe_card_price_it = "25 Euro Pin. NOTA: Pin di diversi importi saranno rifiutati!";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server020&currency=EUR&amountf=20.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
 
     }
 
@@ -64,8 +81,10 @@ function packageInfo($pack)
         $link_paypal_it = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MH5ET3B4TXRP6";
         $link_credit_card = "goo.gl/xfCvK1";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "36E (20E+20%tax): Buy PIN 35E (10+25) -> You'll have 90 Days of service";
-        $pay_safe_card_price_it = "36E (20E+20%tasse): Acquista il PIN da 35E (10+25) -> Avrai 90 Giorni di servizio";
+        $pay_safe_card_price_en = "35 Euro Pin (25+10). NOTE: Different amount Pins will be rejected!";
+        $pay_safe_card_price_it = "35 Euro Pin (25+10). NOTA: Pin di diversi importi saranno rifiutati!";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server030&currency=EUR&amountf=30.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
     if ($pack == "Full_Vip_3_Month_+_IPTV") {
@@ -76,8 +95,10 @@ function packageInfo($pack)
         $link_paypal_it = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MH5ET3B4TXRP6";
         $link_credit_card = "goo.gl/pfb9xD";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "66E (55E+10%tax): Buy PIN 70E (50+10+10) -> You'll have 100 Days of service";
-        $pay_safe_card_price_it = "66E (55E+20%tasse): Acquista il PIN da 70E (50+10+10) -> Avrai 100 Giorni di servizio";
+        $pay_safe_card_price_en = "55 Euro Pin (25+10+10+10). NOTE: Different amount Pins will be rejected!";
+        $pay_safe_card_price_it = "55 Euro Pin (25+10+10+10). NOTA: Pin di diversi importi saranno rifiutati!";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server055&currency=EUR&amountf=55.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
 
@@ -89,8 +110,10 @@ function packageInfo($pack)
         $link_paypal_it = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3949GT2HZRPNG";
         $link_credit_card = "goo.gl/pfb9xD";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "66E (55E+20%tax): Buy PIN 70E (50+10+10) -> You'll have 100 Days of service";
-        $pay_safe_card_price_it = "66E (55E+20%tasse): Acquista il PIN da 70E (50+10+10) -> Avrai 100 Giorni di servizio";
+        $pay_safe_card_price_en = "55 Euro Pin (25+10+10+10). NOTE: Different amount Pins will be rejected!";
+        $pay_safe_card_price_it = "55 Euro Pin (25+10+10+10). NOTA: Pin di diversi importi saranno rifiutati!";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server055&currency=EUR&amountf=55.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
     if ($pack == "Full_Vip_6_Month_+_IPTV") {
@@ -101,12 +124,14 @@ function packageInfo($pack)
         $link_paypal_it = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3949GT2HZRPNG";
         $link_credit_card = "goo.gl/DV6LBA";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "120.00E (100E+20%tax): Buy PIN 120E (100+10+10) -> You'll have 180 Days of service";
-        $pay_safe_card_price_it = "120.00E (100E+20%tasse):  Acquista il PIN da 120E (100+10+10) -> Avrai 180 Giorni di servizio";
+        $pay_safe_card_price_en = "120 Euro Pin (100+10+10). NOTE: Different amount Pins will be rejected!";
+        $pay_safe_card_price_it = "120 Euro Pin (100+10+10). NOTA: Pin di diversi importi saranno rifiutati!";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server100&currency=EUR&amountf=100.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
 
-    if ($pack == "Mediaset_Premium_1_Month" || $pack == "CSPAIN_Full_1_Month" || $pack == "Sky_UK_Full_1_Month" || $pack == "Sky_DE_Full_1_Month" || $pack == "Adult_1_Month" || $pack == "CSAT_Full_1_Month") {
+    if ($pack == "Mediaset_Premium_1_Month" || $pack == "CSPAIN_Full_1_Month" || $pack == "Sky_UK_Full_1_Month" || $pack == "Sky_DE_Full_1_Month" || $pack == "Adult_1_Month" || $pack == "CSAT_Full_1_Month" || $pack == "CDIGITAAL_Full_1_Month") {
         $price = "4.00E";
         $link_c2 = "goo.gl/HZoIhe";
         $link_payza = "https://secure.payza.com/checkout?BzRAfHdsd3FkeHRic2QpQEBEPFluSn13czxEdmlMMzpOSzhPSURNQGdsd2Z4Z3J1c2JzZAQ=";
@@ -114,12 +139,14 @@ function packageInfo($pack)
         $link_paypal_it = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7LN6D4F4FPC4U";
         $link_credit_card = "goo.gl/ZqkebD";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "4.80E (4E+20%tax): Buy PIN 10E -> You'll have 60 Days of service";
-        $pay_safe_card_price_it = "4.80E (4E+20%tasse): Acquista il PIN da 10E -> Avrai 60 Giorni di servizio";
+        $pay_safe_card_price_en = "10 Euro Pin. NOTE: Different amount Pins will be rejected!. You'll have 3 Months of service";
+        $pay_safe_card_price_it = "10 Euro Pin. NOTA: Pin di diversi importi saranno rifiutati!. Avrai 3 Mesi di servizio";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server004&currency=EUR&amountf=4.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
 
-    if ($pack == "Mediaset_Premium_3_Month" || $pack == "CSPAIN_Full_3_Month" || $pack == "Sky_UK_Full_3_Month" || $pack == "Sky_DE_Full_3_Month" || $pack == "Adult_3_Month" || $pack == "CSAT_Full_3_Month") {
+    if ($pack == "Mediaset_Premium_3_Month" || $pack == "CSPAIN_Full_3_Month" || $pack == "Sky_UK_Full_3_Month" || $pack == "Sky_DE_Full_3_Month" || $pack == "Adult_3_Month" || $pack == "CSAT_Full_3_Month" || $pack == "CDIGITAAL_Full_3_Month") {
         $price = "10.00E";
         $link_c2 = "http://goo.gl/CjkJiS";
         $link_payza = "https://secure.payza.com/checkout?BDM/e3ZrdnBjd3NhcmMoPz9TNDJxZHVmSzZEbThXO3pzaDhsUFdLP2ZrdmV3ZnF0cmFyYwI=";
@@ -127,12 +154,14 @@ function packageInfo($pack)
         $link_paypal_it = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7HVF8WGQQWSA2";
         $link_credit_card = "goo.gl/JCv0b8";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "12.00E (10E+20%tax): Buy PIN 20E (10+10) -> You'll have 150 Days of service";
-        $pay_safe_card_price_it = "12.00E (10E+20%tasse): Acquista il PIN da 20E (10+10) -> Avrai 150 Giorni di servizio";
+        $pay_safe_card_price_en = "25 Euro Pin. NOTE: Different amount Pins will be rejected!. You'll have 2 Months of service";
+        $pay_safe_card_price_it = "25 Euro Pin. NOTA: Pin di diversi importi saranno rifiutati!. Avrai 2 Mesi di servizio";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server010&currency=EUR&amountf=10.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
 
     }
 
-    if ($pack == "Mediaset_Premium_6_Month" || $pack == "CSPAIN_Full_6_Month" || $pack == "Sky_UK_Full_6_Month" || $pack == "Sky_DE_Full_6_Month" || $pack == "Adult_6_Month" || $pack == "CSAT_Full_6_Month") {
+    if ($pack == "Mediaset_Premium_6_Month" || $pack == "CSPAIN_Full_6_Month" || $pack == "Sky_UK_Full_6_Month" || $pack == "Sky_DE_Full_6_Month" || $pack == "Adult_6_Month" || $pack == "CSAT_Full_6_Month" || $pack == "CDIGITAAL_Full_6_Month") {
         $price = "20.00E";
         $link_c2 = "http://goo.gl/j6Hxc3";
         $link_payza = "https://secure.payza.com/checkout?AjE9eXRpdG5hdXFfcGEmPT1RWUkyTGdGK2xnUU9xRW1CL2J6ZFU1PWRpdGN1ZG9ycF9wYQI=";
@@ -141,12 +170,14 @@ function packageInfo($pack)
         $link_credit_card = "goo.gl/SibXVj";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
         $coins_conv2 = "http://www.computersebooks.org/prodotto/1-gift-card-10e/";
-        $pay_safe_card_price_en = "24E (20E+20%tax): Buy PIN 25E -> You'll have 33 Days of service";
-        $pay_safe_card_price_it = "24E (20E+20%tasse): Acquista il PIN da 25E -> Avrai 33 Giorni di servizio";
+        $pay_safe_card_price_en = "25 Euro Pin. NOTE: Different amount Pins will be rejected!";
+        $pay_safe_card_price_it = "25 Euro Pin. NOTA: Pin di diversi importi saranno rifiutati!";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server020&currency=EUR&amountf=20.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
 
     }
 
-    if ($pack == "Mediaset_Premium_12_Month" || $pack == "CSPAIN_Full_12_Month" || $pack == "Sky_UK_Full_12_Month" || $pack == "Sky_DE_Full_12_Month" || $pack == "Adult_12_Month" || $pack == "CSAT_Full_12_Month") {
+    if ($pack == "Mediaset_Premium_12_Month" || $pack == "CSPAIN_Full_12_Month" || $pack == "Sky_UK_Full_12_Month" || $pack == "Sky_DE_Full_12_Month" || $pack == "Adult_12_Month" || $pack == "CSAT_Full_12_Month" || $pack == "CDIGITAAL_Full_12_Month") {
         $price = "40.00E";
         $link_c2 = "http://goo.gl/uvFVGQ";
         $link_payza = "https://secure.payza.com/checkout?CjhE4oKse3B7dWh8eGZ3aC1ERH5rUUk5aVY6PndUXD5eV1k6Nm13VFNEa3B7anxrdnl3ZndoAw==";
@@ -154,8 +185,10 @@ function packageInfo($pack)
         $link_paypal_it = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9Y9ZGU76YX6HE";
         $link_credit_card = "http://goo.gl/EML6hJ";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "48E (40E+20%tax): Buy PIN 50E -> You'll have 370 Days of service";
-        $pay_safe_card_price_it = "48E (40E+20%tasse): Acquista il PIN da 50E -> Avrai 370 Giorni di servizio";
+        $pay_safe_card_price_en = "50 Euro Pin (25+50). NOTE: Different amount Pins will be rejected!.";
+        $pay_safe_card_price_it = "50 Euro Pin (25+50). NOTA: Pin di diversi importi saranno rifiutati!.";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server040&currency=EUR&amountf=40.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
 
     }
 
@@ -168,8 +201,10 @@ function packageInfo($pack)
         $link_paypal_it = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AEN52XVGK93KU";
         $link_credit_card = "goo.gl/Jq3D4R";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "2.40E (2E+20%tax): Buy PIN 10E -> You'll have 180 Days of service";
-        $pay_safe_card_price_it = "2.40E (2E+20%tax): Acquista il PIN da 10E -> Avrai 180 Giorni di servizio";
+        $pay_safe_card_price_en = "10 Euro Pin. NOTE: Different amount Pins will be rejected!. You'll have 6 Months of service";
+        $pay_safe_card_price_it = "10 Euro Pin. NOTA: Pin di diversi importi saranno rifiutati!. Avrai 6 Mesi di servizio";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server002&currency=EUR&amountf=2.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
 
     }
 
@@ -182,8 +217,10 @@ function packageInfo($pack)
         $link_credit_card = "goo.gl/SibXVj";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
         $coins_conv2 = "http://www.computersebooks.org/prodotto/1-gift-card-10e/";
-        $pay_safe_card_price_en = "24E (20E+20%tax): Buy PIN 25E -> You'll have 365 Days of service";
-        $pay_safe_card_price_it = "24E (20E+20%tasse): Acquista il PIN da 25E -> Avrai 365 Giorni di servizio";
+        $pay_safe_card_price_en = "25 Euro Pin. NOTE: Different amount Pins will be rejected!";
+        $pay_safe_card_price_it = "25 Euro Pin. NOTA: Pin di diversi importi saranno rifiutati!";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server020&currency=EUR&amountf=20.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
 
 
     }
@@ -196,8 +233,10 @@ function packageInfo($pack)
         $link_paypal_it = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EGMCAK5G66NR8";
         $link_credit_card = "goo.gl/o4O6CO";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "14.40E (12E+20%tax): Buy PIN 25E -> You'll have 60 Days of service";
-        $pay_safe_card_price_it = "14.40E (12E+20%tax): Acquista il PIN da 25E -> Avrai 60 Giorni di servizio";
+        $pay_safe_card_price_en = "25 Euro Pin. NOTE: Different amount Pins will be rejected!. You'll have 2 Months of service";
+        $pay_safe_card_price_it = "25 Euro Pin. NOTA: Pin di diversi importi saranno rifiutati!. Avrai 2 Mesi di servizio";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server012&currency=EUR&amountf=12.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
 
@@ -209,8 +248,10 @@ function packageInfo($pack)
         $link_paypal_it = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EGMCAK5G66NR8";
         $link_credit_card = "goo.gl/XDSzzA";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "35E: Buy PIN 35E (25+10)";
-        $pay_safe_card_price_it = "35E: Acquista il PIN da 35E (25+10)";
+        $pay_safe_card_price_en = "35 Euro Pin (25+10). NOTE: Different amount Pins will be rejected!.";
+        $pay_safe_card_price_it = "35 Euro Pin (25+10). NOTA: Pin di diversi importi saranno rifiutati!.";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server035&currency=EUR&amountf=35.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
     if ($pack == "IPTV_6_Month") {
@@ -221,8 +262,10 @@ function packageInfo($pack)
         $link_paypal_it = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EGMCAK5G66NR8";
         $link_credit_card = "goo.gl/4Eqjkm";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "75.00E (70E+tax): Buy PIN 75E (50+25)";
-        $pay_safe_card_price_it = "75.00E (70E+tax): Acquista il PIN da 75E (50+25)";
+        $pay_safe_card_price_en = "75 Euro Pin (25+50). NOTE: Different amount Pins will be rejected!.";
+        $pay_safe_card_price_it = "75 Euro Pin (25+50). NOTA: Pin di diversi importi saranno rifiutati!.";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server070&currency=EUR&amountf=70.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
 
@@ -230,8 +273,9 @@ function packageInfo($pack)
         $price = "40.00E";
         $link_credit_card = "goo.gl/EML6hJ";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "48E (40E+20%tax): Buy PIN 50E -> You'll have 33 Days of service";
-        $pay_safe_card_price_it = "48E (40E+20%tasse): Acquista il PIN da 50E -> Avrai 33 Giorni di servizio";
+        $pay_safe_card_price_en = "50 Euro Pin. NOTE: Different amount Pins will be rejected!.";
+        $pay_safe_card_price_it = "50 Euro Pin. NOTA: Pin di diversi importi saranno rifiutati!.";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server040&currency=EUR&amountf=40.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
 
     }
 
@@ -239,8 +283,10 @@ function packageInfo($pack)
         $price = "100.00E";
         $link_credit_card = "goo.gl/DV6LBA";
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
-        $pay_safe_card_price_en = "120.00E (100E+20%tax): Buy PIN 120E (100+10+10) -> You'll have 90 Days of service";
-        $pay_safe_card_price_it = "120.00E (100E+20%tasse): Acquista il PIN da 120E (100+10+10) -> Avrai 90 Giorni di servizio";
+        $pay_safe_card_price_en = "120 Euro Pin (100+10+10). NOTE: Different amount Pins will be rejected!.";
+        $pay_safe_card_price_it = "120 Euro Pin (100+10+10). NOTA: Pin di diversi importi saranno rifiutati!.";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server100&currency=EUR&amountf=100.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
     if ($pack == "Combo_Full_Vip_6_Month") {
@@ -249,6 +295,8 @@ function packageInfo($pack)
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
         $pay_safe_card_price_en = "240.00E (200E+20%tax): Buy PIN 240E (100+100+10+10+10+10)-> You'll have 180 Days of service";
         $pay_safe_card_price_it = "240.00E (200E+20%tasse): Acquista il PIN da 240E (100+100+10+10+10+10) -> Avrai 180 Giorni di servizio";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server200&currency=EUR&amountf=200.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
 
@@ -262,6 +310,8 @@ function packageInfo($pack)
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
         $pay_safe_card_price_en = "9.60E (8E+20%tax): Buy PIN 10E -> You'll have 30 Days of service";
         $pay_safe_card_price_it = "9.60E (8E+20%tasse): Acquista il PIN da 10E -> Avrai 30 Giorni di servizio";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server008&currency=EUR&amountf=8.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
     if ($pack == "Combo_SkyDe_SkyUk_3_Month" || $pack == "Combo_Canal+Spain_Sky_Uk_3_Month") {
@@ -275,6 +325,8 @@ function packageInfo($pack)
         $coins_conv2 = "http://www.computersebooks.org/prodotto/1-gift-card-10e/";
         $pay_safe_card_price_en = "24E (20E+20%tax): Buy PIN 25E -> You'll have 33 Days of service";
         $pay_safe_card_price_it = "24E (20E+20%tasse): Acquista il PIN da 25E -> Avrai 33 Giorni di servizio";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server020&currency=EUR&amountf=20.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
     if ($pack == "Combo_SkyDe_SkyUk_6_Month" || $pack == "Combo_Canal+Spain_Sky_Uk_6_Month") {
@@ -287,6 +339,8 @@ function packageInfo($pack)
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
         $pay_safe_card_price_en = "48E (40E+20%tax): Buy PIN 50E -> You'll have 185 Days of service";
         $pay_safe_card_price_it = "48E (40E+20%tasse): Acquista il PIN da 50E -> Avrai 185 Giorni di servizio";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server040&currency=EUR&amountf=40.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
 
@@ -300,6 +354,8 @@ function packageInfo($pack)
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
         $pay_safe_card_price_en = "6E (5E+20%tax): Buy PIN 10E -> You'll have 60 Days of service";
         $pay_safe_card_price_it = "6E (5E+20%tasse): Acquista il PIN da 10E -> Avrai 60 Giorni di servizio";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server005&currency=EUR&amountf=5.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
 
     if ($pack == "Combo_Tivusat_Mediaset_12_Month" || $pack == "Combo_Tivusat_Mediaset_MaxTv_12_Month") {
@@ -312,7 +368,10 @@ function packageInfo($pack)
         $coins_conv = (int)$price * (float)$tasso_bitcoins;
         $pay_safe_card_price_en = "60E (50E+20%tax): Buy PIN 60E (50+10) -> You'll have 365 Days of service";
         $pay_safe_card_price_it = "60E (50E+20%tasse): Acquista il PIN da 60E (50+10) -> Avrai 365 Giorni di servizio";
+        $cryptocurrency = "https://www.coinpayments.net/index.php?cmd=_pay&reset=1&merchant=1e91d4ce23f865ab4d4e6b8ff516de28&item_name=server050&currency=EUR&amountf=50.00000000&quantity=1&allow_quantity=0&want_shipping=0&allow_extra=1&";
+
     }
-    return array($price, $coins_conv,$link_credit_card,$pay_safe_card_price_en,$pay_safe_card_price_it);
+
+    return array($price, $coins_conv,$link_credit_card,$pay_safe_card_price_en,$pay_safe_card_price_it,$cryptocurrency);
 }
 ?>

@@ -192,6 +192,10 @@
             $errMessageInv = 'Error System';
         }
 
+        if (strpos($email, 'mchatel@juno.com') !== false) {
+            $errMessageInv = 'Error System';
+        }
+
 
         if (strpos($email, 'support') !== false) {
             $errMessageInv = 'Error System';
