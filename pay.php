@@ -342,9 +342,9 @@ if (isset($_POST["submit"])) {
                             <option value="NULL"></option>
                             <option value="NULL">******* IPTV OFFER *******</option>
                             <option value="NULL"></option>
-                            <option value="IPTV_1_Month">IPTV - 1 MONTH - 12E</option>
-                            <option value="IPTV_3_Month">IPTV - 3 MONTHS - 35E</option>
-                            <option value="IPTV_6_Month">IPTV - 6 MONTHS - 70E</option>
+                            <option value="IPTV_1_Month">IPTV - 1 MONTH - 12E + CARDSHARING ACCOUNT FREE (LIMITED PROMO)</option>
+                            <option value="IPTV_3_Month">IPTV - 3 MONTHS - 35E + CARDSHARING ACCOUNT FREE (LIMITED PROMO)</option>
+                            <option value="IPTV_6_Month">IPTV - 6 MONTHS - 70E + CARDSHARING ACCOUNT FREE (LIMITED PROMO)</option>
                         </select>
                     </div>
                     <?php echo "<p class='text-danger'>$errPack </p>"; ?>
