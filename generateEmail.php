@@ -38,7 +38,7 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
             
             <br><br>
             
-            <br><strong>BITCOINS: <font color='red'>(50% Di Sconto se Paghi con questo metodo Bitcoins!)</font></strong><br>
+            <br><strong>BITCOINS:</strong><br>
             1. Indirizzo:<b>$bitcoinsAddress</b><br>
             2. Invia l'esatta cifra riportata sopra: <b>$coinsPrice</b><br>
             3. Annota il tuo indirizzo Coins e il codice Hash della transazione, li dovrai usare nella validazione del pagamento<br>
@@ -48,36 +48,19 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
             Commissioni escluse<br> 
             
          
-            <br><strong>BITCOIN(BTC) - BitcoinCash(BCH) - Ether(ETH) (via coinpayments.net)</strong><br>
-            1. Vai al seguente indirizzo: <b>$cryptocurrency</b><br>
-            2. Scegli la cryptomoneta che desideri, effettua il pagamento e completa il checkout<br>
-            3. Annota il tuo Payment ID (compare sotto al QR-Code), lo dovrai usare nella validazione del pagamento<br>
-            4. Valida il tuo pagamento inserendo il Payment ID: $validateLink.<br>
-            
+    
             <br><strong>PAYPAL Gift</strong>:<br>
-            1. Link per il pagamento paypal.me/clopez123345<br>
+            1. Seleziona 'Invia Come Regalo' al seguente indirizzo snappo1980@gmail.com<br>
             2. Digita come importo <b>$price</b><br>
-            3. Salva l'id della transazione per validare il pagamento<br>
-            4. Valida il tuo pagamento: $validateLink.<br>            
+            3. Non scrivete alcun commento o nota nel regalo<br>
+            4. Salva l'id della transazione per validare il pagamento<br>
+            5. Valida il tuo pagamento: $validateLink.<br>            
             
             <br><strong>CREDIT CARD/VISA ELECTRON/MASTERCARD/POSTEPAY BY MyCommerce</strong>:<br>
             1. Link per il pagamento <b>$linkCreditCard</b><br>
             2. Salva il tuo ORDER-ID scritto nella pagina del carrello per validare il pagamento<br>
             3. Valida il tuo pagamento: $validateLink.<br>
             <em>Come trovo il mio order-id?: $mycommerceGuideIdCode<br></em>
-            
-    
-            <br><b>AMAZON Gift Card </b>:<br>
-            1. Login nel tuo account Amazon<br>
-            2. Cerca Buono Regalo Amazon $amazonLinkGiftCard<br>
-            3. Come importo scrivi: $price<br>
-            4. Come email scrivi il tuo indirizzo email<br>
-            5. Data Spedizione Adesso.<br>
-            6. Completa l'acquisto su Amazon e controlla il tuo indirizzo email<br>
-            7. Annota il codice alfanumerico di 16 cifre del buono Amazon che ricevi via e-mail.<br>
-            8. Valida il tuo pagamento inserendo il codice alfanumerico di 16 cifre del Buono Amazon: $validateLink.	<br>
-            <em>Al momento accettiamo solo pin acquistato su https://www.amazon.it</em><br>
-
             
             <br><strong>SKRILL</strong>:<br>
             1. Accedi al tuo account Skrill<br>
@@ -87,10 +70,11 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
             5. Salva il Numero transazione.<br>
             6. Valida il tuo pagamento: $validateLink.<br>
             
+       
+            
             <br><strong>PAYSAFECARD:</strong><br>
             Info:<br>
             PaysafeCard offre PIN con tagli da 10,25,50,100 Euro.<br>
-            NOTA: Non possiamo prelevare solo una parte del PIN (es solo 8E da un PIN di 10E), per cui verrà prelevato l'intero valore del PIN e accumulato come giorni di servizio.<br>
             1. Acquista un Pin PaySafeCard:<b><br>$paysafecardIt<br></b>
             2. Valida il tuo pagamento qui $validateLink.<br>
             3. Seleziona il tuo pacchetto e come metodo PaysafeCard<br>
@@ -101,6 +85,25 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
            
             $warningMessageIt";
 
+
+//        <br><b>AMAZON Gift Card </b>:<br>
+//        1. Login nel tuo account Amazon<br>
+//            2. Cerca Buono Regalo Amazon $amazonLinkGiftCard<br>
+//            3. Come importo scrivi: $price<br>
+//            4. Come email scrivi il tuo indirizzo email<br>
+//            5. Data Spedizione Adesso.<br>
+//        6. Completa l'acquisto su Amazon e controlla il tuo indirizzo email<br>
+//            7. Annota il codice alfanumerico di 16 cifre del buono Amazon che ricevi via e-mail.<br>
+//            8. Valida il tuo pagamento inserendo il codice alfanumerico di 16 cifre del Buono Amazon: $validateLink.	<br>
+//            <em>Al momento accettiamo solo pin acquistato su https://www.amazon.it</em><br>
+
+//
+//        <br><strong>BITCOIN(BTC) - BitcoinCash(BCH) - Ether(ETH) (via coinpayments.net)</strong><br>
+//        1. Vai al seguente indirizzo: <b>$cryptocurrency</b><br>
+//        2. Scegli la cryptomoneta che desideri, effettua il pagamento e completa il checkout<br>
+//            3. Annota il tuo Payment ID (compare sotto al QR-Code), lo dovrai usare nella validazione del pagamento<br>
+//            4. Valida il tuo pagamento inserendo il Payment ID: $validateLink.<br>
+//
 //        <br><b>NETELLER </b>:<br>
 //        1. Login nel tuo account Neteller<br>
 //            2. Clicca Trasferimento di denaro<br>
@@ -121,7 +124,7 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
             <br><br>
             
             
-            <br><strong>BITCOINS <font color='red'>(50% OFF if pay with Bitcoins and this method!)</font></strong>:<br> 
+            <br><strong>BITCOINS</strong>:<br> 
             1. Address:<b>$bitcoinsAddress</b><br>
             2. Send the exact amount, write above: <b>$coinsPrice</b><br>
             3. Please note your BitCoins address and Hash code, you use will validate payment.<br>
@@ -131,11 +134,7 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
             Fee Except<br> 
             
             
-            <br><strong>BITCOIN(BTC) - BitcoinCash(BCH) - Ether(ETH) (via coinpayments.net)</strong><br>
-            1. Go to this address: <b>$cryptocurrency</b><br>
-            2. Choose your cryptocurrency, make the payment and Complete Checkout<br>
-            3. Please note your Payment ID (show it under QR-Code),  you use will validate payment.<br>
-            4. Validate your payment using your Payment ID : $validateLink.<br>
+
             
             
             
@@ -144,18 +143,6 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
             2. Save your ORDER-ID in checkout page for validate the payment<br>
             3. Validate your payment: $validateLink.<br>
             <em>How can find my order-id?: $mycommerceGuideIdCode<br><br></em>
-                        
-            <br><b>Amazon Digital Gift Card </b>:<br>
-            1. Login on account Amazon.it (Note Only Amazon.it is accept!)<br>
-            2. Buy Amazon Italy Digital Gift Card $amazonLinkGiftCard<br>
-            3. Write this exact amount: $price<br>
-            4. Write your email address<br>
-            5. Ship Date Now.<br>
-            6. Complete Checkout and check in your email address<br>
-            7. Annotate the 16 alphanumeric-code write in Amazon e-mail.<br>
-            8. Validate your payment using 16 alphanumeric-code of Amazon Digital Gift: $validateLink.	<br>
-            <em>Note We Accept only Gift from https://www.amazon.it (Other Amazon Country isn't accepted)</em><br>
-
 
             <br><strong>SKRILL</strong>:<br>
             1. Login in your Skrill account <br>
@@ -165,10 +152,10 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
             5. Save your Transaction ID.	<br>
             6. Validate your payment: $validateLink.<br>
               
+        
             <br><strong>PAYSAFECARD:</strong><br>
             Info:<br>
             PaysafeCard offer PINs worth 10, 25, 50 or 100 EUR.<br>
-            NOTE: We can not withdraw only a portion of PIN (example just 8E from 10E PIN). So the full value of the PIN will be charged and accumulated as extra days.<br>
             1. Buy a Pin PaySafeCard:<b><br>$paysafecardEn<br></b>
             2. Validate your payment here $validateLink.<br>
             3. Select your Package and method PaysafeCard<br>
@@ -178,6 +165,23 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
 
             $warningMessageEn
 ";
+
+//        <br><b>Amazon Digital Gift Card </b>:<br>
+//        1. Login on account Amazon.it (Note Only Amazon.it is accept!)<br>
+//        2. Buy Amazon Italy Digital Gift Card $amazonLinkGiftCard<br>
+//            3. Write this exact amount: $price<br>
+//            4. Write your email address<br>
+//            5. Ship Date Now.<br>
+//        6. Complete Checkout and check in your email address<br>
+//            7. Annotate the 16 alphanumeric-code write in Amazon e-mail.<br>
+//        8. Validate your payment using 16 alphanumeric-code of Amazon Digital Gift: $validateLink.	<br>
+//            <em>Note We Accept only Gift from https://www.amazon.it (Other Amazon Country isn't accepted)</em><br>
+//
+        //            <br><strong>BITCOIN(BTC) - BitcoinCash(BCH) - Ether(ETH) (via coinpayments.net)</strong><br>
+//            1. Go to this address: <b>$cryptocurrency</b><br>
+//            2. Choose your cryptocurrency, make the payment and Complete Checkout<br>
+//            3. Please note your Payment ID (show it under QR-Code),  you use will validate payment.<br>
+//            4. Validate your payment using your Payment ID : $validateLink.<br>
 //        <br><b>Neteller </b>:<br>
 //        1. Login into your Neteller account<br>
 //            2. Press on Money Transfer<br>

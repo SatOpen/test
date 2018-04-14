@@ -27,6 +27,13 @@ function packageSelectorUserCreator($pack) {
             $month_renew = "+1 month";
         }
 
+        if ($pack == "Full_Vip_2_Month"){
+            $caid = "09CD,0963,0100,1805,1810,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4AEE,0629,1838,098E,0648";
+            $services                      = "!sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot";
+            $date = strtotime(date("Y-m-d", strtotime($date)) . "+2 month");
+            $month_renew = "+2 month";
+        }
+
         if ($pack == "Full_Vip_3_Month"){
             $caid = "09CD,0963,0100,1805,1810,1830,183D,1841,098C,0500,0B01,0BAA,0B00,091F,0D05,0D06,09B2,093E,0B00,0D96,0B01,4AEE,0629,1838,098E,0648";
             $services                      = "!sky_blocked,!shopping,!servizio,!test,!promo,!primafila_hot";

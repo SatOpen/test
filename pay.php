@@ -287,7 +287,7 @@ if (isset($_POST["submit"])) {
                             <option value="MaxTv_12_Month">CARDSHARING MAXTV 12 MONTHS - 20E</option>
                             <option value="NULL"></option>
                             <option value="Adult_1_Month">CARDSHARING ADULT PACK - FULL PACK - 1 MONTH - 5E</option>
-                            <option value="Adult_6_Month">CARDSHARING ADULT PACK - FULL PACK - 3 MONTHS - 10E</option>
+                            <option value="Adult_3_Month">CARDSHARING ADULT PACK - FULL PACK - 3 MONTHS - 10E</option>
                             <option value="Adult_6_Month">CARDSHARING ADULT PACK - FULL PACK - 6 MONTHS - 20E</option>
                             <option value="Adult_12_Month">CARDSHARING ADULT PACK - FULL PACK - 12 MONTHS - 40E</option>
                             <option value="NULL"></option>
@@ -377,6 +377,9 @@ if (isset($_POST["submit"])) {
                             <option value="NULL">******* LIMITED TIME OFFER *******</option>
                             <option value="NULL"></option>
                             <option value="Promo_CS_1_Year">* LIMITED CARDSHARING FULL VIP - 12 MONTHS - 20E *</option>
+                            <option value="IPTV_1_Month">IPTV - 1 MONTH - 12E + CARDSHARING ACCOUNT FREE (LIMITED PROMO)</option>
+                            <option value="IPTV_3_Month">IPTV - 3 MONTHS - 35E + CARDSHARING ACCOUNT FREE (LIMITED PROMO)</option>
+                            <option value="IPTV_6_Month">IPTV - 6 MONTHS - 70E + CARDSHARING ACCOUNT FREE (LIMITED PROMO)</option>
                         </select>
                     </div>
                     <?php echo "<p class='text-danger'>$errPack </p>"; ?>

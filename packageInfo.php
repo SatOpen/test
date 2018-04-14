@@ -15,7 +15,9 @@ function packageInfo($pack)
 //    error_reporting(-1);
     $tasso_bitcoins = '0,00025';
     $tasso_bitcoins = file_get_contents('https://blockchain.info/tobtc?currency=EUR&value=1');
-    $tasso_bitcoins = bcdiv($tasso_bitcoins, '1.7', 6);
+
+    //    $tasso_bitcoins = bcdiv($tasso_bitcoins, '1.7', 6);
+
     //CoinApi set Params
 //    $requestCryptoValue = new HttpRequest();
 //    $requestCryptoValue->setUrl('https://rest.coinapi.io/v1/exchangerate/EUR/USD');

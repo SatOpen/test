@@ -55,9 +55,29 @@ function writeIdCodeOnFileLocal ($id_code){
 }
 
 function findAccountLineOnFileCs($userRenewalCs){
+
+//    $search      = $userRenewalCs;
+//    $line_number = false;
+//
+//    if ($handle = fopen("/usr/local/etc/oscam.user", "r")) {
+//        $count = 0;
+//        while (($line = fgets($handle, 4096)) !== FALSE and !$line_number) {
+//            $count++;
+//            $line_number = (strpos($line, $search) !== FALSE) ? $count : $line_number;
+//        }
+//        fclose($handle);
+//    }
+//
+//    if ($line_number==false) {
+//        exit('Account Non Trovato nel file Oscam 1');
+//    }
+//    echo "line_number $line_number ";
+
+
     $numeroLineaUtenteFile1 = exec("sed -n '/$userRenewalCs/=' /usr/local/etc/oscam.user");
+   // echo "numeroLineaUtenteFile1 $numeroLineaUtenteFile1 ";
     $numeroLineaDataUtenteFile1 = $numeroLineaUtenteFile1 + 3;
-    echo "Linea numero $numeroLineaDataUtenteFile1";
+  //  echo "numeroLineaDataUtenteFile1 $numeroLineaDataUtenteFile1 ";
     if ($numeroLineaDataUtenteFile1==3) {
         exit('Account Non Trovato nel file Oscam 1');
     }

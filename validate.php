@@ -184,7 +184,7 @@ if (isset($_POST["submit"])) {
                             <option value="bitcoin">Bitcoin</option>
                             <option value="paypal">Paypal</option>
                             <option value="coinpaymentsNet">Bitcoin-BitcoinsCash-Ethereum by coinpayments.net</option>
-                            <option value="amazon">Amazon Gift Card</option>
+<!--                            <option value="amazon">Amazon Gift Card</option>-->
                             <option value="paySafeCard">PaySafeCard</option>
                         </select>
                     </div>
