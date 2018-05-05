@@ -33,6 +33,26 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
     $amazonLinkGiftCard = 'https://www.amazon.it/Buono-Regalo-Amazon-Invio-mail/dp/B005VG4G3U/ref=sr_1_1?ie=UTF8&qid=1504642642&sr=8-1&keywords=buono+regalo+amazon';
 
     if ($country == "IT") {
+        $myCommerceMessage = "<br><strong>CREDIT CARD/VISA ELECTRON/MASTERCARD/POSTEPAY BY MyCommerce</strong>:<br>
+            1. Link per il pagamento <b>$linkCreditCard</b><br>
+            2. Salva il tuo ORDER-ID scritto nella pagina del carrello per validare il pagamento<br>
+            3. Valida il tuo pagamento: $validateLink.<br>
+            <em>Come trovo il mio order-id?: $mycommerceGuideIdCode<br></em>";
+    }
+
+    else if ($country == "US"){
+        $myCommerceMessage = "<br>";
+    }
+
+    else {
+        $myCommerceMessage = "<br><strong>CREDIT CARD/VISA ELECTRON/MASTERCARD/POSTEPAY BY MyCommerce</strong>:<br>
+        1. Link to pay <b>$linkCreditCard</b><br>
+        2. Save your ORDER-ID in checkout page for validate the payment<br>
+            3. Validate your payment: $validateLink.<br>
+            <em>How can find my order-id?: $mycommerceGuideIdCode<br><br></em>";
+    }
+
+    if ($country == "IT") {
         $bodyEmail = "
             <b> INFORMAZIONI PER IL PAGAMENTO</b><br>Package: <b>$pack</b><br>Prezzo: <b>$price</b> Euro<br>
             
@@ -47,20 +67,7 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
             Nota: Hai un'ora per inviare la cifra $coinsPrice dopodichè l'indirizzo e l'importo scadranno scadranno e l'ammontare verrà restituito al tuo indirizzo.
             Commissioni escluse<br> 
             
-         
-    
-            <br><strong>PAYPAL Gift</strong>:<br>
-            1. Seleziona 'Invia Come Regalo' al seguente indirizzo snappo1980@gmail.com<br>
-            2. Digita come importo <b>$price</b><br>
-            3. Non scrivete alcun commento o nota nel regalo<br>
-            4. Salva l'id della transazione per validare il pagamento<br>
-            5. Valida il tuo pagamento: $validateLink.<br>            
-            
-            <br><strong>CREDIT CARD/VISA ELECTRON/MASTERCARD/POSTEPAY BY MyCommerce</strong>:<br>
-            1. Link per il pagamento <b>$linkCreditCard</b><br>
-            2. Salva il tuo ORDER-ID scritto nella pagina del carrello per validare il pagamento<br>
-            3. Valida il tuo pagamento: $validateLink.<br>
-            <em>Come trovo il mio order-id?: $mycommerceGuideIdCode<br></em>
+            $myCommerceMessage
             
             <br><strong>SKRILL</strong>:<br>
             1. Accedi al tuo account Skrill<br>
@@ -133,16 +140,10 @@ function generateEmail($country,$pack,$linkCreditCard,$price,$coinsPrice,$paysaf
             Note: You have 1 hour time to sent the amount $coinsPrice ,after amount and the bitcoin address expire and the payment will return on your address.
             Fee Except<br> 
             
+        
             
-
+            $myCommerceMessage
             
-            
-            
-            <br><strong>CREDIT CARD/VISA ELECTRON/MASTERCARD/POSTEPAY BY MyCommerce</strong>:<br>
-            1. Link to pay <b>$linkCreditCard</b><br>
-            2. Save your ORDER-ID in checkout page for validate the payment<br>
-            3. Validate your payment: $validateLink.<br>
-            <em>How can find my order-id?: $mycommerceGuideIdCode<br><br></em>
 
             <br><strong>SKRILL</strong>:<br>
             1. Login in your Skrill account <br>
